@@ -11,7 +11,7 @@ namespace Content.Shared.Localizations
 
         // If you want to change your codebase's language, do it here.
         private const string Culture = "ru-RU"; // Edited
-        private const string FallbackCulture = "en-US";
+        private const string FallbackCulture = "en-US"; // Edited
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -30,7 +30,8 @@ namespace Content.Shared.Localizations
             var fallbackCulture = new CultureInfo(FallbackCulture);
 
             _loc.LoadCulture(culture);
-            _loc.LoadCulture(fallbackCulture);
+            _loc.LoadCulture(fallbackCulture); // Edited
+            _loc.AddFunction(culture, "MANY", FormatMany); // Edited
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -120,8 +121,8 @@ namespace Content.Shared.Localizations
             {
                 <= 0 => string.Empty,
                 1 => list[0],
-                2 => $"{list[0]} and {list[1]}",
-                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, and {list[^1]}"
+                2 => $"{list[0]} и {list[1]}", // Edited
+                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, и {list[^1]}" // Edited
             };
         }
 
