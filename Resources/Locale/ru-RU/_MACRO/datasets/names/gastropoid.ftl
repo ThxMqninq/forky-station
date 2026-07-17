@@ -1,0 +1,27 @@
+﻿names-gastropoid-first-1 = Ангугна
+names-gastropoid-first-2 = Эссе
+names-gastropoid-first-3 = Хейлилех
+names-gastropoid-first-4 = Ийяи
+names-gastropoid-first-5 = Киик
+names-gastropoid-first-6 = Литтил
+names-gastropoid-first-7 = Миним
+names-gastropoid-first-8 = Мурдрум
+names-gastropoid-first-9 = Неррирен
+names-gastropoid-first-10 = Невен
+names-gastropoid-first-11 = Отто
+names-gastropoid-first-12 = Подадоп
+names-gastropoid-first-13 = Солос
+names-gastropoid-first-14 = Вув
+
+names-gastropoid-last-1 = Акмаеа
+names-gastropoid-last-2 = Кохлеус
+names-gastropoid-last-3 = Кончинс
+names-gastropoid-last-4 = Каури
+names-gastropoid-last-5 = Глосса
+names-gastropoid-last-6 = Лоттии
+names-gastropoid-last-7 = Мол
+names-gastropoid-last-8 = Натици
+names-gastropoid-last-9 = Неолеп
+names-gastropoid-last-10 = Периуинкл
+names-gastropoid-last-11 = Уэлк
+names-gastropoid-last-12 = Зоната

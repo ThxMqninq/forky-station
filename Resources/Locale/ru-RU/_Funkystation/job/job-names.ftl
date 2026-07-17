@@ -1,0 +1,14 @@
+job-name-cci = Интерн Центком
+job-name-cco = Представитель Центком
+job-name-cl = Связной Центком
+job-name-command-maid = Горничная командования
+job-name-cowboy = Космоковбой
+job-name-deputy = Делегат
+job-name-fitness-instructor = Фитнес-инструктор
+job-name-hd = Директор по гостеприимству
+job-name-iaa = Агент Внутренних дел
+job-name-magistrate = Магистрат
+job-name-party-maker = Организатор вечеринок
+job-name-nct = Инструктор по профподготовке Nanotrasen
+job-name-security-clown = Клоун СБ
+job-name-xo = Исполнительный директор

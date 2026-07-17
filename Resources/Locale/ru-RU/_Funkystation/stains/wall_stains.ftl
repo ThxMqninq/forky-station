@@ -1,0 +1,6 @@
+﻿wall-stain-cleaning-start = Вы начинаете отчищать пятно изо всех сил...
+wall-stain-cleaning-success = Вам удаётся отчистить пятно.
+wall-stain-cleaning-dry-rag = Тряпка слишком сухая! Сначала намочите её.
+wall-stain-pour-start = Вы начинаете осторожно переливать содержимое {THE($container)} на стену...
+wall-stain-pour-success = Вы выливаете содержимое {THE($container)} на стену.
+wall-stain-pour-full = Стена слишком пропитана жидкостью, чтобы впитывать больше жидкости.
