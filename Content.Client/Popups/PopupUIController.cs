@@ -26,9 +26,9 @@ public sealed class PopupUIController : UIController, IOnStateEntered<GameplaySt
         base.Initialize();
         var cache = IoCManager.Resolve<IResourceCache>();
         // FUNKY EDIT START
-        _smallFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/Atkinson/AtkinsonHyperlegibleNext-Italic.ttf"), 10);
-        _mediumFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/Atkinson/AtkinsonHyperlegibleNext-Italic.ttf"), 12);
-        _largeFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/Atkinson/AtkinsonHyperlegibleNext-BoldItalic.ttf"), 14);
+        _smallFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/UbuntuMono/UbuntuMono-Italic.ttf"), 12);
+        _mediumFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/UbuntuMono/UbuntuMono-Italic.ttf"), 14);
+        _largeFont = new VectorFont(cache.GetResource<FontResource>("/Fonts/UbuntuMono/UbuntuMono-BoldItalic.ttf"), 16);
         // FUNKY EDIT END
     }
 

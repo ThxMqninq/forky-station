@@ -526,7 +526,7 @@ namespace Content.Client.Stylesheets
             var sliderFillBlue = new StyleBoxTexture(sliderFillBox) { Modulate = Color.Blue };
             var sliderFillWhite = new StyleBoxTexture(sliderFillBox) { Modulate = Color.White };
 
-            var boxFont13 = resCache.GetFont("/Fonts/Sysfont/Sysfont-Regular.otf", 13); // FUNKY EDIT
+            var boxFont13 = resCache.GetFont("/Fonts/UbuntuSansMono/UbuntuSansMono-Regular.ttf", 13); // FUNKY EDIT
 
             // Default paper background:
             var paperBackground = new StyleBoxTexture

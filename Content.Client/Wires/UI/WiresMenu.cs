@@ -146,8 +146,8 @@ namespace Content.Client.Wires.UI
             LayoutContainer.SetAnchorPreset(topContainerWrap, LayoutContainer.LayoutPreset.Wide);
             // FUNKY EDIT START
             // i guess here??
-            var font = _resourceCache.GetFont("/Fonts/Sysfont/Sysfont-Regular.otf", 13);
-            var fontSmall = _resourceCache.GetFont("/Fonts/Sysfont/Sysfont-Regular.otf", 10);
+            var font = _resourceCache.GetFont("/Fonts/UbuntuSansMono/UbuntuSansMono-Regular.ttf", 17);
+            var fontSmall = _resourceCache.GetFont("/Fonts/UbuntuSansMono/UbuntuSansMono-Regular.ttf", 14);
             // FUNKY EDIT END
 
             Button helpButton;
@@ -566,7 +566,7 @@ namespace Content.Client.Wires.UI
                     };
                 }
 
-                var font = resourceCache.GetFont("/Fonts/Sysfont/Sysfont-Regular.otf", 12);
+                var font = resourceCache.GetFont("/Fonts/UbuntuSansMono/UbuntuSansMono-Regular.ttf", 12);
 
                 var hBox = new BoxContainer
                 {

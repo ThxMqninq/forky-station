@@ -1,18 +1,18 @@
 - type: font
   id: Default
-  path: /Fonts/Atkinson/AtkinsonHyperlegibleNext-Regular.ttf # FUNKY EDIT
+  path: /Fonts/UbuntuMono/UbuntuMono-Regular.ttf # FUNKY EDIT
 
 - type: font
   id: DefaultItalic
-  path: /Fonts/Atkinson/AtkinsonHyperlegibleNext-Italic.ttf # FUNKY EDIT
+  path: /Fonts/UbuntuMono/UbuntuMono-Italic.ttf # FUNKY EDIT
 
 - type: font
   id: DefaultBold
-  path: /Fonts/Atkinson/AtkinsonHyperlegibleNext-Bold.ttf # FUNKY EDIT
+  path: /Fonts/UbuntuMono/UbuntuMono-Bold.ttf # FUNKY EDIT
 
 - type: font
   id: DefaultBoldItalic
-  path: /Fonts/Atkinson/AtkinsonHyperlegibleNext-BoldItalic.ttf # FUNKY EDIT
+  path: /Fonts/UbuntuMono/UbuntuMono-BoldItalic.ttf # FUNKY EDIT
 
 - type: font
   id: NotoSansDisplay
@@ -32,7 +32,7 @@
 
 - type: font
   id: BoxRound
-  path: /Fonts/Sysfont/Sysfont-Regular.otf # FUNKY EDIT
+  path: /Fonts/UbuntuSansMono/UbuntuSansMono-Regular.ttf # FUNKY EDIT
 
 - type: font
   id: AnimalSilence
