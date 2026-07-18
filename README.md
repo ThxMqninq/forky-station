@@ -1,44 +1,43 @@
 <p align="center"> <img alt="Space Station 14" width="880" height="200" src="https://github.com/funky-station/funky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
-This is a Macrocosm powered Space Station 14 server. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
+Это сервер Space Station 14. Чтобы предотвратить создание форков RobustToolbox, клиент и сервер загружают специальный пакет контента. Этот пакет содержит всё необходимое для игры на конкретном сервере.
 
-## Links
+## Ссылки
 
-[Funky Station Discord Server](https://discord.gg/5FqgaAA2qF)
+[Discord-сервер Funky Station](https://discord.gg/5FqgaAA2qF)
 
-## Documentation/Wiki
+## Документация/Вики
 
-The [Funky Station Developer Documentation](https://docs.funkystation.org/) has information on how to contribute to Funky Station. It contains guides, game design documents and helpful tips on how to contribute to a repository.
+[Документация Funky Station](https://docs.funkystation.org/) содержит информацию о том, как внести вклад в Funky Station. В нем представлены руководства, документы по геймдизайну и полезные советы по работе с репозиторием.
 
-## Contributing
+## Контрибьют
 
-We welcome everyone to contribute to our fork. Please join our Discord for collaborating!
-We recommend you read the contribution guidelines. [Contribution Guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html)
+Мы приглашаем всех желающих внести свой вклад в наш форк. Присоединяйтесь к нашему Discord для совместной работы!
+Мы рекомендуем вам ознакомиться с правилами контрибьюции. [Правила контрибьюции](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html)
 
-## Building
+## Сборка
 
-1. Clone this repo:
+1. Клонируйте данный репозиторий:
 ```shell
-git clone https://github.com/funky-station/forky-station.git
+git clone https://github.com/ThxMqninq/forky-station.git
 ```
-2. Go to the project folder and run `RUN_THIS.py` to initialize the submodules and load the engine:
+2. Перейдите в папку проекта и запустите `RUN_THIS.py` чтобы инициализировать подмодули и загружить движок:
 ```shell
-cd space-station-14
+cd forky-station
 python RUN_THIS.py
 ```
-3. Compile the solution:
+3. Скомпилируйте решение:
 
-Build the server using `dotnet build`.
+Соберите сервер с помощью `dotnet build`.
 
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
+[Более подробные инструкции по сборке проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
 
-## License
+## Лицензия
 
-This repository is MIT. See `LICENSES` for a copy of the MIT license.
+Этот репозиторий распространяется на условиях лицензии MIT. Копия лицензии MIT находится в папке `LICENSES`.
 
-Most media assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Большинство медиаассетов лицензированы в соответствии с условиями [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) если не указано иное. Ассеты имеют лицензию и авторские права, указанные в файле метаданных. [Пример](https://github.com/ThxMqninq/forky-station/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+Обратите внимание, что некоторые ресурсы распространяются на условиях некоммерческой лицензии [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичными некоммерческими лицензиями; их потребуется удалить, если вы захотите использовать этот проект в коммерческих целях.
 
-If you find that your work is misattributed or someone elses work is misattributed, please create an issue on this repos GitHub page, or email the Funky Station Maintainers @ `maintainers@funkystation.org`.
-
+Если вы обнаружили, что авторство вашей работы или работы другого человека указано неверно, пожалуйста, создайте issue на странице этого репозитория на GitHub или напишите команде мейнтейнеров Funky Station. @ `maintainers@funkystation.org`.
