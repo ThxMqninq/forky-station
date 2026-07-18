@@ -1,0 +1,9 @@
+ent-DrinkWaterBottleLargeFull = бутылка с водой
+    .suffix = Декапоид
+    .desc = Бутылка чистой воды, форма которой разработана с учетом эргономики когтистых лап. Вода добыта из минеральных водоносных горизонтов гнезда Крр'кик.
+ent-DrinkWaterBottleTallFull = расширенная бутылка с водой
+    .suffix = Декапоид, расширенная
+    .desc = { ent-DrinkWaterBottleLargeFull.desc }
+ent-DrinkWaterBottleLargeFunnyFull = { ent-DrinkWaterBottleLargeFull }
+    .suffix = Декапоид, вызывает смех
+    .desc = { ent-DrinkWaterBottleLargeFull.desc }

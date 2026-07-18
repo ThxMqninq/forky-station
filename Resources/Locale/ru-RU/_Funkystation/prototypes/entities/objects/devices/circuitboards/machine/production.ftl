@@ -1,0 +1,12 @@
+ent-ElectrolyzerMachineCircuitboard = электролизёр (машинная плата)
+    .desc = Машинная плата для электролизёра.
+ent-WashingMachineCircuitboard = стиральная машина (машинная плата)
+    .desc = Машинная плата для стиральной машины.
+ent-DocumentPrinterCircuitboard = принтер документов (машинная плата)
+    .desc = Машинная плата для принтера документов Model XF-880.
+ent-DocumentPrinterBridgeCircuitboard = принтер документов (машинная плата)
+    .suffix = Мостик
+    .desc = Машинная плата для принтера документов Model XF-880. На этой отметка "Исполнительный директор"
+ent-DocumentPrinterXOCircuitboard = принтер документов (машинная плата)
+    .suffix = Исполнительный директор
+    .desc = Машинная плата для принтера документов Model XF-880. На этой отметка "Исполнительный директор"

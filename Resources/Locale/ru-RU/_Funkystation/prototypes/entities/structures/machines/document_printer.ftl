@@ -1,0 +1,14 @@
+ent-BaseDocumentPrinter = принтер документов
+    .desc = Линейка принтеров для документов NanoTrasen «Xero-Flux», ставшая неотъемлемой частью административных офисов по всей станции, неизменно служит надежной «рабочей лошадкой» бюрократического аппарата.
+ent-DocumentPrinterXO = { ent-BaseDocumentPrinter }
+    .suffix = Исполнительный директор
+    .desc = { ent-BaseDocumentPrinter.desc }
+ent-DocumentPrinterPublic = { ent-BaseDocumentPrinter }
+    .suffix = Общий доступ
+    .desc = { ent-BaseDocumentPrinter.desc }
+ent-DocumentPrinterBridge = { ent-BaseDocumentPrinter }
+    .suffix= Мостик
+    .desc = { ent-BaseDocumentPrinter.desc }
+ent-DocumentPrinterCC = { ent-BaseDocumentPrinter }
+    .suffix = Центком
+    .desc = { ent-BaseDocumentPrinter.desc }

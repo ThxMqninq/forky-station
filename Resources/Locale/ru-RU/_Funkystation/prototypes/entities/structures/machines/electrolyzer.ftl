@@ -1,0 +1,2 @@
+ent-Electrolyzer = электролизёр
+    .desc = { "" }

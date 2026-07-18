@@ -1,0 +1,15 @@
+ent-AirSensorDecapoidBase = { ent-AirSensorBase }
+    .suffix = Атмосфера декапоидов
+    .desc = { ent-AirSensorBase.desc }
+ent-AirSensorDecapoid = { ent-AirSensor }
+    .suffix = Атмосфера декапоидов
+    .desc = { ent-AirSensor.desc }
+ent-GasVentPumpDecapoid = { ent-GasVentPump }
+    .suffix = Атмосфера декапоидов
+    .desc = { ent-GasVentPump.desc }
+ent-GasVentScrubberDecapoid = { ent-GasVentScrubber }
+    .suffix = Атмосфера декапоидов
+    .desc = { ent-GasVentScrubber.desc }
+ent-AirAlarmDecapoid = { ent-AirAlarm }
+    .suffix = Атмосфера декапоидов, автомод отключён
+    .desc = { ent-AirAlarm.desc }
