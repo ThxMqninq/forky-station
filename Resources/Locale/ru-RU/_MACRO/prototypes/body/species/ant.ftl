@@ -1,7 +1,7 @@
 ent-AppearanceAnt = внешность муравья
     .desc = { ent-BaseSpeciesAppearance.desc }
 ent-MobAnt = Урист МакМуравей
-    .decs = { ent-BaseSpeciesMobOrganic.desc }
+    .desc = { ent-BaseSpeciesMobOrganic.desc }
 ent-SolutionAntEdible = { "" }
     .desc = { "" }
 ent-OrganAnt = { ent-OrganBase }

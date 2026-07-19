@@ -1,7 +1,7 @@
 ent-AppearanceGastropoid = внешность апида
     .desc = { ent-BaseSpeciesAppearance.desc }
 ent-MobGastropoid = Уристсиру МакРаковина
-    .decs = { ent-BaseSpeciesMobOrganic.desc }
+    .desc = { ent-BaseSpeciesMobOrganic.desc }
 ent-OrganGastropoid = { ent-OrganBase }
     .suffix = Апид
     .desc = { ent-OrganBase.desc }

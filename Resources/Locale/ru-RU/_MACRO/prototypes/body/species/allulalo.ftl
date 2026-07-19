@@ -1,7 +1,7 @@
 ent-AppearanceAllulalo = внешность аллулало
     .desc = { ent-BaseSpeciesAppearance.desc }
 ent-MobAllulalo = Уристия Мак-Хэндс
-    .decs = { ent-BaseSpeciesMobOrganic.desc }
+    .desc = { ent-BaseSpeciesMobOrganic.desc }
 ent-SolutionVenomAllulalo = { "" }
     .desc = { "" }
 ent-OrganAllulalo = { ent-OrganBase }

@@ -1,0 +1,15 @@
+ent-CultBaseStructure = { ent-BaseBloodCultContraband }
+    .suffix = База
+    .desc = { ent-BaseBloodCultContraband.desc }
+ent-CultPylon = пилон
+    .suffix = Культ
+    .desc = Парящий кристалл, медленно исцеляющий верных Нар'Си.
+ent-CultForge = горн
+    .suffix = Культ
+    .desc = Горн, используемый для создания нечестивого оружия, предназначенного для армий Нар'Си.
+ent-CultArchives = архивы
+    .suffix = Культ
+    .desc = Письменный стол, заваленный таинственными рукописями и фолиантами на неведомых языках. От одного взгляда на этот текст по коже пробегает дрожь.
+ent-CultAltar = алтарь
+    .suffix = Культ
+    .desc = Залитый кровью алтарь, посвящённый Нар'Си.

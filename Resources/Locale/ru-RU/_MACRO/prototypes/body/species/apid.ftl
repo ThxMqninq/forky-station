@@ -1,7 +1,7 @@
 ent-AppearanceApid = внешность апида
     .desc = { ent-BaseSpeciesAppearance.desc }
 ent-MobApid = Урист МакБззсз
-    .decs = { ent-BaseSpeciesMobOrganic.desc }
+    .desc = { ent-BaseSpeciesMobOrganic.desc }
 ent-SolutionApidEdible = { "" }
     .desc = { "" }
 ent-OrganApid = { ent-OrganBase }

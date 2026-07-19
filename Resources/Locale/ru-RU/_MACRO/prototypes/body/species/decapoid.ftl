@@ -1,10 +1,10 @@
 ent-AppearanceDecapoid = внешность декапоида
     .desc = { ent-BaseSpeciesAppearance.desc }
 ent-MobDecapoid = Урист МакКраб
-    .decs = { ent-BaseSpeciesMobOrganic.desc }
-ent-BaseMobDecapoidInternals = { ent-MobDecapoid }
+    .desc = { ent-BaseSpeciesAppearance.desc }
+ent-BaseMobDecapoidInternals = Урист МакКраб
     .suffix = SpawnsWithInternals
-    .desc = { ent-MobDecapoid.desc }
+    .desc = { ent-BaseSpeciesMobOrganic.desc }
 ent-OrganDecapoid = { ent-OrganBase }
     .suffix = Декапоид
     .desc = { ent-OrganBase.desc }

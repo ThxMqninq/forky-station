@@ -1,0 +1,10 @@
+ent-FxBloodCultRuneBarrier = руна барьера
+    .desc = { "" }
+ent-FxBloodCultRuneEmpowering = руна усиления
+    .desc = { "" }
+ent-FxBloodCultRuneOffering = руна конвертации
+    .desc = { "" }
+ent-FxBloodCultRuneRevive = руна воскрешения
+    .desc = { "" }
+ent-FxBloodCultRuneTearVeil = руна разрыва Завеса
+    .desc = { "" }

@@ -1,10 +1,10 @@
 ### Examine
 
-gas-turbine-examine-stator-null = It seems to be missing a stator.
-gas-turbine-examine-stator = It has a stator.
+gas-turbine-examine-stator-null = Похоже, здесь не хватает статора.
+gas-turbine-examine-stator = Внутри стоит статор.
 
-gas-turbine-examine-blade-null = It seems to be missing a turbine blade.
-gas-turbine-examine-blade = It has a turbine blade.
+gas-turbine-examine-blade-null = Похоже, здесь не хватает лопастей.
+gas-turbine-examine-blade = Внутри стоит лопасть.
 
 turbine-spinning-0 = Лопасти не вращаются.
 turbine-spinning-1 = Лопасти медленно вращаются.
@@ -72,6 +72,6 @@ comp-turbine-ui-stator-supply = Снабжение
 
 comp-turbine-ui-power = { POWERWATTS($power) }
 
-comp-turbine-ui-locked-message = Controls locked.
-comp-turbine-ui-footer-left = Danger: fast-moving machinery.
+comp-turbine-ui-locked-message = Контроль заблокирован.
+comp-turbine-ui-footer-left = Тревога: быстродвижущееся оборудование.
 comp-turbine-ui-footer-right = 2.0 REV 1
