@@ -99,3 +99,4 @@ reagent-physical-desc-unidentifiable = неидентифицируемое
 reagent-physical-desc-non-newtonian = неньютоновское
 reagent-physical-desc-thin = разжижающее
 reagent-physical-desc-arcryox = льдисто-голубое
+reagent-physical-desc-profane = нечестивое
