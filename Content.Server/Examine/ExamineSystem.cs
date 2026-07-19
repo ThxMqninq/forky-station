@@ -49,6 +49,7 @@ namespace Content.Server.Examine
             var session = eventArgs.SenderSession;
             var channel = player.Channel;
             var entity = GetEntity(request.NetEntity);
+            FormattedMessage? text; // Edited
 
             if (session.AttachedEntity is not {Valid: true} playerEnt
                 || !Exists(entity))
@@ -69,7 +70,8 @@ namespace Content.Server.Examine
             if (request.GetVerbs)
                 verbs = _verbSystem.GetLocalVerbs(entity, playerEnt, typeof(ExamineVerb));
 
-            var text = GetExamineText(entity, player.AttachedEntity);
+            var examineText = GetExamineText(entity, player.AttachedEntity);
+            text = FormattedMessage.FromMarkupPermissive($"[italic]{examineText}[/italic]"); // Edited
             RaiseNetworkEvent(new ExamineSystemMessages.ExamineInfoResponseMessage(
                 request.NetEntity, request.Id, text, verbs?.ToList()), channel);
         }
