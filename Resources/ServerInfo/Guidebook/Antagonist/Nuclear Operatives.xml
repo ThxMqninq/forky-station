@@ -43,7 +43,7 @@
     <GuideEntityEmbed Entity="NukeDisk" Caption="Диск ядерной аутентификации"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="BaseUplinkRadio200TC" Caption="Аплинк"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Аплинк"/>
   </Box>
 
   Вы можете приобрести те же виды снаряжения, что и агенты Синдиката, но у вас есть более качественное снаряжение и больше телекристаллов, которые вы можете потратить.

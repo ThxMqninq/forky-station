@@ -1,15 +1,15 @@
 <Document>
-  # Allulalo
+  # Аллулало
 
   <Box>
     <GuideEntityEmbed Entity="MobAllulalo" Caption=""/>
   </Box>
 
-  [color=red]Caution! This species has several SEVERELY limiting game mechanics and is only recommended for highly experienced players. Some jobs and tasks may be difficult or impossible to perform by yourself with only one hand.[/color]
+  [color=red]Внимание! У этого вида есть ряд крайне ограничивающих игровых механик, поэтому он рекомендуется только опытным игрокам. Выполнение некоторых задач и поручений в одиночку, используя лишь одну руку, может оказаться сложным или вовсе невозможным.[/color]
 
-  Allulalo are a reclusive species of saurians native to the IMP-sector outer nebulae. They are rarely seen, preferring to conceal their cities deep inside asteroid fields and mask their movements with stealth fields or radio jammers. Although investigations into whether they pose a security risk to nearby stations is ongoing, successful agreements have been brokered to enable small-scale contact and occasional employment of Allulalo among Nanotrasen staff.
+  Аллулало — скрытный вид ящероподобных существ, обитающих во внешних туманностях сектора IMP. Их редко можно встретить: они предпочитают прятать свои города в глубине полей астероидов и скрывать свои перемещения с помощью полей маскировки или средств радиоэлектронного подавления. Хотя вопрос о том, представляют ли они угрозу безопасности для близлежащих станций, всё ещё изучается, были достигнуты успешные договоренности, позволяющие поддерживать ограниченные контакты и время от времени нанимать представителей аллулало в штат корпорации Nanotrasen.
 
-  Observation records confirm higher land-speeds than traditionally seen among humanoids, but the unusual, pentafurcated beak they use for manipulating in the place of traditional "hands" seems to [color=#ffa500]prevent them from wielding any large weaponry.[/color] Their height also makes them unable to interface with most NT standard devices, and they are frequently seen [color=#ffa500]standing on chairs and tables or using anti-gravity technology to reach the controls.[/color]
+  Наблюдения подтверждают более высокую скорость передвижения по суше, чем обычно наблюдается у человекоподобных существ, но необычный, пятираздельный клюв, который они используют для манипуляций вместо традиционных «рук», по-видимому, [color=#ffa500]не даёт им использовать какое-либо крупное оружие.[/color] Из-за своей высоты они также несовместимы с большинством стандартных устройств NT, и их часто можно встретить [color=#ffa500]стоя на стульях и столах или используя антигравитационную технологию, чтобы дотянуться до элементов управления.[/color]
 
   <Box>
     <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
@@ -17,29 +17,29 @@
     <GuideEntityEmbed Entity="Autolathe" Caption=""/>
   </Box>
 
-  # Biology
+  # Биология
 
-  [color=yellow][bold]NOTE:[/bold][/color] Species damage modifiers work largely the same way worn armor does, primarily applying to external, direct sources of damage. Unless explicitly stated, these [color=yellow][bold]do not[/bold][/color] apply to intrinsic sources of damage, such extreme pressure, extreme body temperature, or metabolizing chemicals.
+  [color=yellow][bold]ПРИМЕЧАНИЕ:[/bold][/color] Модификаторы урона, характерные для данного вида, работают в основном так же, как и надетая броня, и применяются преимущественно к внешним, прямым источникам урона. Если не указано иное, эти модификаторы урона [color=yellow][bold]не применяются[/bold][/color] к внутренним источникам повреждения, таким как экстремальное давление, экстремальная температура тела или химические вещества, подвергающиеся метаболизму.
 
-  Allulalo have hollow bones, which results in them taking [color=#ffa500]15% more Blunt, Slash, and Piercing damage[/color]. They are also [color=#ffa500]25% more vulnerable to stuns, and their low body mass causes them to be thrown farther by impacts[/color].
+  У аллулало полые кости, из-за чего они [color=#ffa500]получают на 15% больше урона от дробящих, рубящих и колющих атак[/color]. Кроме того, они на [color=#ffa50025% более уязвимы к оглушению, а малая масса тела приводит к тому, что от ударов их отбрасывает на большее расстояние[/color].
 
-  Allulalo also have hyperactive hearts, which results in them [color=#ffa500]metabolising Medicine, Poisons and Narcotics 50% faster[/color]. Their heart's already-strained musculature also causes speed-increasing reagents to be [color=#ffa500]Significantly less effective.[/color], as well as causing them to burn energy faster and become [color=#ffa500]hungry and thirsty sooner than their peers[/color].
+  Сердца аллулало работают в сверхактивном режиме, из-за чего они [color=#ffa500]перерабатывают лекарства, яды и наркотические вещества на 50% быстрее[/color]. Из-за повышенной нагрузки на сердечную мышцу препараты, повышающие скорость, действуют на них [color=#ffa500]значительно слабее[/color]; кроме того, они быстрее расходуют энергию, [color=#ffa500]а чувство голода и жажды возникает у них раньше, чем у представителей других видов[/color].
 
-  It is easy to underestimate Allulalo due to these drawbacks, but they have a major strength: [color=#1e90ff]They are incredibly mobile, and can easily outpace most humanoid species[/color].
+  Из-за этих недостатков аллулало легко недооценить, однако у них есть важное преимущество: [color=#1e90ff]они невероятно подвижны и без труда могут обогнать большинство гуманоидных видов[/color].
 
-  Allulalo are also in unique posession of a highly methylated bloodstream. Due to this, [color=#1e90ff]their blood naturally evaporates on its own[/color], as well as making them [color=#1e90ff]remarkably heavyweight drinkers[/color] for their body weight.
+  Кроме того, аллулало обладают уникальной особенностью: их кровь отличается высокой степенью метилирования. Из-за этого [color=#1e90ff]она естественным образом испаряется сама по себе[/color], а сами они, несмотря на скромные габариты, [color=#1e90ff]способны выдерживать поразительно большие дозы алкоголя.[/color].
 
-  In addition to their methylated blood, their beak saliva contains [color=#1e90ff]small amounts[/color] of the [color=#1e90ff]blood clotting agent and adreno-stimulant ethanotoxin[/color]. Allulalo have been recorded biting eachother in critical situations in order to clot wounds and boost adrenaline, but there appears to be [color=#ffa500]a lengthy delay to the toxin replenishing after repeated use[/color].
+  Помимо наличия метилированных соединений в крови, слюна аллулало содержит [color=#1e90ff]небольшое количество[/color] [color=#1e90ff]этанотоксина — вещества, обладающего свойствами как коагулянта, так и адреностимулятора. [/color]. Зафиксированы случаи, когда в критических ситуациях аллулало кусали друг друга, чтобы остановить кровотечение и повысить уровень адреналина; однако, судя по всему, [color=#ffa500]после многократного применения запасы этого токсина восстанавливаются довольно долго[/color].
 
   <Box>
     <GuideEntityEmbed Entity="DrinkAbsintheBottleFull" Caption=""/>
   </Box>
 
-  # Physical Strength
+  # Физическая сила
 
-  Allulalo have naturally lower body mass due to their small stature, and as such have difficulty dragging things larger than themselves.
+  Аллулало от природы обладают меньшей массой тела из-за своего небольшого роста, и поэтому им трудно тащить предметы, превосходящие их по размеру.
 
-  As a result of both this and their lack of multiple "hands", Allulalo are uniquely poised to benefit from science research such as [color=#1e90ff]HARMpacks[/color] and [color=#1e90ff]tether guns[/color], and their smaller size [color=#1e90ff]allows them to pilot VIMs[/color].
+  Благодаря этому, а также отсутствию множества «рук», аллулало могут с особой эффективностью использовать результаты научных разработок — таких как [color=#1e90ff]Х.А.Р.М.П.А.К-и[/color] и [color=#1e90ff]крюки-кошки[/color],— а их компактные размеры [color=#1e90ff]позволяют им пилотировать VIM-ы[/color].
 
   <Box>
     <GuideEntityEmbed Entity="MechVimBattery" Caption=""/>
@@ -47,15 +47,15 @@
     <GuideEntityEmbed Entity="WeaponTetherGun" Caption=""/>
   </Box>
 
-  ## Allulalo Naming Conventions
+  ## Именование Аллулало
 
-  Allulalo names are comprised of two parts. The first half is similar in function to a human's, while the last half is a conjunction of the first syllables of both of their parent's names.
+  Имена аллулало состоят из двух частей. Первая часть по своей функции схожа с человеческим именем, а вторая представляет собой сочетание первых слогов имен обоих родителей.
 
-  - [color=#449944]Acceptable:[/color] Halio Hera-Nofa
-  - [color=#449944]Acceptable:[/color] Sadita Ona-Rona
-  - [color=#449944]Acceptable:[/color] Unira Lota-Pota
-  - [color=#994444]Bad:[/color] Waga Baga-Bobo
-  - [color=#994444]Bad:[/color] Pete Pee-Pee
-  - [color=#994444]Bad:[/color] Benry
+  - [color=#449944]Приемлимо:[/color] Халио Гера-Нофа
+  - [color=#449944]Приемлимо:[/color] Садита Она-Рона
+  - [color=#449944]Приемлимо:[/color] Унита Лота-Пота
+  - [color=#994444]Плохо:[/color] Вага Бага-Бобо
+  - [color=#994444]Плохо:[/color] Пете Пи-Пи
+  - [color=#994444]Плохо:[/color] Бенри
 
 </Document>

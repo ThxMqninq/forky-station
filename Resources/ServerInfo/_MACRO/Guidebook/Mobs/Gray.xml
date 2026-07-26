@@ -1,56 +1,55 @@
 ﻿<Document>
-  # Grays
+  # Греи
   <Box>
     <GuideEntityEmbed Entity="MobGray" Caption=""/>
   </Box>
-  ## Physiology
-  Grays are much like Humans, in many ways. Their basic external physiology is largely similar to that of Humans, although they exhibit no sexual dimorphism. Internally, however, Grays are remarkably different - The structures of their organs are utterly unique among observed species, and [color=#ffa500]their blood is composed of something almost identical to liquid Radium, which cannot be metabolized from any known source.[/color]
+  ## Физиология
+  Греи во многом похожи на людей. Их основная внешняя физиология в значительной степени схожа с человеческой, хотя у них отсутствует половой диморфизм. Однако внутренне Серые заметно отличаются — структура их органов совершенно уникальна среди наблюдаемых видов, и [color=#ffa500]их кровь состоит из вещества, практически идентичного жидкому радию, которое невозможно получить в процессе метаболизма из какого-либо известного источника.[/color]
 
-  Their bodies are adapted for exposure to extreme environments, so they take [color=#1e90ff]60% less damage from Cold and Heat, and 80% less Radiation damage,[/color] but are otherwise very fragile - They take [color=#ffa500]50% more Blunt, Slash, and Piercing damage.[/color]
+  Их тела приспособлены к суровым условиям, поэтому они получают [color=#1e90ff]на 60% меньше урона от холода и жары, а также на 80% меньше радиационного урона,[/color] однако в остальном они очень уязвимы: они получают [color=#ffa500]на 50% больше дробящего, рубящего и колющего урона.[/color]
 
-  ## Language
-  [color=#ffa500]The Gray language, colloquially known as "Grayspeak," has evaded attempts at automatic translation up to this point.[/color] Although some Grays have, through various means, learned how to speak Common, [color=#ffa500]most Grays are largely unintelligible to other species.[/color]
+  ## Язык
+  [color=#ffa500]Язык греев, в разговорной речи называемый «грейспик» (Grayspeak), до сих пор не поддавался попыткам автоматического перевода.[/color] Although some Grays have, through various means, learned how to speak Common, [color=#ffa500]most Grays are largely unintelligible to other species.[/color]
 
-  ## Culture
-  Grays are cultural sponges, and appear to absorb elements of other Humanoid cultures rapidly through exposure. However, they have been observed to possess a singular fascination with Human culture from the early Internet era, and their knowledge of it appears to terminate around the year 2010. It is unknown precisely why this is the case.
+  ## Культура
+  Греи — это своего рода культурные губки: они, по-видимому, стремительно впитывают элементы других гуманоидных культур, с которыми сталкиваются. Однако было замечено, что их особенно сильно влечет к человеческой культуре эпохи раннего интернета, при этом их познания в данной области, судя по всему, обрываются примерно на 2010 годе. Точные причины этого явления неизвестны.
 
-  ## Gray Naming Conventions
+  ## Соглашения об именовании Греев
+  Греи обычно выбирают себе имена, созвучные с элементами языка «грейспик» (Grayspeak), либо используют «искаженные» варианты названий предметов из других гуманоидных культур, адаптированные под этот язык — как правило, основываясь на поверхностном восприятии названий товаров. Например, «Tonka Truck» может превратиться в «Tonky Chuck». Старайтесь избегать прямых, неизмененных отсылок к недавним медиапродуктам или мемам.
 
-  Grays typically name themselves after Grayspeak-adjacent sounds, or "corrupted," Grayspeak-ified versions of things that interest them from other Humanoid cultures - generally surface-level interpretations of the names of products. For example, "Tonka Truck"  may become "Tonky Chuck." Try to avoid outright, unchanged references to recent media or memes.
+  - [color=#449944]Приемлимо:[/color] Карп Щитто
+  - [color=#449944]Приемлимо:[/color] Гнарпи Да
+  - [color=#449944]Приемлимо:[/color] Йиппи Зоота
+  - [color=#449944]Приемлимо:[/color] Тонки Чак
+  - [color=#449944]Приемлимо:[/color] Нью Портс
+  - [color=#449944]Приемлимо:[/color] Форд Мустанг
+  - [color=#449944]Приемлимо:[/color] Изображения
+  - [color=#449944]Приемлимо:[/color] Эмесс Пейнт
+  - [color=#449944]Приемлимо:[/color] Спунч Боп
+  - [color=#994444]Плохо:[/color] Япредлагаю Форсфем
+  - [color=#994444]Плохо:[/color] Синдикат
+  - [color=#994444]Плохо:[/color] Канье Уэст
+  - [color=#994444]Плохо:[/color] Подкаст Talk Tuah
+  - [color=#994444]Плохо:[/color] Call Of Duty Black Ops 2
+  - [color=#994444]Плохо:[/color] Скибиди Туалет
+  - [color=#994444]Плохо:[/color] Бенри
 
-  - [color=#449944]GOOD:[/color] Carp Shitto
-  - [color=#449944]GOOD:[/color] Gnarpy Da
-  - [color=#449944]GOOD:[/color] Yippi Zoota
-  - [color=#449944]GOOD:[/color] Tonky Chuck
-  - [color=#449944]GOOD:[/color] New Ports
-  - [color=#449944]GOOD:[/color] Ford Mustang
-  - [color=#449944]GOOD:[/color] Images
-  - [color=#449944]GOOD:[/color] Emess Paint
-  - [color=#449944]GOOD:[/color] Spunch Bop
-  - [color=#994444]BAD:[/color] Isuggest Forcefem
-  - [color=#994444]BAD:[/color] The Syndicate
-  - [color=#994444]BAD:[/color] Kanye West
-  - [color=#994444]BAD:[/color] Talk Tuah Podcast
-  - [color=#994444]BAD:[/color] Call Of Duty Black Ops 2
-  - [color=#994444]BAD:[/color] Skibidi Toilet
-  - [color=#994444]BAD:[/color] Benry
+  [color=#1b67a5][bold]Датчики Nanotrasen зафиксировали неизвестный сигнал:[/color][/bold]
 
-  [color=#1b67a5][bold]Unknown Transmission Recieved by Nanotrasen Sensors:[/color][/bold]
-
-  ## GLEEP TEK NEWPORT
+  ## ГЛИП ТЕК NEWPORT
   <Box>
     <GuideEntityEmbed Entity="CigPackGreen" Caption=""/>
   </Box>
-  GLEEP OUU PIB ZOOTI FRIENDS WOGLUMP GLEEP LOVE THESE THINGS!!!!
+  ГЛИП ОУУ ПИБ ЗОТИ ДРУЗЬЯ ВОГЛУМП ГЛИП ЛЮБИМ ЭТИ ВЕЩИ!!!!
   <Box>
     <GuideEntityEmbed Entity="LeavesCannabis" Caption=""/>
     <GuideEntityEmbed Entity="ToyNuke" Caption=""/>
     <GuideEntityEmbed Entity="PlushieHuman" Caption=""/>
   </Box>
-  GIVE US ZIIP JORL THEM PIB GLEEP WORK JAZEE MO!!!
+  ДАЙТЕ НАМ ЗИИП ЖОРЛ ИХ ПИБ ГЛИП РАБОТА ДЖАЗИ МО!!!
   <Box>
     <GuideEntityEmbed Entity="FoodBurgerSuper" Caption=""/>
   </Box>
-  [color=#1b67a5]- End Transmission.[/color]
+  [color=#1b67a5]- Конец связи.[/color]
 
 </Document>

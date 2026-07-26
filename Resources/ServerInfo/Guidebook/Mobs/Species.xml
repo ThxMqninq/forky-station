@@ -1,7 +1,7 @@
 <Document>
   # Расы
 
-  Нанотразен нанимает разнообразные разумные виды.
+  Nanotrasen нанимает разнообразные разумные виды.
 
   <Box>
   <GuideEntityEmbed Entity="AppearanceArachnid" Caption="Арахнид"/>
@@ -16,7 +16,7 @@
   <GuideEntityEmbed Entity="AppearanceVox" Caption="Вокс"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="AppearanceVulpkanin" Caption="Вульпакин"/>
+    <GuideEntityEmbed Entity="AppearanceVulpkanin" Caption="Вульпкакин"/>
   </Box>
 
 </Document>

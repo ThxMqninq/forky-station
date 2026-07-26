@@ -1,20 +1,20 @@
 ﻿<Document>
-  # Ants
+  # Муравьи
 
   <Box>
     <GuideEntityEmbed Entity="MobAnt" Caption=""/>
   </Box>
 
-  [color=red]Ants die in a single hit. Don't be surprised if you take an ant ghost role and die quickly.[/color]
+  [color=red]Муравьи погибают с одного удара. Не удивляйтесь, если выберете роль призрака муравья и быстро погибнете.[/color]
 
-  Ants are a rare and reclusive species, and also the most diminuitive. They make up for their small size with their [color=#1e90ff]surprising strength[/color], allowing them to carry any item a larger species could.
-  Unfortunately, ants are [color=#ffa500]extremely fragile[/color], rarely surviving after even the most minor injuries.
+  Муравьи — редкий и скрытный вид, к тому же самый миниатюрный. Свой небольшой размер они компенсируют своей [color=#1e90ff]удивительной силой[/color], позволяя им переносить любые предметы, которые мог бы нести более крупный вид.
+  К сожалению, муравьи [color=#ffa500]чрезвычайно хрупки[/color], редко выживая даже после самых незначительных травм.
 
-  ## Ant Naming Conventions
+  ## Именование Муравьёв
 
-  Ants names are rarely unique to themselves, and instead are generally an adjective followed by Ant.
-  - [color=#449944]Acceptable:[/color] Shy Ant
-  - [color=#449944]Acceptable:[/color] Scary Ant
-  - [color=#449944]Acceptable:[/color] Happy Ant
-  - [color=#994444]Bad:[/color] Benrant
+  Названия муравьёв редко бывают уникальными; как правило, они состоят из прилагательного, за которым следует слово «муравей».
+  - [color=#449944]Приемлимо:[/color] Застенчивый Муравей
+  - [color=#449944]Приемлимо:[/color] Страшный Муравей
+  - [color=#449944]Приемлимо:[/color] Весёлый Муравей
+  - [color=#994444]Плохо:[/color] Бенрмуравей
 </Document>
