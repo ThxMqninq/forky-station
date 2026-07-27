@@ -12,6 +12,25 @@ spray-painter-style-canisters-halon = Галон
 spray-painter-style-canisters-helium = Гелий
 spray-painter-style-canisters-anti-noblium = Анти-ноблий
 
+# Categories
+spray-painter-tab-category-cardboard = Картонные коробки
+
+# Cardboard
+spray-painter-style-cardboard-plain = Обычный
+spray-painter-style-cardboard-hazard = Опасность
+spray-painter-style-cardboard-restock = Пополнение припасов
+spray-painter-style-cardboard-weh = Вех
+spray-painter-style-cardboard-internals = Средства дыхания
+spray-painter-style-cardboard-cargo = Снабжение
+spray-painter-style-cardboard-chemistry = Химлаборатория
+spray-painter-style-cardboard-command = Командование
+spray-painter-style-cardboard-engineering = Инженерный
+spray-painter-style-cardboard-evidence = Улики
+spray-painter-style-cardboard-medical = Медицинский
+spray-painter-style-cardboard-science = Научный
+spray-painter-style-cardboard-security = Служба безопасности
+spray-painter-style-cardboard-service = Сервис
+
 # Airlocks
 spray-painter-style-airlockstandard-maintenance-engi = Техобслуживание [Инженерный]
 spray-painter-style-airlockstandard-maintenance-atmo = Техобслуживание [Атмосферный]
