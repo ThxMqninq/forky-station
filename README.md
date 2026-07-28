@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="200" src="https://github.com/ThxMqninq/forky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Space Station 14" width="880" height="200" src="https://github.com/funky-station/funky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
 Это сервер Space Station 14. Чтобы предотвратить создание форков RobustToolbox, клиент и сервер загружают специальный пакет контента. Этот пакет содержит всё необходимое для игры на конкретном сервере.
 
