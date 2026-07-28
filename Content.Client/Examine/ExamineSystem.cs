@@ -409,9 +409,7 @@ namespace Content.Client.Examine
             // Always update tooltip info from client first.
             // If we get it wrong, server will correct us later anyway.
             // This will usually be correct (barring server-only components, which generally only adds, not replaces text)
-            var messageText = GetExamineText(entity, playerEnt); // Edited
-            message = FormattedMessage.FromMarkupPermissive($"[italic]{messageText}[/italic]"); // Edited
-
+            message = GetExamineText(entity, playerEnt);
             UpdateTooltipInfo(playerEnt.Value, entity, message);
 
             if (!IsClientSide(entity))
