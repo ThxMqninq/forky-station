@@ -33,7 +33,7 @@ public abstract partial class SharedExplosionEffectSystem : EntitySystem
                     var angle = _random.NextAngle();
                     var direction = angle.ToVec().Normalized() * 10;
                     var shrapnel = SpawnNextToOrDrop(effect, ent);
-                    if (Exists(shrapnel) && Resolve<TransformComponent>(shrapnel, ref _component))
+                    if (Exists(shrapnel) && Resolve(shrapnel, ref _component))
                     {
                         _throwing.TryThrow(shrapnel, direction, ent.Comp.ShrapnelSpeed / 10);
                     }
