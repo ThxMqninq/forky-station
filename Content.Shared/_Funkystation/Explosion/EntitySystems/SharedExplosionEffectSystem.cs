@@ -8,6 +8,7 @@ public abstract partial class SharedExplosionEffectSystem : EntitySystem
 {
     [Dependency] private IRobustRandom _random = null!;
     [Dependency] private ThrowingSystem _throwing = null!;
+    TransformComponent? _component;
 
     public override void Initialize()
     {
@@ -32,7 +33,7 @@ public abstract partial class SharedExplosionEffectSystem : EntitySystem
                     var angle = _random.NextAngle();
                     var direction = angle.ToVec().Normalized() * 10;
                     var shrapnel = SpawnNextToOrDrop(effect, ent);
-                    if (Exists(shrapnel))
+                    if (Exists(shrapnel) && Resolve(shrapnel, ref _component))
                     {
                         _throwing.TryThrow(shrapnel, direction, ent.Comp.ShrapnelSpeed / 10);
                     }
