@@ -69,7 +69,7 @@ namespace Content.Server.GameTicking
                         }
                         catch (Exception ex)
                         {
-                            _sawmill.Warning($"Error while getting createdTime from userid of {args.Session.UserId} ({args.Session.Name}): {ex.Message}");
+                            _sawmill.Warning($"Error while getting createdTime: {ex.Message}");
                         }
 
                         _chatManager.SendAdminAnnouncement(firstConnection
