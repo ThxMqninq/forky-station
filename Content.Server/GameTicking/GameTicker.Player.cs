@@ -61,7 +61,7 @@ namespace Content.Server.GameTicking
                         var record = await _db.GetPlayerRecordByUserId(args.Session.UserId);
                         var firstConnection = record != null &&
                                             Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 30; // 1 -> 30
-                        var createdTime = "";
+                        var createdTime = "Error while getting createdTime";
 
                         try
                         {
@@ -71,11 +71,11 @@ namespace Content.Server.GameTicking
                         {
                             _sawmill.Warning($"Error while getting createdTime: {ex.Message}");
                         }
-
-                        _chatManager.SendAdminAnnouncement(firstConnection
-                            ? Loc.GetString("player-first-join-message", ("name", args.Session.Name)) +
+                        if (createdTime != null)
+                            _chatManager.SendAdminAnnouncement(firstConnection
+                              ? Loc.GetString("player-first-join-message", ("name", args.Session.Name)) +
                               Loc.GetString("player-created-time", ("createdTime", createdTime))
-                            : Loc.GetString("player-join-message", ("name", args.Session.Name)));
+                              : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
                         RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
 
