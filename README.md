@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="256" height="256" src="https://github.com/ThxMqninq/funky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Space Station 14" width="256" height="256" src="https://github.com/ThxMqninq/forky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
 Qippe - форк [Forky](https://github.com/funky-station/forky-station). Чтобы предотвратить создание форков RobustToolbox, клиент и сервер загружают специальный пакет контента. Этот пакет содержит всё необходимое для игры на конкретном сервере.
 
