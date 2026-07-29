@@ -1,3 +1,4 @@
+using Content.Server.Administration;
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
@@ -42,101 +43,112 @@ namespace Content.Server.GameTicking
             switch (args.NewStatus)
             {
                 case SessionStatus.Connected:
-                {
-                    AddPlayerToDb(args.Session.UserId.UserId);
-
-                    // Always make sure the client has player data.
-                    if (session.Data.ContentDataUncast == null)
                     {
-                        var data = new ContentPlayerData(session.UserId, args.Session.Name);
-                        data.Mind = mindId;
-                        session.Data.ContentDataUncast = data;
-                    }
+                        AddPlayerToDb(args.Session.UserId.UserId);
 
-                    // Make the player actually join the game.
-                    // timer time must be > tick length
-                    Timer.Spawn(0, () => _playerManager.JoinGame(args.Session));
+                        // Always make sure the client has player data.
+                        if (session.Data.ContentDataUncast == null)
+                        {
+                            var data = new ContentPlayerData(session.UserId, args.Session.Name);
+                            data.Mind = mindId;
+                            session.Data.ContentDataUncast = data;
+                        }
 
-                    var record = await _db.GetPlayerRecordByUserId(args.Session.UserId);
-                    var firstConnection = record != null &&
-                                          Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 1;
+                        // Make the player actually join the game.
+                        // timer time must be > tick length
+                        Timer.Spawn(0, () => _playerManager.JoinGame(args.Session));
 
-                    _chatManager.SendAdminAnnouncement(firstConnection
-                        ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
-                        : Loc.GetString("player-join-message", ("name", args.Session.Name)));
+                        var record = await _db.GetPlayerRecordByUserId(args.Session.UserId);
+                        var firstConnection = record != null &&
+                                            Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 30; // 1 -> 30
+                        var createdTime = "";
 
-                    RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
+                        try
+                        {
+                            createdTime = await AdminApiHelpers.GetCreatedTime(args.Session.UserId.ToString());
+                        }
+                        catch (Exception ex)
+                        {
+                            _sawmill.Error($"Error while getting creatimeTime from userid {args.Session.UserId}: {ex.Message}");
+                        }
 
-                    if (firstConnection && _cfg.GetCVar(CCVars.AdminNewPlayerJoinSound))
-                        _audio.PlayGlobal(new SoundPathSpecifier("/Audio/Effects/newplayerping.ogg"),
-                            Filter.Empty().AddPlayers(_adminManager.ActiveAdmins), false,
-                            audioParams: new AudioParams { Volume = -5f });
+                        _chatManager.SendAdminAnnouncement(firstConnection
+                            ? Loc.GetString("player-first-join-message", ("name", args.Session.Name)) +
+                              Loc.GetString("player-created-time", ("createdTime", createdTime))
+                            : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
-                    if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
-                    {
-                        _roundStartCountdownHasNotStartedYetDueToNoPlayers = false;
-                        _roundStartTime = _gameTiming.CurTime + LobbyDuration;
-                    }
+                        RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
 
-                    break;
-                }
+                        if (firstConnection && _cfg.GetCVar(CCVars.AdminNewPlayerJoinSound))
+                            _audio.PlayGlobal(new SoundPathSpecifier("/Audio/Effects/newplayerping.ogg"),
+                                Filter.Empty().AddPlayers(_adminManager.ActiveAdmins), false,
+                                audioParams: new AudioParams { Volume = -5f });
 
-                case SessionStatus.InGame:
-                {
-                    _userDb.ClientConnected(session);
+                        if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
+                        {
+                            _roundStartCountdownHasNotStartedYetDueToNoPlayers = false;
+                            _roundStartTime = _gameTiming.CurTime + LobbyDuration;
+                        }
 
-                    if (mind == null)
-                    {
-                        if (LobbyEnabled)
-                            PlayerJoinLobby(session);
-                        else
-                            SpawnWaitDb();
-
-                        _adminLogger.Add(LogType.Connection, LogImpact.Low, $"User {args.Session:Player} attached to {(args.Session.AttachedEntity != null ? ToPrettyString(args.Session.AttachedEntity) : "nothing"):entity} connected to the game.");
                         break;
                     }
 
-                    if (mind.CurrentEntity == null || Deleted(mind.CurrentEntity))
+                case SessionStatus.InGame:
                     {
-                        DebugTools.Assert(mind.CurrentEntity == null, "a mind's current entity was deleted without updating the mind");
+                        _userDb.ClientConnected(session);
 
-                        // This player is joining the game with an existing mind, but the mind has no entity.
-                        // Their entity was probably deleted sometime while they were disconnected, or they were an observer.
-                        // Instead of allowing them to spawn in, we will dump and their existing mind in an observer ghost.
-                        SpawnObserverWaitDb();
-                    }
-                    else
-                    {
-                        if (_playerManager.SetAttachedEntity(session, mind.CurrentEntity))
+                        if (mind == null)
                         {
-                            PlayerJoinGame(session);
+                            if (LobbyEnabled)
+                                PlayerJoinLobby(session);
+                            else
+                                SpawnWaitDb();
+
+                            _adminLogger.Add(LogType.Connection, LogImpact.Low, $"User {args.Session:Player} attached to {(args.Session.AttachedEntity != null ? ToPrettyString(args.Session.AttachedEntity) : "nothing"):entity} connected to the game.");
+                            break;
+                        }
+
+                        if (mind.CurrentEntity == null || Deleted(mind.CurrentEntity))
+                        {
+                            DebugTools.Assert(mind.CurrentEntity == null, "a mind's current entity was deleted without updating the mind");
+
+                            // This player is joining the game with an existing mind, but the mind has no entity.
+                            // Their entity was probably deleted sometime while they were disconnected, or they were an observer.
+                            // Instead of allowing them to spawn in, we will dump and their existing mind in an observer ghost.
+                            SpawnObserverWaitDb();
                         }
                         else
                         {
-                            Log.Error(
-                                $"Failed to attach player {session} with mind {ToPrettyString(mindId)} to its current entity {ToPrettyString(mind.CurrentEntity)}");
-                            SpawnObserverWaitDb();
+                            if (_playerManager.SetAttachedEntity(session, mind.CurrentEntity))
+                            {
+                                PlayerJoinGame(session);
+                            }
+                            else
+                            {
+                                Log.Error(
+                                    $"Failed to attach player {session} with mind {ToPrettyString(mindId)} to its current entity {ToPrettyString(mind.CurrentEntity)}");
+                                SpawnObserverWaitDb();
+                            }
                         }
+
+                        _adminLogger.Add(LogType.Connection, LogImpact.Low, $"User {args.Session:Player} attached to {(args.Session.AttachedEntity != null ? ToPrettyString(args.Session.AttachedEntity) : "nothing"):entity} connected to the game.");
+
+                        break;
                     }
-
-                    _adminLogger.Add(LogType.Connection, LogImpact.Low, $"User {args.Session:Player} attached to {(args.Session.AttachedEntity != null ? ToPrettyString(args.Session.AttachedEntity) : "nothing"):entity} connected to the game.");
-
-                    break;
-                }
 
                 case SessionStatus.Disconnected:
-                {
-                    _chatManager.SendAdminAnnouncement(Loc.GetString("player-leave-message", ("name", args.Session.Name)));
-                    if (mindId != null)
                     {
-                        _pvsOverride.RemoveSessionOverride(mindId.Value, session);
+                        _chatManager.SendAdminAnnouncement(Loc.GetString("player-leave-message", ("name", args.Session.Name)));
+                        if (mindId != null)
+                        {
+                            _pvsOverride.RemoveSessionOverride(mindId.Value, session);
+                        }
+
+                        _userDb.ClientDisconnected(session);
+
+                        _adminLogger.Add(LogType.Connection, LogImpact.Low, $"User {args.Session:Player} attached to {(args.Session.AttachedEntity != null ? ToPrettyString(args.Session.AttachedEntity) : "nothing"):entity} disconnected from the game.");
+                        break;
                     }
-
-                    _userDb.ClientDisconnected(session);
-
-                    _adminLogger.Add(LogType.Connection, LogImpact.Low, $"User {args.Session:Player} attached to {(args.Session.AttachedEntity != null ? ToPrettyString(args.Session.AttachedEntity) : "nothing"):entity} disconnected from the game.");
-                    break;
-                }
             }
             //When the status of a player changes, update the server info text
             UpdateInfoText();

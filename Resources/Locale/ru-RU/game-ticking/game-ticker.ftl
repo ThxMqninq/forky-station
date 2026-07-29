@@ -29,6 +29,7 @@ game-ticker-player-no-jobs-available-when-joining = При попытке при
 # Displayed in chat to admins when a player joins
 player-join-message = Игрок { $name } зашёл!
 player-first-join-message = Игрок { $name } зашёл на сервер впервые.
+player-created-time = Дата создания аккаунта: {$createdTime}
 
 # Displayed in chat to admins when a player leaves
 player-leave-message = Игрок { $name } вышел!
