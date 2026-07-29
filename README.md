@@ -1,14 +1,14 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="200" src="https://github.com/funky-station/funky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Space Station 14" width="256" height="256" src="https://github.com/ThxMqninq/funky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
-Это сервер Space Station 14. Чтобы предотвратить создание форков RobustToolbox, клиент и сервер загружают специальный пакет контента. Этот пакет содержит всё необходимое для игры на конкретном сервере.
+Qippe - форк [Forky](https://github.com/funky-station/forky-station). Чтобы предотвратить создание форков RobustToolbox, клиент и сервер загружают специальный пакет контента. Этот пакет содержит всё необходимое для игры на конкретном сервере.
 
 ## Ссылки
 
-[Discord-сервер Funky Station](https://discord.gg/5FqgaAA2qF)
+[Discord-сервер Qippe](https://discord.gg/WZrCBsYmGk)
 
 ## Документация/Вики
 
-[Документация Funky Station](https://docs.funkystation.org/) содержит информацию о том, как внести вклад в Funky Station. В нем представлены руководства, документы по геймдизайну и полезные советы по работе с репозиторием.
+[Документация Funky Station](https://docs.funkystation.org/) содержит информацию о том, как внести вклад как в Funky Station, так и в другие форки. В нём представлены руководства, документы по геймдизайну и полезные советы по работе с репозиторием.
 
 ## Контрибьют
 
@@ -40,4 +40,4 @@ python RUN_THIS.py
 
 Обратите внимание, что некоторые ресурсы распространяются на условиях некоммерческой лицензии [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичными некоммерческими лицензиями; их потребуется удалить, если вы захотите использовать этот проект в коммерческих целях.
 
-Если вы обнаружили, что авторство вашей работы или работы другого человека указано неверно, пожалуйста, создайте issue на странице этого репозитория на GitHub или напишите команде мейнтейнеров Funky Station. @ `maintainers@funkystation.org`.
+Если вы обнаружили, что авторство вашей работы или работы другого человека указано неверно, пожалуйста, создайте issue на странице этого репозитория на GitHub или напишите одному из администраторов Qippe.
