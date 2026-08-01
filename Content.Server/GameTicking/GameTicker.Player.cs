@@ -73,7 +73,7 @@ namespace Content.Server.GameTicking
                         }
                         if (createdTime != null)
                             _chatManager.SendAdminAnnouncement(firstConnection
-                              ? Loc.GetString("player-first-join-message", ("name", args.Session.Name)) +
+                              ? Loc.GetString("player-first-join-message", ("name", args.Session.Name)) + " " +
                               Loc.GetString("player-created-time", ("createdTime", createdTime))
                               : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
