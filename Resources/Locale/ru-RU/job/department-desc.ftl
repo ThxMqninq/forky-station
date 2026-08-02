@@ -1,5 +1,6 @@
 department-Cargo-description = Выполняйте запросы, зарабатывайте космокредиты и доставляйте экипажу полезные припасы.
-department-Civilian-description = Выполняйте небольшие полезные задания для поддержания нормальной и сытой работы станции.
+# Funky - Changed Civilian description to be more in line with what the department is now
+department-Civilian-description = Работайте на станцию ​​вне рамок стандартной корпоративной структуры Nanotrasen.
 department-Command-description = Управляйте экипажем и обеспечивайте его эффективную работу.
 department-CentralCommand-description = Руководите экипажем и обеспечивайте его эффективную работу.
 department-Engineering-description = Поддерживайте наличие электроэнергии и целостность станции.

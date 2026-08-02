@@ -1,3 +1,4 @@
+job-name-assistant = Ассистент
 job-name-cci = Интерн Центком
 job-name-cco = Представитель Центком
 job-name-cl = Связной Центком
