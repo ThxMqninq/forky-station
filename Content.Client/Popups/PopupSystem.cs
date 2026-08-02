@@ -1,4 +1,6 @@
 using System.Linq;
+using Content.Client.UserInterface.Systems.Chat;
+using Content.Shared.Chat;
 using Content.Shared.Containers;
 using Content.Shared.Examine;
 using Content.Shared.GameTicking;
@@ -8,6 +10,7 @@ using Robust.Client.Graphics;
 using Robust.Client.Input;
 using Robust.Client.Player;
 using Robust.Client.UserInterface;
+using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Collections;
 using Robust.Shared.Configuration;
 using Robust.Shared.Map;
@@ -40,6 +43,10 @@ namespace Content.Client.Popups
         public const float MinimumPopupLifetime = 0.7f;
         public const float MaximumPopupLifetime = 5f;
         public const float PopupLifetimePerCharacter = 0.04f;
+
+        private CursorPopupData _lastPopupData;
+        private string _lastPopup = "";
+        private int _repeats;
 
         public override void Initialize()
         {
@@ -76,6 +83,43 @@ namespace Content.Client.Popups
                 ("count", existingLabel.Repeats));
         }
 
+        private void WrapAndRepeatPopup(CursorPopupData popupData, string message)
+        {
+            var color = "#D3D3D3";
+            var font = "";
+
+            switch (popupData.Type)
+            {
+                case PopupType.Small:
+                    font = "10";
+                    break;
+                case PopupType.SmallCaution:
+                    font = "10";
+                    color = "#FF0000";
+                    break;
+                case PopupType.Medium:
+                    color = "#D3D3D3";
+                    font = "12";
+                    break;
+                case PopupType.MediumCaution:
+                    color = "#FF0000";
+                    font = "12";
+                    break;
+                case PopupType.Large:
+                    color = "#D3D3D3";
+                    font = "14";
+                    break;
+                case PopupType.LargeCaution:
+                    color = "#FF0000";
+                    font = "14";
+                    break;
+            }
+
+            var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color] x{_repeats}";
+            var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
+            _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
+        }
+
         private void PopupMessage(string? message, PopupType type, EntityCoordinates coordinates, EntityUid? entity, bool recordReplay)
         {
             if (message == null)
@@ -89,20 +133,68 @@ namespace Content.Client.Popups
                     _replayRecording.RecordClientMessage(new PopupCoordinatesEvent(message, type, GetNetCoordinates(coordinates)));
             }
 
-            var popupData = new WorldPopupData(message, type, coordinates, entity);
-            if (_aliveWorldLabels.TryGetValue(popupData, out var existingLabel))
+            var popupData = new CursorPopupData(message, type);
+
+            if (message != _lastPopup)
+                _repeats = 1;
+
+            if (message == _lastPopup && popupData == _lastPopupData)
             {
-                WrapAndRepeatPopup(existingLabel, popupData.Message);
-                return;
+                _repeats += 1;
+                WrapAndRepeatPopup(popupData, message);
+            }
+            else if (_playerManager.LocalEntity != null && _examine.InRangeUnOccluded(_playerManager.LocalEntity.Value, coordinates, 10))
+            {
+                var color = "#D3D3D3";
+                var font = "";
+
+                switch (type)
+                {
+                    case PopupType.Small:
+                        font = "10";
+                        break;
+                    case PopupType.SmallCaution:
+                        font = "10";
+                        color = "#FF0000";
+                        break;
+                    case PopupType.Medium:
+                        color = "#D3D3D3";
+                        font = "12";
+                        break;
+                    case PopupType.MediumCaution:
+                        color = "#FF0000";
+                        font = "12";
+                        break;
+                    case PopupType.Large:
+                        color = "#D3D3D3";
+                        font = "14";
+                        break;
+                    case PopupType.LargeCaution:
+                        color = "#FF0000";
+                        font = "14";
+                        break;
+                }
+
+                var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color]";
+                var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
+                _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
             }
 
-            var label = new WorldPopupLabel(coordinates)
-            {
-                Text = message,
-                Type = type,
-            };
+            _lastPopupData = popupData;
+            _lastPopup = message;
+            // if (_aliveWorldLabels.TryGetValue(popupData, out var existingLabel))
+            // {
+            //     WrapAndRepeatPopup(existingLabel, popupData.Message);
+            //     return;
+            // }
 
-            _aliveWorldLabels.Add(popupData, label);
+            // var label = new WorldPopupLabel(coordinates)
+            // {
+            //     Text = message,
+            //     Type = type,
+            // };
+
+            // _aliveWorldLabels.Add(popupData, label);
         }
 
         #region Abstract Method Implementations
@@ -138,19 +230,66 @@ namespace Content.Client.Popups
                 _replayRecording.RecordClientMessage(new PopupCursorEvent(message, type));
 
             var popupData = new CursorPopupData(message, type);
-            if (_aliveCursorLabels.TryGetValue(popupData, out var existingLabel))
+            // if (_aliveCursorLabels.TryGetValue(popupData, out var existingLabel))
+            // {
+            //      WrapAndRepeatPopup(existingLabel, popupData.Message);
+            //      return;
+            // }
+
+            // var label = new CursorPopupLabel(_inputManager.MouseScreenPosition)
+            // {
+            //     Text = message,
+            //     Type = type,
+            // };
+            if (message != _lastPopup)
+                _repeats = 1;
+
+            if (message == _lastPopup && popupData == _lastPopupData)
             {
-                WrapAndRepeatPopup(existingLabel, popupData.Message);
-                return;
+                _repeats += 1;
+                WrapAndRepeatPopup(popupData, message);
+            }
+            else if (_playerManager.LocalEntity != null)
+            {
+                var color = "#D3D3D3";
+                var font = "";
+
+                switch (type)
+                {
+                    case PopupType.Small:
+                        font = "10";
+                        break;
+                    case PopupType.SmallCaution:
+                        font = "10";
+                        color = "#FF0000";
+                        break;
+                    case PopupType.Medium:
+                        color = "#D3D3D3";
+                        font = "12";
+                        break;
+                    case PopupType.MediumCaution:
+                        color = "#FF0000";
+                        font = "12";
+                        break;
+                    case PopupType.Large:
+                        color = "#D3D3D3";
+                        font = "14";
+                        break;
+                    case PopupType.LargeCaution:
+                        color = "#FF0000";
+                        font = "14";
+                        break;
+                }
+
+                var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color]";
+                var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
+                _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
             }
 
-            var label = new CursorPopupLabel(_inputManager.MouseScreenPosition)
-            {
-                Text = message,
-                Type = type,
-            };
+            _lastPopup = message;
+            _lastPopupData = popupData;
 
-            _aliveCursorLabels.Add(popupData, label);
+            // _aliveCursorLabels.Add(popupData, label);
         }
 
         public override void PopupCursor(string? message, PopupType type = PopupType.Small)
