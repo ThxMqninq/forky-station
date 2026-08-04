@@ -1,0 +1,10 @@
+ent-BaseCartridgePistolLarge = патрон (.50 AE)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgePistolLarge = патрон (.50 AE)
+    .desc = { ent-BaseCartridgePistolLarge.desc }
+ent-CartridgePistolLargePractice = патрон (.50 AE учебный)
+    .desc = { ent-BaseCartridgePistolLarge.desc }
+ent-CartridgePistolLargeIncendiary = патрон (.50 AE зажигательный)
+    .desc = { ent-BaseCartridgePistolLarge.desc }
+ent-CartridgePistolLargeUranium = патрон (.50 AE урановый)
+    .desc = { ent-BaseCartridgePistolLarge.desc }

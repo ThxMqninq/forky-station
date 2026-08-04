@@ -1,0 +1,13 @@
+ent-BaseMagazinePistolLarge = пистолетный магазин (.50 AE)
+    .desc = { ent-BaseItem.desc }
+ent-MagazinePistolLarge = пистолетный магазин (.50 AE)
+    .desc = { ent-BaseMagazinePistolLarge.desc }
+ent-MagazinePistolLargeEmpty = пистолетный магазин (.50 AE)
+    .suffix = Пустой
+    .desc = { ent-BaseMagazinePistolLarge.desc }
+ent-MagazinePistolLargeIncendiary = пистолетный магазин (.50 AE зажигательные)
+    .desc = { ent-BaseMagazinePistolLarge.desc }
+ent-MagazinePistolLargePractice = пистолетный магазин (.50 AE учебные)
+    .desc = { ent-BaseMagazinePistolLarge.desc }
+ent-MagazinePistolLargeUranium = пистолетный магазин (.50 AE урановые)
+    .desc = { ent-BaseMagazinePistolLarge.desc }

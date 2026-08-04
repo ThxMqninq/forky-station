@@ -1,0 +1,10 @@
+ent-BaseMagazineBoxPistolLarge = коробка патронов (.50 AE)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxPistolLarge = коробка патронов (.50 AE)
+    .desc = { ent-BaseMagazineBoxPistolLarge.desc }
+ent-MagazineBoxPistolLargePractice = коробка патронов (.50 AE учебные)
+    .desc = { ent-BaseMagazineBoxPistolLarge.desc }
+ent-MagazineBoxPistolLargeIncendiary = коробка патронов (.50 AE зажигательные)
+    .desc = { ent-BaseMagazineBoxPistolLarge.desc }
+ent-MagazineBoxPistolLargeUranium = коробка патронов (.50 AE урановые)
+    .desc = { ent-BaseMagazineBoxPistolLarge.desc }

@@ -1,0 +1,13 @@
+ent-BaseMagazineRifle50 = магазин (.50 AE)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineRifle50 = магазин (.50 AE)
+    .desc = { ent-BaseMagazineRifle50.desc }
+ent-MagazineRifle50Empty = магазин (.50 AE)
+    .suffix = Пустой
+    .desc = { ent-BaseMagazineRifle50.desc }
+ent-MagazineRifle50Incendiary = магазин (.50 AE зажигательные)
+    .desc = { ent-BaseMagazineRifle50.desc }
+ent-MagazineRifle50Practice = магазин (.50 AE учебные)
+    .desc = { ent-BaseMagazineRifle50.desc }
+ent-MagazineRifle50Uranium = магазин (.50 AE урановые)
+    .desc = { ent-BaseMagazineRifle50.desc }
