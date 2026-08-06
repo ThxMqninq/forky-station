@@ -91,27 +91,27 @@ namespace Content.Client.Popups
             switch (popupData.Type)
             {
                 case PopupType.Small:
-                    font = "10";
+                    font = "12";
                     break;
                 case PopupType.SmallCaution:
-                    font = "10";
+                    font = "12";
                     color = "#FF0000";
                     break;
                 case PopupType.Medium:
                     color = "#D3D3D3";
-                    font = "12";
+                    font = "14";
                     break;
                 case PopupType.MediumCaution:
                     color = "#FF0000";
-                    font = "12";
+                    font = "14";
                     break;
                 case PopupType.Large:
                     color = "#D3D3D3";
-                    font = "14";
+                    font = "16";
                     break;
                 case PopupType.LargeCaution:
                     color = "#FF0000";
-                    font = "14";
+                    font = "16";
                     break;
             }
 
@@ -151,27 +151,27 @@ namespace Content.Client.Popups
                 switch (type)
                 {
                     case PopupType.Small:
-                        font = "10";
+                        font = "12";
                         break;
                     case PopupType.SmallCaution:
-                        font = "10";
+                        font = "12";
                         color = "#FF0000";
                         break;
                     case PopupType.Medium:
                         color = "#D3D3D3";
-                        font = "12";
+                        font = "14";
                         break;
                     case PopupType.MediumCaution:
                         color = "#FF0000";
-                        font = "12";
+                        font = "14";
                         break;
                     case PopupType.Large:
                         color = "#D3D3D3";
-                        font = "14";
+                        font = "16";
                         break;
                     case PopupType.LargeCaution:
                         color = "#FF0000";
-                        font = "14";
+                        font = "16";
                         break;
                 }
 
