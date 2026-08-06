@@ -10,3 +10,5 @@ ent-DocumentPrinterBridgeCircuitboard = принтер документов (м�
 ent-DocumentPrinterXOCircuitboard = принтер документов (машинная плата)
     .suffix = Исполнительный директор
     .desc = Машинная плата для принтера документов Model XF-880. На этой отметка "Исполнительный директор"
+ent-PaperShredderCircuitboard = измельчитель бумаги (машинная плата)
+    .desc = Машинная плата для измельчителя бумаги.
