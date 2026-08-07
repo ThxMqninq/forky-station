@@ -544,7 +544,6 @@
     speechSounds: Cat
     speechVerb: SmallMob
 #    allowedEmotes: ['Purr','Mew','Meow','Hiss']
-    allowedEmotes: ['Purr','Mew','Meow'] # Edited
   - type: ReplacementAccent
     accent: cat
   - type: InteractionPopup
