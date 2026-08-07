@@ -1,6 +1,7 @@
+# Edited
 - type: soundCollection
   id: eating
   files:
   - /Audio/Items/eating_1.ogg
-  - /Audio/Items/eating_2.ogg
-  - /Audio/Items/eating_3.ogg
+  # - /Audio/Items/eating_2.ogg
+  # - /Audio/Items/eating_3.ogg
