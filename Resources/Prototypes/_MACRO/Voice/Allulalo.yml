@@ -16,10 +16,10 @@
       path: /Audio/_MACRO/Voice/Allulalo/allulalo_scream.ogg
     Laugh:
       path: /Audio/_MACRO/Voice/Allulalo/allulalo_laugh.ogg
-    Hiss:
-      path: /Audio/_MACRO/Voice/Vox/voxhiss.ogg
-      params:
-        volume: -5
+    # Hiss:
+    #   path: /Audio/_MACRO/Voice/Vox/voxhiss.ogg
+    #   params:
+    #     volume: -5
     Chitter:
       path: /Audio/_MACRO/Voice/Allulalo/allulalo_chitter.ogg
     Sneeze:

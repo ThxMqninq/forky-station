@@ -248,8 +248,8 @@
     DefaultDeathgasp:
       path: /Audio/Effects/Gasp/vox_DeathGasp.ogg
     # Macrocosm start
-    Hiss:
-      path: /Audio/_MACRO/Voice/Vox/voxhiss.ogg
+    # Hiss:
+    #   path: /Audio/_MACRO/Voice/Vox/voxhiss.ogg
     # Macrocosm end
   params:
     variation: 0.125
