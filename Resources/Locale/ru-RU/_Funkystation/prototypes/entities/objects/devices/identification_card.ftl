@@ -1,0 +1,10 @@
+ent-IAAIDCard = ID карта агента Внутренних дел
+    .desc = { ent-LawyerIDCard.desc }
+ent-MagistrateIDCard = ID карта магистрата
+    .desc = { ent-LawyerIDCard.desc }
+ent-XOIDCard = ID карта исполнительного директора
+    .desc = { ent-HoPIDCard.desc }
+ent-HDIDCard = ID карта директора по гостеприимству
+    .desc = { ent-HoPIDCard.desc }
+ent-CLIDCard = ID карта связного Центком
+    .desc = { ent-LawyerIDCard.desc }

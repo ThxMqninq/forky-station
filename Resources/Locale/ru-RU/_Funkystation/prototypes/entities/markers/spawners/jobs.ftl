@@ -1,0 +1,10 @@
+ent-SpawnPointInternalAffairsAgent = агентвнутреннихдел
+    .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointMagistrate = магистрат
+    .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointCorporateLiaison = связнойцентком
+    .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointHospitalityDirector = директопогостеприимству
+    .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointExecutiveOfficer = исполнительныйдиректор
+    .desc = { ent-SpawnPointJobBase.desc }
