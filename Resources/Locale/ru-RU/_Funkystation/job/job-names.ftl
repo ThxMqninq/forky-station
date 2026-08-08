@@ -13,3 +13,6 @@ job-name-party-maker = Организатор вечеринок
 job-name-nct = Инструктор по профподготовке Nanotrasen
 job-name-security-clown = Клоун СБ
 job-name-xo = Исполнительный директор
+job-name-lieutenant = Лейтенант
+job-name-commandant = Комендант
+job-name-dispatcher = Диспетчер

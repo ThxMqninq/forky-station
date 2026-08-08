@@ -6,3 +6,5 @@ ent-ClothingHeadsetHD = гарнитура директора по гостеп�
     .desc = { ent-ClothingHeadsetService.desc }
 ent-ClothingHeadsetCL = гарнитура связного Центком
     .desc = { ent-ClothingHeadsetCentCom.desc }
+ent-ClothingHeadsetDispatcher = гарнитура диспетчера
+    .desc = Одна из многочисленных связей с бьющимся сердцем станции.
