@@ -118,19 +118,19 @@ entity-effect-guidebook-status-effect-old =
         [update]{ $chance ->
                 [1] Causes
                 *[other] cause
-            } { LOC($key) } for at least { NATURALFIXED($time, 3) } { MANY("second", $time) } without accumulation
+            } { $key } for at least { NATURALFIXED($time, 3) } { MANY("second", $time) } without accumulation
         [add]   { $chance ->
                 [1] Causes
                 *[other] cause
-            } { LOC($key) } for at least { NATURALFIXED($time, 3) } { MANY("second", $time) } with accumulation
+            } { $key } for at least { NATURALFIXED($time, 3) } { MANY("second", $time) } with accumulation
         [set]  { $chance ->
                 [1] Causes
                 *[other] cause
-            } { LOC($key) } for { NATURALFIXED($time, 3) } { MANY("second", $time) } without accumulation
+            } { $key } for { NATURALFIXED($time, 3) } { MANY("second", $time) } without accumulation
         *[remove]{ $chance ->
                 [1] Removes
                 *[other] remove
-            } { NATURALFIXED($time, 3) } { MANY("second", $time) } of { LOC($key) }
+            } { NATURALFIXED($time, 3) } { MANY("second", $time) } of { $key }
     }
 
 entity-effect-guidebook-status-effect =
@@ -138,7 +138,7 @@ entity-effect-guidebook-status-effect =
         [update]{ $chance ->
                 [1] Вызывает
                 *[other] вызывают
-            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { $time ->
+            } { $key } минимум на { NATURALFIXED($time, 3) } { $time ->
                 [one] секунду
                 [few] секунды
                 *[other] секунд
@@ -146,7 +146,7 @@ entity-effect-guidebook-status-effect =
         [add] { $chance ->
                 [1] Вызывает
                 *[other] вызывают
-            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { $time ->
+            } { $key } минимум на { NATURALFIXED($time, 3) } { $time ->
                 [one] секунду
                 [few] секунды
                 *[other] секунд
@@ -154,7 +154,7 @@ entity-effect-guidebook-status-effect =
         [set] { $chance ->
                 [1] Вызывает
                 *[other] вызывают
-            } { LOC($key) } минимум на { NATURALFIXED($time, 3) } { $time ->
+            } { $key } минимум на { NATURALFIXED($time, 3) } { $time ->
                 [one] секунду
                 [few] секунды
                 *[other] секунд
@@ -166,7 +166,7 @@ entity-effect-guidebook-status-effect =
                 [one] секунду
                 [few] секунды
                 *[other] секунд
-            } от { LOC($key) }
+            } от { $key }
     } { $delay ->
         [0] немедленно
         *[other] после { NATURALFIXED($delay, 3) } { $delay ->
@@ -181,19 +181,19 @@ entity-effect-guidebook-status-effect-indef =
         [update]{ $chance ->
                 [1] Вызывает
                 *[other] вызывает
-            } постоянный { LOC($key) }
+            } постоянный { $key }
         [add]   { $chance ->
                 [1] Вызывает
                 *[other] вызывают
-            } постоянный{ LOC($key) }
+            } постоянный { $key }
         [set]  { $chance ->
                 [1] Вызывает
                 *[other] вызывают
-            } постоянный{ LOC($key) }
+            } постоянный { $key }
         *[remove]{ $chance ->
                 [1] Убирает
                 *[other] убирают
-            } { LOC($key) }
+            } { $key }
     } { $delay ->
         [0] мгновенно
         *[other] после { NATURALFIXED($delay, 3) } { $delay ->
@@ -208,7 +208,7 @@ entity-effect-guidebook-knockdown =
         [update]{ $chance ->
                 [1] Causes
                 *[other] cause
-            } { LOC($key) } for at least { NATURALFIXED($time, 3) } { MANY("second", $time) } without accumulation
+            } { $key } for at least { NATURALFIXED($time, 3) } { MANY("second", $time) } without accumulation
         [add]   { $chance ->
                 [1] Causes
                 *[other] cause
