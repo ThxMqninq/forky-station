@@ -7,6 +7,7 @@
     <GuideEntityEmbed Entity="AppearanceDiona" Caption="Диона"/>
     <GuideEntityEmbed Entity="AppearanceDwarf" Caption="Дворф"/>
     <GuideEntityEmbed Entity="AppearanceHuman" Caption="Человек"/>
+    <!--<GuideEntityEmbed Entity="MobUngu" Caption="Ungu"/>!--> <!--Macrocosm-->
   </Box>
   <Box>
     <GuideEntityEmbed Entity="AppearanceMoth" Caption="Ниан"/>

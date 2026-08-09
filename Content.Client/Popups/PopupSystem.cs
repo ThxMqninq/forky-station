@@ -1,7 +1,6 @@
 using System.Linq;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Shared.Chat;
-using Content.Shared.Containers;
 using Content.Shared.Examine;
 using Content.Shared.GameTicking;
 using Content.Shared.Popups;
@@ -10,12 +9,11 @@ using Robust.Client.Graphics;
 using Robust.Client.Input;
 using Robust.Client.Player;
 using Robust.Client.UserInterface;
-using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Collections;
 using Robust.Shared.Configuration;
 using Robust.Shared.Map;
-using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Player;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 
@@ -23,11 +21,11 @@ namespace Content.Client.Popups
 {
     public sealed partial class PopupSystem : SharedPopupSystem
     {
+        [Dependency] private IPrototypeManager _protoMan = default!;
         [Dependency] private IConfigurationManager _configManager = default!;
         [Dependency] private IInputManager _inputManager = default!;
         [Dependency] private IOverlayManager _overlay = default!;
         [Dependency] private IPlayerManager _playerManager = default!;
-        [Dependency] private IPrototypeManager _prototype = default!;
         [Dependency] private IGameTiming _timing = default!;
         [Dependency] private IUserInterfaceManager _uiManager = default!;
         [Dependency] private IReplayRecordingManager _replayRecording = default!;
@@ -59,7 +57,7 @@ namespace Content.Client.Popups
                     _configManager,
                     EntityManager,
                     _playerManager,
-                    _prototype,
+                    _protoMan,
                     _uiManager,
                     _uiManager.GetUIController<PopupUIController>(),
                     _examine,
