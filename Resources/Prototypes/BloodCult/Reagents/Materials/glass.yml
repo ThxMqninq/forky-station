@@ -1,7 +1,0 @@
-- type: material
-  id: RunedGlass
-  stackEntity: SheetRunedGlass1
-  name: руническое стекло # edited
-  icon: { sprite: BloodCult/Sheets/glass.rsi, state: runedglass }
-  price: 0.0
-
