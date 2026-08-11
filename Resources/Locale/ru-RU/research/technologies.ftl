@@ -21,6 +21,9 @@ research-technology-bluespace-storage = Блюспейс-хранилище
 research-technology-optimized-microgalvanism = Оптимизированный микрогальванизм
 research-technology-space-scanning = Сканирование космоса
 research-technology-excavation = Массовые раскопки
+# funky-station start
+research-technology-HoloFanResearch = Газовые фильтры из твёрдого света
+# funky-station end
 
 research-technology-salvage-weapons = Утилизаторское оружие
 research-technology-draconic-munitions = Драконьи боеприпасы
