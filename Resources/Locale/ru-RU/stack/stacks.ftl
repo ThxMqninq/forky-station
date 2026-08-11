@@ -73,21 +73,6 @@ stack-reinforced-uranium-glass = { $amount ->
     [few] листа
     *[other] листов
 } уранового бронестекла
-stack-runed-glass = { $amount ->
-    [1] лист
-    [few] листа
-    *[other] листов
-} рунического стекла
-stack-runed-steel = { $amount ->
-    [1] лист
-    [few] листа
-    *[other] листов
-} рунической стали
-stack-runed-plasteel = { $amount ->
-    [1] лист
-    [few] листа
-    *[other] листов
-} рунической пластали
 stack-gunpowder = { $amount ->
     [1] порох
     *[other] пороха
