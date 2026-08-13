@@ -1,3 +1,7 @@
+# Utility
+uplink-syndicate-hacking-module-name = Модуль взломщика киборга
+uplink-syndicate-hacking-module-desc = Для тех случаев, когда вам нужен командир-борг для вашего отряда боргов.
+
 # Weapons
 uplink-pistol-wyvern-name = Виверна
 uplink-pistol-wyvern-desc = Мощный пистолет под патрон .50 AE, поставлявшийся небольшими партиями как NT, так и Синдикату. Поставляется с урановыми боеприпасами.
@@ -13,4 +17,4 @@ uplink-rifle-magazine-50-name = Винтовочный магазин (.50 AE)
 uplink-rifle-magazine-50-desc = Магазин под патрон .50 AE, совместимый с Эстоком.
 
 uplink-rifle-magazine-50-incendiary-name = Винтовочный магазин (.50 AE зажигательные)
-uplink-rifle-magazine-50-incendiary-desc = Магазин под патрон .50 AE, совместимый с Эстоком. Сожги их всех дотла.
+uplink-rifle-magazine-50-incendiary-desc = Магазин под патрон .50 AE, совместимый с Эстоком. Сожгите их всех дотла.

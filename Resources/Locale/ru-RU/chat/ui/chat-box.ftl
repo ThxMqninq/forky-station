@@ -15,6 +15,7 @@ hud-chatbox-select-channel-OOC = OOC
 hud-chatbox-select-channel-Damage = Повреждения
 hud-chatbox-select-channel-Visual = Действия
 hud-chatbox-select-channel-Radio = Рация
+hud-chatbox-select-channel-Mentor = Ментор
 
 hud-chatbox-channel-Admin = Админ Разное
 hud-chatbox-channel-AdminAlert = Админ Уведомления

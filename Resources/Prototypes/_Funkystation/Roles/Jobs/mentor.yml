@@ -1,0 +1,7 @@
+﻿# transfer to locale :pray:
+- type: job
+  id: Mentor
+  name: Ментор
+  description: Игрок, который специализирован на помощи новичкам.
+  playTimeTracker: JobMentor
+  icon: "JobIconPassenger"
