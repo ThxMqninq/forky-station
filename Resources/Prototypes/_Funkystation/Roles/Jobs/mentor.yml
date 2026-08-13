@@ -1,6 +1,7 @@
-﻿- type: job
+﻿# transfer to locale :pray:
+- type: job
   id: Mentor
-  name: Mentor
-  description: A player dedicated to helping newer players learn the game.
+  name: Ментор
+  description: Игрок, который специализирован на помощи новичкам.
   playTimeTracker: JobMentor
   icon: "JobIconPassenger"
