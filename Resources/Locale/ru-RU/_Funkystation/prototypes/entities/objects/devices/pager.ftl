@@ -16,5 +16,5 @@ ent-PagerTransPink = { ent-BasePager }
     .suffix = Прозрачный, розовый
     .desc = { ent-BasePager.desc }
 ent-PagerTransYellow = { ent-BasePager }
-    .suffix = Прозначный, жёлтый
+    .suffix = Прозрачный, жёлтый
     .desc = { ent-BasePager.desc }
