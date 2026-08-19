@@ -15,6 +15,7 @@ changelog-tab-title-Changelog = Список изменений
 changelog-tab-title-Admin = Админское
 changelog-tab-title-Maps = Карты
 changelog-tab-title-Rules = Правила
+changelog-tab-title-Funklog = Funk-лог
 
 cmd-changelog-desc = Открыть историю обновлений.
 cmd-changelog-help = Использование: changelog

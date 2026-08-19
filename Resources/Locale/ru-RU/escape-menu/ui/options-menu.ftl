@@ -369,6 +369,8 @@ ui-options-colorblind-friendly = Режим для дальтоников
 ui-options-reduced-motion = Снижение интенсивности визуальных эффектов
 ui-options-disable-ai-static = Отключить статический эффект помех на ИИ.
 ui-options-screen-shake-intensity = Интенсивность дрожания экрана
+# Funky, ES pain flash
+ui-options-es-pain-flash-intensity = Интенсивность болевой вспышки
 
 ui-options-chat-window-opacity = Непрозрачность окна чата
 ui-options-speech-bubble-text-opacity = Непрозрачность текста речевого пузыря

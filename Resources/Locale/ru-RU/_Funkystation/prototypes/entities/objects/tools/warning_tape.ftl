@@ -1,0 +1,10 @@
+ent-BaseWarningTape = { "" }
+    .desc = { "" }
+ent-WarningTapeEngineering = сигнальная лента
+    .desc = Полоска сигнальной ленты, предупреждающая о том, что вход запрещен.
+ent-WarningTapeSecurity = сигнальная лента СБ
+    .desc = Полоска красной ленты с логотипом компании «AEGIS Security Consolidated». Проходите дальше.
+ent-WarningTapeRollEngineering = рулон сигнальной ленты
+    .desc = Рулон жёлто-чёрной сигнальной ленты.
+ent-WarningTapeRollSecurity = рулон сигнальной ленты
+    .desc = Рулон красной ленты с логотипом компании «AEGIS Security Consolidated».
