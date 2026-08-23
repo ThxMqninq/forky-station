@@ -1,0 +1,4 @@
+- type: shader
+  id: StarSky
+  kind: source
+  path: "/Textures/_Qippe/Shaders/star_sky.swsl"

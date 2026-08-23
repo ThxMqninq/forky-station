@@ -1,14 +1,17 @@
+using System.Numerics;
 using Content.Client.Audio;
 using Content.Client.GameTicking.Managers;
 using Content.Client.LateJoin;
 using Content.Client.Lobby.UI;
 using Content.Client.Message;
 using Content.Client.Playtime;
+using Content.Client.Resources;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
 using Content.Shared.CCVar;
 using Robust.Client;
 using Robust.Client.Console;
+using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
@@ -36,6 +39,9 @@ namespace Content.Client.Lobby
 
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
         public LobbyGui? Lobby;
+
+        private readonly ProtoId<ShaderPrototype> _starSkyShaderProto = "StarSky";
+        private ShaderInstance? _shaderInstance;
 
         protected override void Startup()
         {
@@ -67,6 +73,9 @@ namespace Content.Client.Lobby
             Lobby.RightSide.SetWidth = width;
 
             UpdateLobbyUi();
+
+            _shaderInstance = _protoMan.Index(_starSkyShaderProto).InstanceUnique();
+            UpdateLobbyBackground();
 
             Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
             Lobby.ReadyButton.OnPressed += OnReadyPressed;
@@ -252,21 +261,17 @@ namespace Content.Client.Lobby
 
         private void UpdateLobbyBackground()
         {
-            if (_protoMan.TryIndex(_gameTicker.LobbyBackground, out var proto))
+            if (Lobby is not null)
             {
-                Lobby!.Background.Texture = _resourceCache.GetResource<TextureResource>(proto.Background);
+                Lobby.Background.Texture = _resourceCache.GetResource<TextureResource>("/Textures/LobbyScreens/warden.webp");
+                if (_shaderInstance is not null)
+                {
+                    _shaderInstance.SetParameter("gradientA", new Vector2(1, 0));
+                    _shaderInstance.SetParameter("gradientB", new Vector2(0, 1));
+                    Lobby!.Background.ShaderOverride = _shaderInstance;
+                }
 
-                var markup = Loc.GetString("lobby-state-background-text",
-                    ("backgroundTitle", Loc.GetString(proto.Title)),
-                    ("backgroundArtist", Loc.GetString(proto.Artist)));
-
-                Lobby!.LobbyBackground.SetMarkup(markup);
-            }
-            else
-            {
-                Lobby!.Background.Texture = null;
-
-                Lobby!.LobbyBackground.SetMarkup(Loc.GetString("lobby-state-background-no-background-text"));
+                Lobby.LobbyBackground.SetMarkup(Loc.GetString("lobby-state-background-no-background-text"));
             }
         }
 

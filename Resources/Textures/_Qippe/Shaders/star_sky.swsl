@@ -1,0 +1,70 @@
+// Original shader: https://godotshaders.com/shader/starry-night/
+// License: CC0
+// Author: latchina36 <3
+//
+//Main star adjustments Color, movement direction, shine, brightnessStar, periodicity, size, and quantity.
+uniform sampler2D gradientA;
+uniform highp float horizontalMovement = -0.5;
+uniform highp float verticalMovement = 0.5;
+uniform highp float frequencyStar = 0.1;
+uniform highp float sizeStar = 100.0;
+uniform highp float brightnessStar = 1.0;
+uniform highp float shineFrequencyStar = 4.0;
+uniform highp float transparencyStar = 0.95;
+uniform highp int starIterations = 2;
+
+//Background star adjustments
+uniform sampler2D gradientB;
+uniform highp float frequencyBgStar = 0.98;
+uniform highp float shineFrequencyBgStar = 1.0;
+uniform highp float transparencyBgStar = 0.6;
+
+//Background color and transparency
+uniform highp vec4 colorBackground = vec4(0.001, 0.001, 0.005, 1.0);
+uniform highp float transparencyBackground = 0.0;
+
+//Seeding for different noise generation, mainly to eliminate background star patterns
+uniform highp float seed = 0.01;
+
+highp float rand(highp vec2 st) {
+	return fract(sin(dot(st.xy, vec2(seed+12.9898,78.233))) * 43758.5453123);
+	}
+
+highp float remap(highp float prob, highp float starValue) {
+	return (starValue - prob)/(1.0-prob);
+	}
+
+void fragment() {
+	highp float prob = 1.0 - frequencyStar;
+	highp float travelx = TIME * horizontalMovement;
+	highp float travely = TIME * verticalMovement;
+	highp float color = 0.0;
+	COLOR = vec4(colorBackground.rgb, 1.0 - transparencyBackground);
+
+	for(int i = 1; i < 1 + starIterations; i++) {
+		highp float size = sizeStar/float(i);
+		highp vec2 pos = vec2(floor((1.0 / size * FRAGCOORD.x)+travelx), floor((1.0 / size * FRAGCOORD.y)+travely));
+		highp float starValue = rand(pos);
+
+		if (starValue > prob)
+		{
+			highp vec2 center = size * pos + vec2(size, size) * 0.5;
+			highp float t = 0.9 + 0.2 * sin(TIME * shineFrequencyStar + (starValue - prob) / (1.0 - prob) * 45.0);
+			highp vec2 modifiedCoords = vec2(FRAGCOORD.x + travelx*size, FRAGCOORD.y + travely*size);
+			color = 1.0 - distance(modifiedCoords, center) / (0.5 * size);
+			color = t * t * brightnessStar / float(i) / (clamp(distance(modifiedCoords.y, center.y), 0.5, size/2.0-1.0)) / (clamp(distance(modifiedCoords.x, center.x), 0.5, size/2.0-1.0));
+            highp vec4 colormapA = texture2D(gradientA, vec2(remap(prob, starValue)));
+			COLOR += colormapA * color * (1.0 - transparencyStar);
+		}
+	}
+
+	if (rand(UV.xy / 20.0) > frequencyBgStar)
+		{
+			highp float r = rand(UV.xy);
+			color = r * (0.85 * sin(TIME * shineFrequencyBgStar * (r * 5.0) + 720.0 * r) + 0.95);
+			highp vec4 colormapB = texture2D(gradientB, vec2(r));
+			COLOR += color * colormapB * (1.0 - transparencyBgStar);
+		}
+	}
+
+
