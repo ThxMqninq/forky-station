@@ -4,27 +4,27 @@
 //
 //Main star adjustments Color, movement direction, shine, brightnessStar, periodicity, size, and quantity.
 uniform sampler2D gradientA;
-uniform highp float horizontalMovement = -0.5;
-uniform highp float verticalMovement = 0.5;
-uniform highp float frequencyStar = 0.1;
-uniform highp float sizeStar = 100.0;
-uniform highp float brightnessStar = 1.0;
-uniform highp float shineFrequencyStar = 4.0;
-uniform highp float transparencyStar = 0.95;
-uniform highp int starIterations = 2;
+uniform highp float horizontalMovement;
+uniform highp float verticalMovement;
+uniform highp float frequencyStar;
+uniform highp float sizeStar;
+uniform highp float brightnessStar;
+uniform highp float shineFrequencyStar;
+uniform highp float transparencyStar;
+uniform highp int starIterations;
 
 //Background star adjustments
 uniform sampler2D gradientB;
-uniform highp float frequencyBgStar = 0.98;
-uniform highp float shineFrequencyBgStar = 1.0;
-uniform highp float transparencyBgStar = 0.6;
+uniform highp float frequencyBgStar;
+uniform highp float shineFrequencyBgStar;
+uniform highp float transparencyBgStar;
 
 //Background color and transparency
-uniform highp vec4 colorBackground = vec4(0.001, 0.001, 0.005, 1.0);
-uniform highp float transparencyBackground = 0.0;
+uniform highp vec4 colorBackground;
+uniform highp float transparencyBackground;
 
 //Seeding for different noise generation, mainly to eliminate background star patterns
-uniform highp float seed = 0.01;
+uniform highp float seed;
 
 highp float rand(highp vec2 st) {
 	return fract(sin(dot(st.xy, vec2(seed+12.9898,78.233))) * 43758.5453123);

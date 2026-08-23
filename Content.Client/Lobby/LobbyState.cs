@@ -266,8 +266,26 @@ namespace Content.Client.Lobby
                 Lobby.Background.Texture = _resourceCache.GetResource<TextureResource>("/Textures/LobbyScreens/warden.webp");
                 if (_shaderInstance is not null)
                 {
+                    // Seed
+                    _shaderInstance.SetParameter("seed", 0.01f);
+                    // Main stars
                     _shaderInstance.SetParameter("gradientA", new Vector2(1, 0));
+                    _shaderInstance.SetParameter("horizontalMovement", -0.5f);
+                    _shaderInstance.SetParameter("verticalMovement", 0.5f);
+                    _shaderInstance.SetParameter("frequencyStar", 0.1f);
+                    _shaderInstance.SetParameter("sizeStar", 100.0f);
+                    _shaderInstance.SetParameter("brightnessStar", 1.0f);
+                    _shaderInstance.SetParameter("shineFrequencyStar", 4.0f);
+                    _shaderInstance.SetParameter("transparencyStar", 0.95f);
+                    _shaderInstance.SetParameter("starIterations", 2);
+                    // Background stars
                     _shaderInstance.SetParameter("gradientB", new Vector2(0, 1));
+                    _shaderInstance.SetParameter("frequencyBgStar", 0.98f);
+                    _shaderInstance.SetParameter("shineFrequencyBgStar", 1.0f);
+                    _shaderInstance.SetParameter("transparencyBgStar", 0.6f);
+                    // Background color and transparency
+                    _shaderInstance.SetParameter("colorBackground", new Vector4(0.001f, 0.001f, 0.005f, 1.0f));
+                    _shaderInstance.SetParameter("transparencyBackground", 0.0f);
                     Lobby!.Background.ShaderOverride = _shaderInstance;
                 }
 
