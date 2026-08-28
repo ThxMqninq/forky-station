@@ -183,16 +183,16 @@ public sealed partial class PopupSystem : SharedPopupSystem
             return;
         }
 
-        var label = new WorldPopupLabel(coordinates)
-        {
-            Text = message,
-            Type = type,
-        };
+        // var label = new WorldPopupLabel(coordinates)
+        // {
+        //     Text = message,
+        //     Type = type,
+        // };
 
         if (message != _lastPopup)
             _repeats = 1;
 
-        if (message.Equals(_lastPopup) && popupData.Equals(_lastPopupData))
+        if (message == _lastPopup && popupData == _lastPopupData)
         {
             _repeats += 1;
             WrapAndRepeatPopup(popupData, message);
@@ -234,7 +234,7 @@ public sealed partial class PopupSystem : SharedPopupSystem
         }
         _lastPopup = message;
         _lastPopupData = popupData;
-        _aliveWorldLabels.Add(popupData, label);
+        // _aliveWorldLabels.Add(popupData, label);
     }
 
     /// <summary>
@@ -299,16 +299,16 @@ public sealed partial class PopupSystem : SharedPopupSystem
             _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
         }
 
-        var label = new CursorPopupLabel(_inputManager.MouseScreenPosition)
-        {
-            Text = message,
-            Type = type,
-        };
+        // var label = new CursorPopupLabel(_inputManager.MouseScreenPosition)
+        // {
+        //     Text = message,
+        //     Type = type,
+        // };
 
         _lastCursorPopupData = popupData;
         _lastCursorPopup = message;
 
-        _aliveCursorLabels.Add(popupData, label);
+        // _aliveCursorLabels.Add(popupData, label);
     }
 
     #region Abstract Method Implementations
