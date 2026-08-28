@@ -15,6 +15,7 @@ using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Player;
 using Robust.Shared.Replays;
+using YamlDotNet.Core;
 
 namespace Content.Client.Popups;
 
@@ -45,8 +46,10 @@ public sealed partial class PopupSystem : SharedPopupSystem
     public const float MaximumPopupLifetime = 5f;
     public const float PopupLifetimePerCharacter = 0.04f;
 
-    private CursorPopupData _lastPopupData;
-    private string _lastPopup = "";
+    private WorldPopupData _lastPopupData;
+    private CursorPopupData _lastCursorPopupData;
+    private string _lastPopup = string.Empty;
+    private string _lastCursorPopup = string.Empty;
     private int _repeats;
 
     public override void Initialize()
@@ -84,12 +87,85 @@ public sealed partial class PopupSystem : SharedPopupSystem
             ("count", existingLabel.Repeats));
     }
 
+    private void WrapAndRepeatPopup(WorldPopupData popupData, string message)
+    {
+        var color = "#D3D3D3";
+        var font = "";
+
+        switch (popupData.Type)
+        {
+            case PopupType.Small:
+                font = "10";
+                break;
+            case PopupType.SmallCaution:
+                font = "10";
+                color = "#FF0000";
+                break;
+            case PopupType.Medium:
+                color = "#D3D3D3";
+                font = "12";
+                break;
+            case PopupType.MediumCaution:
+                color = "#FF0000";
+                font = "12";
+                break;
+            case PopupType.Large:
+                color = "#D3D3D3";
+                font = "14";
+                break;
+            case PopupType.LargeCaution:
+                color = "#FF0000";
+                font = "14";
+                break;
+        }
+
+        var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color] x{_repeats}";
+        var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
+        _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
+    }
+
+    private void WrapAndRepeatPopup(CursorPopupData popupData, string message)
+    {
+        var color = "#D3D3D3";
+        var font = "";
+
+        switch (popupData.Type)
+        {
+            case PopupType.Small:
+                font = "10";
+                break;
+            case PopupType.SmallCaution:
+                font = "10";
+                color = "#FF0000";
+                break;
+            case PopupType.Medium:
+                color = "#D3D3D3";
+                font = "12";
+                break;
+            case PopupType.MediumCaution:
+                color = "#FF0000";
+                font = "12";
+                break;
+            case PopupType.Large:
+                color = "#D3D3D3";
+                font = "14";
+                break;
+            case PopupType.LargeCaution:
+                color = "#FF0000";
+                font = "14";
+                break;
+        }
+
+        var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color] x{_repeats}";
+        var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
+        _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
+    }
     /// <summary>
     /// Interal implementation for both coordinates and entity popups.
     /// </summary>
     private void PopupInternal(string? message, PopupType type, EntityCoordinates coordinates, EntityUid? entity, bool recordReplay)
     {
-        if (message == null)
+        if (message is null)
             return;
 
         if (recordReplay && _replayRecording.IsRecording)
@@ -116,7 +192,7 @@ public sealed partial class PopupSystem : SharedPopupSystem
         if (message != _lastPopup)
             _repeats = 1;
 
-        if (message == _lastPopup && popupData == _lastPopupData)
+        if (message.Equals(_lastPopup) && popupData.Equals(_lastPopupData))
         {
             _repeats += 1;
             WrapAndRepeatPopup(popupData, message);
@@ -179,11 +255,58 @@ public sealed partial class PopupSystem : SharedPopupSystem
             return;
         }
 
+        if (message != _lastPopup)
+            _repeats = 1;
+
+        if (message.Equals(_lastPopup) && popupData.Equals(_lastPopupData))
+        {
+            _repeats += 1;
+            WrapAndRepeatPopup(popupData, message);
+        }
+        else if (_playerManager.LocalEntity != null)
+        {
+            var color = "#D3D3D3";
+            var font = "";
+
+            switch (type)
+            {
+                case PopupType.Small:
+                    font = "10";
+                    break;
+                case PopupType.SmallCaution:
+                    font = "10";
+                    color = "#FF0000";
+                    break;
+                case PopupType.Medium:
+                    color = "#D3D3D3";
+                    font = "12";
+                    break;
+                case PopupType.MediumCaution:
+                    color = "#FF0000";
+                    font = "12";
+                    break;
+                case PopupType.Large:
+                    color = "#D3D3D3";
+                    font = "14";
+                    break;
+                case PopupType.LargeCaution:
+                    color = "#FF0000";
+                    font = "14";
+                    break;
+            }
+            var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color]";
+            var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
+            _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
+        }
+
         var label = new CursorPopupLabel(_inputManager.MouseScreenPosition)
         {
             Text = message,
             Type = type,
         };
+
+        _lastCursorPopupData = popupData;
+        _lastCursorPopup = message;
 
         _aliveCursorLabels.Add(popupData, label);
     }
