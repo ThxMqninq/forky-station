@@ -603,3 +603,8 @@ marking-HumanHairLongWithBangs-longwithbangs = Длинная с чёлкой
 
 marking-HumanHairOverEyePigtail = Хвостик (Через глаз)
 marking-HumanHairOverEyePigtail-overeyepigtail = Хвостик (Через глаз)
+
+marking-HumanHairTerminal = Терминал
+marking-HumanHairTerminal-terminal = Основной
+marking-HumanHairTerminal-terminal_highlight = Кончики
+marking-HumanHairTerminal-terminal_headband = Повязка на голову
