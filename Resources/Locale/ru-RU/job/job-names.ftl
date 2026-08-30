@@ -46,6 +46,7 @@ job-name-security = Офицер СБ
 job-name-serviceworker = Сервисный работник
 job-name-station-ai = Станционный ИИ
 job-name-technical-assistant = Технический ассистент
+job-name-tram-driver = Водитель трамвая
 job-name-visitor = Посетитель
 job-name-warden = Смотритель
 
@@ -53,11 +54,12 @@ job-name-warden = Смотритель
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
 job-name-geneticist = Генетик
-job-name-boxer = Юоксёр
+job-name-boxer = Боксёр
 job-name-no-id = Нет ID
 job-name-prisoner = Заключённый
 job-name-roboticist = Робототехник
 job-name-unknown = Неизвестно
+job-name-sus = Подозрительный
 job-name-virologist = Вирусолог
 job-name-zookeeper = Зоотехник
 

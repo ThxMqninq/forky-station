@@ -13,7 +13,13 @@ ghost-gui-toggle-hearing-popup-off = Теперь вы слышите тольк
 
 ghost-target-window-title = Телепорт призрака
 ghost-target-window-current-button = Телепорт в: { $name }
-ghost-target-window-warp-to-most-followed = Телепорт к самому следуемому
+ghost-target-window-warp-to-title = [bold]Быстрый телепорт[/bold]
+ghost-target-window-warp-to-most-followed = Самый наблюдаемый
+ghost-target-window-warp-to-random-followed = Наблюдаемый
+ghost-target-window-warp-to-random = Случайно
+ghost-target-window-warp-to-most-followed-tooltip = Телепорт к самому наблюдаемому игроку
+ghost-target-window-warp-to-random-followed-tooltip = Телепорт к случайному наблюдаемому игроку
+ghost-target-window-warp-to-random-tooltip = Телепорт к случайному игроку
 
 ghost-roles-window-title = Роли призраков
 ghost-roles-window-available-button = Доступно ({ $rolesCount })

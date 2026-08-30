@@ -42,8 +42,21 @@ changeling-flesh-clothing-alert-desc = Нажмите, чтобы переклю
 changeling-biodegrade-used-popup = {CAPITALIZE(THE($user))} извергает кислоту на {POSS-ADJ($user)} {$restraint}!
 changeling-biodegrade-used-popup-self = Мы извергаем кислоту на {$restraint}!
 
+# last resort
+changeling-takeover-not-dead = Это тело ещё живо! Мы не можем заразить его, пока оно живо.
+changeling-takeover-is-changeling = Это тело отвергает наши попытки захватить власть!
+changeling-takeover-start-others = {CAPITALIZE(THE($user))} начинает вползать внутрь трупа!
+changeling-takeover-success-self = Нам удалось проникнуть в тело и принять его облик.
+
 # stings
 changeling-sting-success = Мы незаметно жалим {THE($target)}!
+
+# mindshield
+changeling-fake-mindshield-enabled = Мы излучаем поддельные волны защиты разума.
+changeling-fake-mindshield-disabled = Мы перестаём излучать поддельные волны защиты разума.
+
+# chemicals
+changeling-not-enough-chemicals = У нас не хватает химикатов.
 
 # other
 changeling-paused-map-name = Карта хранения личностей генокрада

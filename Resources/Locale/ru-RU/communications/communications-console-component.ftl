@@ -1,15 +1,25 @@
 # User interface
 comms-console-menu-title = Консоль связи
 comms-console-menu-announcement-placeholder = Текст объявления...
-comms-console-menu-announcement-button = Сделать объявление
+comms-console-menu-broadcast-placeholder = Текст отображения...
+comms-console-menu-broadcast-bottom-placeholder = Итог на экране (не больше 32 символов)
+comms-console-menu-announcement-button = Обьявить через радио
 comms-console-menu-announcement-button-tooltip = Отправьте своё сообщение в качестве радиообъявления на всю станцию.
-comms-console-menu-broadcast-button = Трансляция
+comms-console-menu-broadcast-button = Отобразить на экранах
 comms-console-menu-broadcast-button-tooltip = Транслируйте своё сообщение на настенные экраны по всей станции. Примечание: помещается всего десять символов!
-comms-console-menu-alert-level-button-tooltip = Изменение уровня угрозы станции. Применяется сразу после выбора.
-comms-console-menu-call-shuttle = Вызвать
-comms-console-menu-recall-shuttle = Отозвать
-comms-console-menu-emergency-shuttle-button-tooltip = Вызывает или отзывает эвакуационный шаттл. Вы можете отозвать шаттл, только если осталось достаточно времени.
-comms-console-menu-time-remaining = Оставшееся время: { $time }
+comms-console-menu-alert-level-button-tooltip = Изменить уровень угрозы станции.
+comms-console-change-alert-level-button = Изменить статус
+comms-console-confirm-alert-level-button = Подтвердить
+comms-console-call-button-label = Вызвать
+comms-console-recall-button-label = Отозвать
+comms-console-shuttle-status-label = Время прибытия
+comms-console-shuttle-controls-header = УПРАВЛЕНИЕ ЭВАКУАЦИОННЫМ ШАТТЛОМ
+comms-console-alert-current-level-header = Уровень угрозы
+comms-console-station-announcements-header = Станционное Обьявление
+comms-console-station-broadcast-header = Станционное Отображение
+comms-console-announce-tab-title = Радио
+comms-console-broadcast-tab-title = Экран
+comms-console-char-limit = {$count}/{$max}
 
 # Popup
 comms-console-permission-denied = В доступе отказано

@@ -1,9 +1,21 @@
-# Names
+# Name
+
 chat-emote-name-baa = Баа
-chat-emote-name-moo = Муу
+chat-emote-name-bang = Bang
+chat-emote-name-boom = Boom
 chat-emote-name-hiss = Hiss
+chat-emote-name-moo = Moo
+chat-emote-name-pew = Pew
+chat-emote-name-rev = Rev
+chat-emote-name-ring = Ring
 
 # Message
+
 chat-emote-msg-baa = блеет.
-chat-emote-msg-moo = мычит.
+chat-emote-msg-bangs = bangs!
+chat-emote-msg-booms = booms!
 chat-emote-msg-hiss = шипит.
+chat-emote-msg-moo = moos.
+chat-emote-msg-pews = pews!
+chat-emote-msg-revs = revs.
+chat-emote-msg-rings = rings.

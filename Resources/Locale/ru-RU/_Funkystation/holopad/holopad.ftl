@@ -32,3 +32,4 @@ holopad-logistics-cargo-shuttle = Логистика - Шаттл снабжен
 
 holopad-civilian-lawyer = Гражданский - Адвокат
 holopad-civilian-reporter = Гражданский - Репортёр
+holopad-civilian-newsroom = Civilian - Новостная комната

@@ -1,49 +1,49 @@
 # User interface
-comms-console-menu-title = Communications Console
-comms-console-menu-announcement-placeholder = Announcement text...
-comms-console-menu-broadcast-placeholder = Broadcast text...
-comms-console-menu-broadcast-bottom-placeholder = Screen bottom line (max 32 characters)
-comms-console-menu-announcement-button = Announce over radio
-comms-console-menu-announcement-button-tooltip = Send your message as a station-wide radio announcement.
-comms-console-menu-broadcast-button = Display on screens
-comms-console-menu-broadcast-button-tooltip = Broadcast your message to wall-mounted screens around the station. Note: They fit only ten characters!
-comms-console-menu-alert-level-button-tooltip = Change the station alert level.
-comms-console-change-alert-level-button = Change status
-comms-console-confirm-alert-level-button = Confirm
-comms-console-call-button-label = Call
-comms-console-recall-button-label = Recall
-comms-console-shuttle-status-label = Arrival time
-comms-console-shuttle-controls-header = EMERGENCY SHUTTLE CONTROLS
-comms-console-alert-current-level-header = Alert level
-comms-console-station-announcements-header = Station Announcements
-comms-console-station-broadcast-header = Station Broadcast
-comms-console-announce-tab-title = Radio
-comms-console-broadcast-tab-title = Screen
+comms-console-menu-title = Консоль связи
+comms-console-menu-announcement-placeholder = Текст объявления...
+comms-console-menu-broadcast-placeholder = Транслируемый текст...
+comms-console-menu-broadcast-bottom-placeholder = Текст (максимум 32 символа)
+comms-console-menu-announcement-button = Сделать объявление по связи
+comms-console-menu-announcement-button-tooltip = Отправьте своё сообщение в качестве радиообъявления на всю станцию.
+comms-console-menu-broadcast-button = Отобразить на экранах
+comms-console-menu-broadcast-button-tooltip = Транслируйте своё сообщение на настенные экраны по всей станции. Примечание: помещается всего десять символов!
+comms-console-menu-alert-level-button-tooltip = Изменить уровень угрозы станции.
+comms-console-change-alert-level-button = Изменить уровень
+comms-console-confirm-alert-level-button = Подтвердить
+comms-console-call-button-label = Вызвать
+comms-console-recall-button-label = Отозвать
+comms-console-shuttle-status-label = Время прибытия
+comms-console-shuttle-controls-header = УПРАВЛЕНИЕ ЭВУКАЦИОННЫМ ШАТТЛОМ
+comms-console-alert-current-level-header = Уровень угрозы
+comms-console-station-announcements-header = Объявление станции
+comms-console-station-broadcast-header = Трансляция станции
+comms-console-announce-tab-title = Связь
+comms-console-broadcast-tab-title = Экран
 comms-console-char-limit = {$count}/{$max}
 
 # Popup
-comms-console-permission-denied = Permission denied
-comms-console-shuttle-unavailable = Shuttle is currently unavailable
-comms-console-message-too-long = Message is too long
-comms-console-message-cannot-send = Communications temporarily disabled
+comms-console-permission-denied = В доступе отказано
+comms-console-shuttle-unavailable = В настоящее время шаттл недоступен
+comms-console-message-too-long = Сообщение слишком длинное
+comms-console-message-cannot-send = Связь временно отключена
 
 # Placeholder values
-comms-console-announcement-sent-by = Sent by
-comms-console-announcement-unknown-sender = Unknown
+comms-console-announcement-sent-by = Отправитель
+comms-console-announcement-unknown-sender = Неизвестный
 
 # Comms console variant titles
-comms-console-announcement-title-station = Communications Console
-comms-console-announcement-title-centcom = Central Command
-comms-console-announcement-title-nukie = Syndicate Nuclear Operative
-comms-console-announcement-title-station-ai = Station AI
-comms-console-announcement-title-wizard = Wizard
+comms-console-announcement-title-station = Консоль связи
+comms-console-announcement-title-centcom = Центральное командование
+comms-console-announcement-title-nukie = Ядерные оперативники Синдиката
+comms-console-announcement-title-station-ai = Станционный ИИ
+comms-console-announcement-title-wizard = Волшебник
 
 # Flavor text for alert levels
-comms-console-level-Green-flavour-label = Work is to proceed as normal
-comms-console-level-Blue-flavour-label = Record suspicious activity with form NT-4772-b
-comms-console-level-Violet-flavour-label = Maintain social distancing
-comms-console-level-Yellow-flavour-label = Prepare to hold your breath
-comms-console-level-Red-flavour-label = Remain vigilant
-comms-console-level-Gamma-flavour-label = Suggest extreme caution
-comms-console-level-Delta-flavour-label = Good luck
-comms-console-level-Epsilon-flavour-label = You're fired
+comms-console-level-Green-flavour-label = Продолжайте работу
+comms-console-level-Blue-flavour-label = Заполните форму NT-4772-b для отчёта
+comms-console-level-Violet-flavour-label = Соблюдайте социальную дистанцию
+comms-console-level-Yellow-flavour-label = Приготовьтесь задержать дыхание
+comms-console-level-Red-flavour-label = Сохраняйте бдительность
+comms-console-level-Gamma-flavour-label = Рекомендуется проявлять крайнюю осторожность
+comms-console-level-Delta-flavour-label = Удачи :)
+comms-console-level-Epsilon-flavour-label = Контракты расторгнуты

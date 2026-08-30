@@ -2,6 +2,7 @@ admin-quick-info-loading = Загрузка информации об сущно
 admin-quick-info-entity = Сущность: [color=white]{ESCAPE($name)}[/color] ([color=cyan]{ESCAPE($prototype)}[/color], [color=lime]{ESCAPE($entity)}[/color])
 admin-quick-info-entity-missing = Сущность {ESCAPE($entity)} больше не существует
 admin-quick-info-no-prototype = (Нет прототипа)
+admin-quick-info-inactive = [color=yellow]Больше не управляется игроком.[/color] Последний игрок:
 
 admin-quick-info-username = Имя пользователя: [color=white]{ESCAPE($username)}[/color] (время игры: [color=white]{ESCAPE($playtime)}[/color])
 admin-quick-info-character = Персонаж: [color=white]{ESCAPE($character)}[/color]

@@ -3,6 +3,10 @@ uplink-syndicate-hacking-module-name = Модуль взломщика кибо�
 uplink-syndicate-hacking-module-desc = Для тех случаев, когда вам нужен командир-борг для вашего отряда боргов.
 
 # Weapons
+
+uplink-revolver-python-name = Питон
+uplink-revolver-python-desc = Громкий и мощный револьвер Питон. Заряжен бронебойными патронами.
+
 uplink-pistol-wyvern-name = Виверна
 uplink-pistol-wyvern-desc = Мощный пистолет под патрон .50 AE, поставлявшийся небольшими партиями как NT, так и Синдикату. Поставляется с урановыми боеприпасами.
 

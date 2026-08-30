@@ -63,6 +63,9 @@ cargo-console-paper-print-text = Заказ #{ $orderNumber }
     Причина: { $reason }
     Одобрил: { $approver }
 
+# Funky, signature field
+cargo-console-paper-recipient-signature = [bold]Подпись получателя:[/bold] [signature]
+
 # Cargo shuttle console
 cargo-shuttle-console-menu-title = Консоль вызова грузового шаттла
 cargo-shuttle-console-station-unknown = Неизвестно
