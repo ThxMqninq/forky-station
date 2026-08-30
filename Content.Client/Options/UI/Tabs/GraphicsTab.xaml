@@ -41,6 +41,18 @@
                           Text="{Loc 'ui-options-vp-vertical-fit'}"
                           ToolTip="{Loc 'ui-options-vp-vertical-fit-tooltip'}" />
 
+                <!-- Lobby - Top & Bottom colors -->
+                <Label Text="{Loc 'ui-options-lobby-label'}" StyleClasses="LabelKeyText"/>
+                <Label Text="{Loc 'ui-options-lobby-subtext-1-label'}" StyleClasses="LabelSubText"/>
+                <Label Text="{Loc 'ui-options-lobby-subtext-2-label'}" StyleClasses="LabelSubText"/>
+                <ui:OptionDropDown Name="DropDownLobbyShader" Title="{Loc 'ui-options-lobby-shader'}"/>
+                <ui:OptionColorSlider Name="TopColorSlider"
+                    Title="{Loc 'ui-options-lobby-top-gc-color'}"
+                    Example="{Loc 'ui-options-lobby-top-gc-color-example'}"/>
+                <ui:OptionColorSlider Name="BottomColorSlider"
+                    Title="{Loc 'ui-options-lobby-bottom-color'}"
+                    Example="{Loc 'ui-options-lobby-bottom-color-example'}"/>
+
                 <!-- Misc -->
                 <Label Text="{Loc 'ui-options-misc-label'}" StyleClasses="LabelKeyText"/>
                 <CheckBox Name="FpsCounterCheckBox" Text="{Loc 'ui-options-fps-counter'}" />

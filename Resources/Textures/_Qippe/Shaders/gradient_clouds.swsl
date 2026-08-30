@@ -1,0 +1,38 @@
+// https://godotshaders.com/shader/discrete-clouds/
+
+uniform highp vec4 bottom_color;
+uniform highp vec4 top_color;
+
+uniform sampler2D tex;
+uniform highp int layer_count;
+uniform highp float time_scale;
+uniform highp float base_intensity;
+uniform highp float size;
+
+highp vec4 lerp(highp vec4 a, highp vec4 b, highp float w) {
+	return a + w * (b - a);
+}
+
+highp float fmod(highp float x, highp float y) {
+	return x - floor(x / y) * y;
+}
+
+highp float rand(highp float n) {
+    return fract(sin(n) * 43758.5453123);
+}
+
+bool cloud_layer(highp float x, highp float y, highp float h) {
+	return y - sqrt((1.0 - pow(y - h, 2.0))) * base_intensity * texture2D(tex, vec2(fmod(x / size + rand(h), 1.0), fmod(y / size - TIME * time_scale, 1.0))).r < h;
+}
+
+void fragment() {
+	highp float y = 1.0 - SCREEN_UV.y;
+
+	for (int i = 0; i < layer_count; i++) {
+		highp float h = float(i) / float(layer_count - 1);
+		if (cloud_layer(SCREEN_UV.x, y, h)) {
+			COLOR = lerp(bottom_color, top_color, h);
+			break;
+		}
+	}
+}

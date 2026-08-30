@@ -1,13 +1,12 @@
-using System.Numerics;
 using Content.Client.Audio;
 using Content.Client.GameTicking.Managers;
 using Content.Client.LateJoin;
 using Content.Client.Lobby.UI;
 using Content.Client.Message;
 using Content.Client.Playtime;
-using Content.Client.Resources;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
+using Content.Shared._Qippe.QVars;
 using Content.Shared.CCVar;
 using Robust.Client;
 using Robust.Client.Console;
@@ -40,8 +39,16 @@ namespace Content.Client.Lobby
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
         public LobbyGui? Lobby;
 
-        private readonly ProtoId<ShaderPrototype> _starSkyShaderProto = "StarSky";
+        private ProtoId<ShaderPrototype> _shaderProto;
         private ShaderInstance? _shaderInstance;
+        private readonly List<string> _gradientVectors = new List<string> { "bottom_color",
+            "top_color" };
+        private readonly List<string> _gradientCloudsFloats = new List<string> { "time_scale",
+            "base_intensity",
+            "size" };
+        private readonly List<string> _gradientOceanFloats = new List<string> { "wave_amp",
+            "wave_size",
+            "wave_time_mul" };
 
         protected override void Startup()
         {
@@ -50,7 +57,7 @@ namespace Content.Client.Lobby
                 return;
             }
 
-            Lobby = (LobbyGui) _userInterfaceManager.ActiveScreen;
+            Lobby = (LobbyGui)_userInterfaceManager.ActiveScreen;
 
             var chatController = _userInterfaceManager.GetUIController<ChatUIController>();
             _gameTicker = _entityManager.System<ClientGameTicker>();
@@ -74,7 +81,10 @@ namespace Content.Client.Lobby
 
             UpdateLobbyUi();
 
-            _shaderInstance = _protoMan.Index(_starSkyShaderProto).InstanceUnique();
+            _cfg.OnValueChanged(QVars.SelectedLobbyShader, UpdateLobbyShader);
+            _cfg.OnValueChanged(QVars.GradientColorBottom, SetLobbyShaderBottomColor);
+            _cfg.OnValueChanged(QVars.GradientColorTop, SetLobbyShaderTopColor);
+            UpdateLobbyShader(_cfg.GetCVar(QVars.SelectedLobbyShader));
             UpdateLobbyBackground();
 
             Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
@@ -198,7 +208,7 @@ namespace Content.Client.Lobby
             {
                 Lobby!.StartTime.Text = string.Empty;
                 Lobby!.ReadyButton.Pressed = _gameTicker.AreWeReady;
-                Lobby!.ReadyButton.Text = Loc.GetString(Lobby!.ReadyButton.Pressed ? "lobby-state-player-status-ready": "lobby-state-player-status-not-ready");
+                Lobby!.ReadyButton.Text = Loc.GetString(Lobby!.ReadyButton.Pressed ? "lobby-state-player-status-ready" : "lobby-state-player-status-not-ready");
                 Lobby!.ReadyButton.ToggleMode = true;
                 Lobby!.ReadyButton.Disabled = false;
                 Lobby!.ObserveButton.Disabled = true;
@@ -264,32 +274,78 @@ namespace Content.Client.Lobby
             if (Lobby is not null)
             {
                 Lobby.Background.Texture = _resourceCache.GetResource<TextureResource>("/Textures/LobbyScreens/warden.webp");
-                if (_shaderInstance is not null)
-                {
-                    // Seed
-                    _shaderInstance.SetParameter("seed", 0.01f);
-                    // Main stars
-                    _shaderInstance.SetParameter("gradientA", new Vector2(1, 0));
-                    _shaderInstance.SetParameter("horizontalMovement", -0.5f);
-                    _shaderInstance.SetParameter("verticalMovement", 0.5f);
-                    _shaderInstance.SetParameter("frequencyStar", 0.1f);
-                    _shaderInstance.SetParameter("sizeStar", 100.0f);
-                    _shaderInstance.SetParameter("brightnessStar", 1.0f);
-                    _shaderInstance.SetParameter("shineFrequencyStar", 4.0f);
-                    _shaderInstance.SetParameter("transparencyStar", 0.95f);
-                    _shaderInstance.SetParameter("starIterations", 2);
-                    // Background stars
-                    _shaderInstance.SetParameter("gradientB", new Vector2(0, 1));
-                    _shaderInstance.SetParameter("frequencyBgStar", 0.98f);
-                    _shaderInstance.SetParameter("shineFrequencyBgStar", 1.0f);
-                    _shaderInstance.SetParameter("transparencyBgStar", 0.6f);
-                    // Background color and transparency
-                    _shaderInstance.SetParameter("colorBackground", new Vector4(0.001f, 0.001f, 0.005f, 1.0f));
-                    _shaderInstance.SetParameter("transparencyBackground", 0.0f);
-                    Lobby!.Background.ShaderOverride = _shaderInstance;
-                }
-
                 Lobby.LobbyBackground.SetMarkup(Loc.GetString("lobby-state-background-no-background-text"));
+            }
+        }
+
+        private void UpdateLobbyShader(int lobbyShader)
+        {
+            ProtoId<ShaderPrototype> shaderProto;
+            switch (lobbyShader)
+            {
+                case 1:
+                    shaderProto = "GradientClouds";
+                    _shaderProto = shaderProto;
+                    break;
+                case 2:
+                    shaderProto = "GradientOcean";
+                    _shaderProto = shaderProto;
+                    break;
+                case 3:
+                    shaderProto = "GradientSunset";
+                    _shaderProto = shaderProto;
+                    break;
+            }
+            _shaderInstance = _protoMan.Index(_shaderProto).InstanceUnique();
+            SetAllShaderParams(lobbyShader);
+            Lobby!.Background.ShaderOverride = _shaderInstance;
+        }
+
+        private void SetLobbyShaderBottomColor(string hexColor)
+        {
+            _shaderInstance?.SetParameter("bottom_color", Color.FromHex(hexColor));
+        }
+
+        private void SetLobbyShaderTopColor(string hexColor)
+        {
+            _shaderInstance?.SetParameter("top_color", Color.FromHex(hexColor));
+        }
+
+        private void SetAllShaderParams(int lobbyShader)
+        {
+            if (_shaderInstance is null)
+                return;
+
+            switch (lobbyShader)
+            {
+                case 1:
+                    foreach (var vectorName in _gradientVectors)
+                    {
+                        var cvar = _cfg.GetCVar<string>($"lobby.gradient_{vectorName}");
+                        var color = Color.FromHex(cvar);
+                        _shaderInstance.SetParameter(vectorName, color.RGBA);
+                    }
+                    foreach (var floatName in _gradientCloudsFloats)
+                    {
+                        _shaderInstance.SetParameter(floatName, _cfg.GetCVar<float>($"lobby.gradient_clouds_{floatName}"));
+                    }
+                    var tr = _resourceCache.GetResource<TextureResource>("/Textures/Parallaxes/noise.png");
+                    _shaderInstance.SetParameter("tex", tr.Texture);
+                    _shaderInstance.SetParameter("layer_count", _cfg.GetCVar(QVars.GradientCloudsLayerCount));
+                    break;
+                case 2:
+                    foreach (var vectorName in _gradientVectors)
+                    {
+                        var cvar = _cfg.GetCVar<string>($"lobby.gradient_{vectorName}");
+                        var color = Color.FromHex(cvar);
+                        _shaderInstance.SetParameter(vectorName, color.RGBA);
+                    }
+                    foreach (var floatName in _gradientOceanFloats)
+                    {
+                        _shaderInstance.SetParameter(floatName, _cfg.GetCVar<float>($"lobby.gradient_ocean_{floatName}"));
+                    }
+                    _shaderInstance.SetParameter("total_phases", _cfg.GetCVar(QVars.GradientOceanTotalPhases));
+                    break;
             }
         }
 
