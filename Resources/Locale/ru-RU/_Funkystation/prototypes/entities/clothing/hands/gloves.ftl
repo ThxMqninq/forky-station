@@ -1,6 +1,6 @@
 ent-FuClothingHandsGlovesJanitorInsul = резиновые перчатки
     .desc = Качественные резиновые перчатки — как раз то, что нужно для уборки!
-ent-FuClothingHandsGlovesRubberChemist = химические перчатки повышенной прочности
+ent-FuClothingHandsGlovesChemist = химические перчатки повышенной прочности
     .desc = Высококачественные прочные перчатки из резинового латекса. Дорогие средства индивидуальной защиты, закрывающие руки вплоть до локтей и обеспечивающие защиту от опасных химических веществ.
 ent-FuClothingHandsGlovesCombatBloodred = кроваво-красные боевые перчатки
     .desc = Эти тактические перчатки защищают от низкого напряжения, имеют ладони с повышенным сцеплением и мягкие накладки на суставах пальцев. Вы почувствуете себя непобедимым.
@@ -8,6 +8,9 @@ ent-FuClothingHandsGlovesInsuls = изолированные перчатки
     .desc = Эти перчатки защищают пользователя от поражения электрическим током.
 ent-FuClothingHandsGlovesInsulsBudget = дешёвые изолированные перчатки
     .desc = Всего лишь дешёвая подделка заветных перчаток — не может быть, чтобы это плохо кончилось.
+ent-FuClothingHandsGlovesConducting = { ent-FuClothingHandsGlovesInsuls }
+    .suffix = Проводящие
+    .desc = { ent-FuClothingHandsGlovesInsuls.desc }
 ent-FuClothingHandsGlovesColorYellow = жёлтые перчатки
     .desc = Обычные жёлтые перчатки, которые не спасут вас от поджаривания.
 ent-FuClothingHandsGlovesChiefEngineerInsuls = дуговые перчатки старшего инженера
