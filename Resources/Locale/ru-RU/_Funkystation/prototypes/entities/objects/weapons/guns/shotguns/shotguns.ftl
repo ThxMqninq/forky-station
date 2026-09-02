@@ -1,0 +1,12 @@
+ent-FuWeaponShotgunDoubleBarreled = двуствольное ружьё
+    .desc = Бессмертная классика. Использует патроны 12 калибра.
+ent-FuWeaponShotgunDoubleBarreledRubber =
+    .desc = Бессмертная классика. Использует патроны 12 калибра.
+    .suffix = Дробовик, Травматический
+ent-FuWeaponShotgunKammerer = Каммерер
+    .desc = Старая, но верная конструкция, любимая нерегулярными силами многих миров. Использует патроны 12 калибра.
+ent-FuWeaponShotgunSawn = обрез
+    .desc = Против всякой шелупони. Использует патроны 12 калибра.
+ent-FuWeaponShotgunSawnEmpty = обрез
+    .desc = Против всякой шелупони. Использует патроны 12 калибра.
+    .suffix = Пустой, Дробовик

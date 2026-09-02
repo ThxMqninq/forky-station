@@ -1,6 +1,7 @@
 ent-BaseWeaponLauncher = BaseWeaponLauncher
     .desc = Дерзай — налетай, целься и стреляй.
 ent-WeaponLauncherChinaLake = China Lake
+    .suffix = Устаревшее
     .desc = БЛУП.
 ent-WeaponLauncherHydra = гидра
     .desc = БЛУП... ПШШШШШШ...
