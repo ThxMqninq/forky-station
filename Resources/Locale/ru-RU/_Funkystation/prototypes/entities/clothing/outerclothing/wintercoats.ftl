@@ -12,3 +12,5 @@ ent-FuClothingOuterWinterCmo = утеплённый лабораторный х�
     .desc = Лабораторный халат медицинского назначения с дополнительной теплоизоляцией. Он по-прежнему отлично защищает от попадания едких веществ и при этом обеспечивает комфортную теплоизоляцию.
 ent-FuClothingOuterWinterCmoOpened = { ent-FuClothingOuterWinterCmo }
     .desc = { ent-FuClothingOuterWinterCmo.desc }
+ent-FuClothingOuterWinterHd = зимняя куртка директора по гостеприимству
+    .desc = Стильная куртка с золотой отделкой на случай, если в дистре станет немного прохладно. В комплекте — лишний ремень.
