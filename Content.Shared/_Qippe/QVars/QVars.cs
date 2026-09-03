@@ -42,7 +42,7 @@ public sealed partial class QVars : CVars
         CVarDef.Create("lobby.gradient_ocean_wave_size", 5f, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     public static readonly CVarDef<float> GradientOceanWaveTimeMultiplier =
-        CVarDef.Create("lobby.gradient_ocean_wave_time_mul", 1f, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("lobby.gradient_ocean_wave_time_mul", 0.2f, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     public static readonly CVarDef<int> GradientOceanTotalPhases =
         CVarDef.Create("lobby.gradient_ocean_total_phases", 40, CVar.CLIENTONLY | CVar.ARCHIVE);
