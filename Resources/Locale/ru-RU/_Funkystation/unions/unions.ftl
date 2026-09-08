@@ -1,0 +1,56 @@
+trait-category-leadership = Лидерство
+trait-union-leader-name = Лидер профсоюза
+trait-union-leader-desc = Возглавьте свой местный профсоюз! Вы следите за тем, чтобы работники соблюдали стандартные операционные процедуры, а руководители отделов — установленные правила.
+trait-union-member-name = Член профсоюза
+trait-union-member-desc = Станьте частью своего местного профсоюза!
+
+megaphone-not-a-member = Вы не являетесь членом этого профсоюза.
+megaphone-not-leader = Использовать это может только лидер профсоюза.
+megaphone-on-cooldown = Мегафону нужно немного времени, чтобы «отдохнуть» перед следующим использованием.
+megaphone-strike-started = { $union } СЕЙЧАС НАХОДИТСЯ В ЗАБАСТОВКЕ. Члены профсоюза должны сплотиться вокруг своего лидера.
+megaphone-strike-ended = Забастовка { $union } завершилась. Члены профсоюза могут возвращаться к работе.
+megaphone-window-title = Мегафон
+megaphone-call-strike-button = Объявить забастовку
+megaphone-end-strike-button = Завершить забастовку
+megaphone-message-too-long = Сообщение слишком длинное.
+megaphone-message-placeholder = Напишите здесь причины забастовки.
+
+union-clipboard-not-a-member = Вы не являетесь членом этого профсоюза.
+union-clipboard-claim-window-title = Претендовать на лидерство
+union-clipboard-claim-prompt = Вы не являетесь действующим лидером этого профсоюза, хотите ли вы претендовать на эту должность?
+union-clipboard-claim-yes = Да
+union-clipboard-claim-no = Нет
+union-clipboard-claim-leadership-prompt = Вы начинаете возиться с планшетом, пытаясь взять на себя руководство...
+union-clipboard-claimed-leadership = Используя планшет, вы теперь провозглашаете себя главой { $union }!
+
+union-clipboard-menu-title = Список членов профсоюза
+union-clipboard-leader-name = { $name } (лидер)
+union-clipboard-notes-button = Заметки
+union-clipboard-notes-window-title = Заметки: { $name }
+union-clipboard-no-notes = Заметок пока нет.
+union-clipboard-add-note-button = + Добавить заметку
+union-clipboard-add-note-window-title = Добавить заметку
+union-clipboard-add-note-title-placeholder = Заголовок
+union-clipboard-add-note-text-placeholder = Напишите что-нибудь приятное!
+union-clipboard-add-note-submit = Сохранить
+union-clipboard-no-match = Вы не видите никого поблизости с таким ID.
+union-clipboard-command-member = { $name } является членом командования и не может вступить в союз.
+union-clipboard-already-registered = Они уже входят в другой союз.
+union-clipboard-registered = { $name } добавлен в список участников союза.
+union-clipboard-make-steward-button = Назначить стюардом
+union-clipboard-locked-message = Проверка { $name } в качестве стюарда. Предъявите его ID в планшете для подтверждения.
+union-clipboard-locked-cancel = Отменить
+union-clipboard-steward-mismatch = Это неверный идентификатор.
+union-clipboard-steward-confirmed = { $name } теперь является стюардом.
+union-clipboard-steward-name = { $name } (стюард)
+union-clipboard-assign-steward-label = Стюард:
+union-clipboard-assign-steward-none = Нет
+
+union-card-examine = Подтверждает, что { $name } стоит на позиции { $position } в { $union }.
+union-card-position-leader = Лидер
+union-card-position-steward = Стюард
+union-card-position-member = Член
+union-card-burn-begin-self = Вы подносите свой профсоюзный билет к пламени, отказываясь от членства...
+union-card-burn-begin-other = Вы подносите профсоюзный билет { $name } к пламени...
+union-card-burned-self = Вашего профсоюзного билета больше нет. Вы вышли из профсоюза.
+union-card-burned-other = Профсоюзного билета { $name } больше нет. Он/она больше не является членом своего профсоюза.
