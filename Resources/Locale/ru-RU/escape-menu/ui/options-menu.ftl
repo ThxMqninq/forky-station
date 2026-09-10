@@ -144,13 +144,15 @@ ui-options-header-text-chat = Чат
 ui-options-header-text-other = Прочий ввод текста
 
 ui-options-hotkey-keymap = Использовать клавиши QWERTY (США)
-ui-options-hotkey-toggle-walk = Переключать шаг\бег
+# funky, changed walk to sprint
+ui-options-hotkey-toggle-walk = Переключать бег
 
 ui-options-function-move-up = Двигаться вверх
 ui-options-function-move-left = Двигаться налево
 ui-options-function-move-down = Двигаться вниз
 ui-options-function-move-right = Двигаться направо
-ui-options-function-walk = Идти
+# funky, changed walk to sprint
+ui-options-function-walk = Бежать
 ui-options-function-toggle-knockdown = Переключить ползание
 
 ui-options-function-camera-rotate-left = Повернуть налево
@@ -404,6 +406,12 @@ ui-options-chat-window-opacity = Непрозрачность окна чата
 ui-options-speech-bubble-text-opacity = Непрозрачность текста речевого пузыря
 ui-options-speech-bubble-speaker-opacity = Непрозрачность диктора речевого пузыря
 ui-options-speech-bubble-background-opacity = Непрозрачность фона речевого пузыря
+
+# funky custom interaction outlines
+ui-options-interaction-outline-valid = Цвет контура для объектов, находящихся в пределах области взаимодействия
+ui-options-interaction-outline-invalid = Цвет контура для объектов, находящихся за пределами области взаимодействия
+ui-options-interaction-color-example = Это цвет контура.
+ui-options-color-slider-default-button = Сбросить до значений по умолчанию
 
 ui-options-censor-nudity = Цензура обнажённых персонажей
 

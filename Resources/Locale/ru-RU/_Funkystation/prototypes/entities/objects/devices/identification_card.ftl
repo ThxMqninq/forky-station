@@ -14,3 +14,5 @@ ent-LieutenantIDCard = ID карта лейтенанта
     .desc = { ent-SecurityIDCard.desc }
 ent-DispatcherIDCard =  ID карта диспетчера
     .desc = { ent-SecurityIDCard.desc }
+ent-FuCourierIDCard = ID карта курьера
+    .desc = { ent-CargoIDCard.desc }

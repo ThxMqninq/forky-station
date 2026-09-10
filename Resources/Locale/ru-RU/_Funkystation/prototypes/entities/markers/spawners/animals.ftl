@@ -1,0 +1,16 @@
+ent-SpawnMobDuckGeneric = спавнер утка
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobDuckMallard = спавнер кряква
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobDuckWhite = спавнер белая утка
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobDuckBrown = спавнер коричневая утка
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobChickenGeneric = спавнер курица
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobChickenGrey = спавнер серая курица
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobChickenBrown = спавнер коричневая курица
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobChickenWhite = спавнер белая утка
+    .desc = { ent-MarkerBase.desc }

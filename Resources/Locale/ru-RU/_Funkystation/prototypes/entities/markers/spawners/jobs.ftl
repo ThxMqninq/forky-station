@@ -14,3 +14,7 @@ ent-SpawnPointLieutenant = лейтенант
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointDispatcher = диспетчер
     .desc = { ent-SpawnPointJobBase.desc }
+ent-FuSpawnPointCourier = курьер
+    .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointPrisoner = заключённый
+    .desc = { ent-SpawnPointJobBase.desc }
