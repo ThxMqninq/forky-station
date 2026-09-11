@@ -614,4 +614,94 @@
   id: 70
   time: '2026-09-10T07:09:18Z'
   url: https://github.com/funky-station/forky-station/pull/454
+- author: AraiMaia, VectorAssembly
+  changes:
+  - message: Added molotovs. Use a piece of cloth on a glass bottle to create one.
+    type: Add
+  id: 71
+  time: '2026-09-10T08:44:10Z'
+  url: https://github.com/funky-station/forky-station/pull/417
+- author: DrSmugleaf, stinkiestdog, AraiMaia
+  changes:
+  - message: Ported chat stacking from RMC! Thank you DrSmugleaf!
+    type: Add
+  id: 72
+  time: '2026-09-10T08:50:53Z'
+  url: https://github.com/funky-station/forky-station/pull/421
+- author: Reconpangolin
+  changes:
+  - message: Added prisoner radio channel
+    type: Add
+  - message: Adjusted the salvage magnet and ore processor for prisoner
+    type: Tweak
+  id: 73
+  time: '2026-09-10T09:55:07Z'
+  url: https://github.com/funky-station/forky-station/pull/342
+- author: Joaco545
+  changes:
+  - message: Added the new sentencing guidelines
+    type: Add
+  id: 74
+  time: '2026-09-10T15:35:33Z'
+  url: https://github.com/funky-station/forky-station/pull/453
+- author: AraiMaia
+  changes:
+  - message: New sprites and names for the various cigarette packets and cartons.
+    type: Add
+  id: 75
+  time: '2026-09-10T17:37:33Z'
+  url: https://github.com/funky-station/forky-station/pull/450
+- author: Ven
+  changes:
+  - message: Medical beds now accept gas tanks. Internals aswell
+    type: Add
+  - message: Operating tables have a  toggleable overhead light and visual monitor.
+      And sounds!
+    type: Add
+  - message: Furniture wheels now play a little sound and are synced up with wrenches.
+    type: Tweak
+  id: 76
+  time: '2026-09-10T18:42:31Z'
+  url: https://github.com/funky-station/forky-station/pull/319
+- author: Rainbeon
+  changes:
+  - message: 'Added a new roundstart lawset: NT Standard.'
+    type: Add
+  - message: MMIs no longer fit in Cyborgs.
+    type: Tweak
+  - message: Renamed Cyborgs to Automas.
+    type: Tweak
+  - message: Automascan no longer use Common comms.
+    type: Tweak
+  - message: Updated the Guidebook for Automas.
+    type: Tweak
+  - message: Modified NT Default to NT Deprecated - with the contents being the last
+      updated version of NTD from Funky.
+    type: Tweak
+  id: 77
+  time: '2026-09-10T21:25:34Z'
+  url: https://github.com/funky-station/forky-station/pull/440
+- author: VectorAssembly, AraiMaia
+  changes:
+  - message: Ported a ton of Vector's sprites over to Funky.
+    type: Add
+  id: 78
+  time: '2026-09-10T22:51:25Z'
+  url: https://github.com/funky-station/forky-station/pull/460
+- author: Gamercodeleo1, pirakaplant, Alicios
+  changes:
+  - message: Added a playtest version of the Station Regulations to the guidebook.
+    type: Add
+  - message: Fixed a few grammatical errors and inconsistencies in NTCLP.
+    type: Fix
+  id: 79
+  time: '2026-09-11T01:22:29Z'
+  url: https://github.com/funky-station/forky-station/pull/462
+- author: AraiMaia
+  changes:
+  - message: Added handheld versions of Station News and the LogProbe.
+    type: Add
+  id: 80
+  time: '2026-09-11T01:28:44Z'
+  url: https://github.com/funky-station/forky-station/pull/447
 Order: -1
