@@ -62,15 +62,24 @@ namespace Content.Server.GameTicking
                         var firstConnection = record != null &&
                                             Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 30; // 1 -> 30
                         var createdTime = "Error while getting createdTime";
+                        var userId = args.Session.UserId.ToString();
 
-                        try
+                        if (!args.Session.Name.StartsWith("localhost"))
                         {
-                            createdTime = await AdminApiHelpers.GetCreatedTime(args.Session.UserId.ToString());
+                            try
+                            {
+                                createdTime = await AdminApiHelpers.GetCreatedTime(userId);
+                            }
+                            catch (Exception ex)
+                            {
+                                _sawmill.Warning($"Error while getting createdTime: {ex.Message}");
+                            }
                         }
-                        catch (Exception ex)
+                        else
                         {
-                            _sawmill.Warning($"Error while getting createdTime: {ex.Message}");
+                            _sawmill.Info($"Player {args.Session.Name} is a localhost, ignoring getting createdTime...");
                         }
+
                         if (createdTime != null)
                             _chatManager.SendAdminAnnouncement(firstConnection
                               ? Loc.GetString("player-first-join-message", ("name", args.Session.Name)) + " " +
