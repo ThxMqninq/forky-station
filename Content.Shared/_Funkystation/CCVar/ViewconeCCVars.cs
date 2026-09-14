@@ -11,7 +11,7 @@ public sealed class ViewconeCCVars : CVars
 {
     // toggle for the whole viewcone system.
     public static readonly CVarDef<bool> ViewconeEnabled =
-        CVarDef.Create("funkystation.viewcone_enabled", true, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("funkystation.viewcone_enabled", false, CVar.SERVER | CVar.REPLICATED); // Edited
 
     // base viewcone angle in degrees, before modifiers
     public static readonly CVarDef<float> ViewconeBaseAngle =
