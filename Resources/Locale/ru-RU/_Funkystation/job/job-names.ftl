@@ -16,4 +16,4 @@ job-name-xo = Исполнительный директор
 job-name-lieutenant = Лейтенант
 job-name-commandant = Комендант
 job-name-dispatcher = Диспетчер
-job-name-courier = Courier
+job-name-courier = Курьер

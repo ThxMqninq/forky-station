@@ -1,142 +1,142 @@
 # Chest
 
-marking-KodeBarsChest = Bars
-marking-KodeBarsChest-bars = Bars
+marking-KodeBarsChest = Пруты
+marking-KodeBarsChest-bars = Пруты
 
-marking-KodeBelly = Belly
-marking-KodeBelly-belly = Belly
+marking-KodeBelly = Живот
+marking-KodeBelly-belly = Живот
 
-marking-KodeCanvas = Canvas
-marking-KodeCanvas-canvas1 = Pixel 1
-marking-KodeCanvas-canvas2 = Pixel 2
-marking-KodeCanvas-canvas3 = Pixel 3
-marking-KodeCanvas-canvas4 = Pixel 4
-marking-KodeCanvas-canvas5 = Pixel 5
-marking-KodeCanvas-canvas6 = Pixel 6
-marking-KodeCanvas-canvas7 = Pixel 7
-marking-KodeCanvas-canvas8 = Pixel 8
-marking-KodeCanvas-canvas9 = Pixel 9
+marking-KodeCanvas = Холст
+marking-KodeCanvas-canvas1 = Пиксель 1
+marking-KodeCanvas-canvas2 = Пиксель 2
+marking-KodeCanvas-canvas3 = Пиксель 3
+marking-KodeCanvas-canvas4 = Пиксель 4
+marking-KodeCanvas-canvas5 = Пиксель 5
+marking-KodeCanvas-canvas6 = Пиксель 6
+marking-KodeCanvas-canvas7 = Пиксель 7
+marking-KodeCanvas-canvas8 = Пиксель 8
+marking-KodeCanvas-canvas9 = Пиксель 9
 
-marking-KodeChestEye = Large Eye (Chest)
-marking-KodeChestEye-eye1 = Schlera
-marking-KodeChestEye-eye2 = Iris
+marking-KodeChestEye = Большой глаз (туловище)
+marking-KodeChestEye-eye1 = Склера
+marking-KodeChestEye-eye2 = Радужка
 
-marking-KodeChestGills = Chest Gills
-marking-KodeChestGills-gills = Gills
+marking-KodeChestGills = Грудные жабры
+marking-KodeChestGills-gills = Жабры
 
-marking-KodeOrgans = Organs
-marking-KodeOrgans-organs1 = Skin
-marking-KodeOrgans-organs2 = Primary Organs
-marking-KodeOrgans-organs3 = Secondary Organs
+marking-KodeOrgans = Органы
+marking-KodeOrgans-organs1 = Кожа
+marking-KodeOrgans-organs2 = Основные органы
+marking-KodeOrgans-organs3 = Вторичные органы
 
-marking-KodeStripesChest = Stripes
-marking-KodeStripesChest-stripes = Stripes
+marking-KodeStripesChest = Полосы
+marking-KodeStripesChest-stripes = Полосы
 
-marking-KodeStripesChestUnshaded = Stripes (Bioluminescent)
-marking-KodeStripesChestUnshaded-stripes = Stripes
+marking-KodeStripesChestUnshaded = Полосы (биолюминисцентные)
+marking-KodeStripesChestUnshaded-stripes = Полосы
 
-marking-KodeTeethChest = Teeth
-marking-KodeTeethChest-tummyteeth = Teeth
+marking-KodeTeethChest = Зубы
+marking-KodeTeethChest-tummyteeth = Зубы
 
-marking-KoiChest = Koi Spots
-marking-KoiChest-koispots1 = Spots
-marking-KoiChest-koispots2 = Spots
+marking-KoiChest = Пятна кои
+marking-KoiChest-koispots1 = Пятна
+marking-KoiChest-koispots2 = Пятна
 
-marking-MantleShade = Mantle Shade
-marking-MantleShade-mantleshade1 = Primary
-marking-MantleShade-mantleshade2 = Secondary
+marking-MantleShade = Оттенок покрова
+marking-MantleShade-mantleshade1 = Основной
+marking-MantleShade-mantleshade2 = Вторичный
 
 # Head
 
-marking-FakeVoxHead = Fake Head (Vox)
-marking-FakeVoxHead-fakevoxhead = Head
+marking-FakeVoxHead = Фальшивая голова (Вокс)
+marking-FakeVoxHead-fakevoxhead = Голова
 
-marking-HappySmiler = Happy Smiler
-marking-HappySmiler-happysmiler = Happy Smiler
+marking-HappySmiler = Счастливый улыбчик
+marking-HappySmiler-happysmiler = Счастливый улыбчик
 
-marking-KodeEyeSplotch = Eye Splotch
-marking-KodeEyeSplotch-eyesplotch = Eye Splotch
+marking-KodeEyeSplotch = Пятно на глазу
+marking-KodeEyeSplotch-eyesplotch = Пятно на глазу
 
-marking-KodeFoxEars = Ears (Fox)
-marking-KodeFoxEars-foxears = Ears
+marking-KodeFoxEars = Уши (Лиса)
+marking-KodeFoxEars-foxears = Уши
 
 # Snout
 
-marking-KodeBeak = Beak
-marking-KodeBeak-beak = Beak
+marking-KodeBeak = Клюв
+marking-KodeBeak-beak = Клюв
 
-marking-KodeMoustacheLong = Moustache (Long)
-marking-KodeMoustacheLong-moustachelong = Moustache (Long)
+marking-KodeMoustacheLong = Усы (Длинные)
+marking-KodeMoustacheLong-moustachelong = Усы (Длинные)
 
-marking-KodeMoustacheShort = Moustache (Short)
-marking-KodeMoustacheShort-moustacheshort = Moustache (Short)
+marking-KodeMoustacheShort = Усы (Короткие)
+marking-KodeMoustacheShort-moustacheshort = Усы (Короткие)
 
-marking-KodeSmallBeak = Beak (Small)
-marking-KodeSmallBeak-smallbeak = Beak
+marking-KodeSmallBeak = Клюв (Малый)
+marking-KodeSmallBeak-smallbeak = Клюв
 
-marking-KodeSnoutSimple = Snout (Simple)
-marking-KodeSnoutSimple-simple = Snout
+marking-KodeSnoutSimple = Морда (Простая)
+marking-KodeSnoutSimple-simple = Морда
 
 # Eyes
 
-marking-BigSquareEyes = Eyes (Big Square)
-marking-BigSquareEyes-bigsquare1 = Iris
-marking-BigSquareEyes-bigsquare2 = Pupil
+marking-BigSquareEyes = Глаза (Большой квадрат)
+marking-BigSquareEyes-bigsquare1 = Радужка
+marking-BigSquareEyes-bigsquare2 = Зрачок
 
-marking-BigSquareEyesUneven = Eyes (Big Square Uneven)
-marking-BigSquareEyesUneven-bigsquareuneven1 = Iris
-marking-BigSquareEyesUneven-bigsquareuneven2 = Pupil
+marking-BigSquareEyesUneven = Глаза (Большой квадрат Неровные)
+marking-BigSquareEyesUneven-bigsquareuneven1 = Радужка
+marking-BigSquareEyesUneven-bigsquareuneven2 = Зрачок
 
-marking-KodeGrayEyes = Eyes (Gray)
-marking-KodeGrayEyes-gray = Eyes
+marking-KodeGrayEyes = Глаза (Грэй)
+marking-KodeGrayEyes-gray = Глаза
 
-marking-KodeGrayEyesUneven = Eyes (Gray Uneven)
-marking-KodeGrayEyesUneven-grayuneven = Eyes
+marking-KodeGrayEyesUneven = Глаза (Грэй Неровные)
+marking-KodeGrayEyesUneven-grayuneven = Глаза
 
-marking-KodeHumanEyes = Eyes (Human)
-marking-KodeHumanEyes-human = Eyes
+marking-KodeHumanEyes = Глаза (Человеческие)
+marking-KodeHumanEyes-human = Глаза
 
-marking-KodeHumanEyesUnshaded = Eyes (Human Reflective)
-marking-KodeHumanEyesUnshaded-human = Eyes
+marking-KodeHumanEyesUnshaded = Глаза (Человеческие Отражающие)
+marking-KodeHumanEyesUnshaded-human = Глаза
 
-marking-KodeHumanEyesUneven = Eyes (Human Uneven)
-marking-KodeHumanEyesUneven-humanuneven1 = Right
-marking-KodeHumanEyesUneven-humanuneven2 = Left
+marking-KodeHumanEyesUneven = Глаза (Человеческие Неровные)
+marking-KodeHumanEyesUneven-humanuneven1 = Правый
+marking-KodeHumanEyesUneven-humanuneven2 = Левый
 
-marking-KodeHumanEyesUnevenUnshaded = Eyes (Human Uneven Reflective)
-marking-KodeHumanEyesUnevenUnshaded-humanuneven1 = Right
-marking-KodeHumanEyesUnevenUnshaded-humanuneven2 = Left
+marking-KodeHumanEyesUnevenUnshaded = Глаза (Человеческие Неровные Отражающие)
+marking-KodeHumanEyesUnevenUnshaded-humanuneven1 = Правый
+marking-KodeHumanEyesUnevenUnshaded-humanuneven2 = Левый
 
-marking-KodeJamjar1 = Eyes (Jamjar)
-marking-KodeJamjar1-jamjar = Eyes
+marking-KodeJamjar1 = Глаза (Баночки)
+marking-KodeJamjar1-jamjar = Глаза
 
-marking-KodeJamjar2 = Eyes (Jamjar Vacant)
-marking-KodeJamjar2-jamjar2 = Eyes
+marking-KodeJamjar2 = Глаза (Баночки Свободные)
+marking-KodeJamjar2-jamjar2 = Глаза
 
-marking-MaskEyes = Eyes (Mask)
-marking-MaskEyes-mask = Eyes
+marking-MaskEyes = Глаза (Маска)
+marking-MaskEyes-mask = Глаза
 
-marking-KodeMothEyes = Eyes (Moth)
-marking-KodeMothEyes-moth = Eyes
+marking-KodeMothEyes = Глаза (Моль)
+marking-KodeMothEyes-moth = Глаза
 
-marking-KodeMothEyesUneven = Eyes (Moth Uneven)
-marking-KodeMothEyesUneven-moth1 = Right
-marking-KodeMothEyesUneven-moth2 = Left
+marking-KodeMothEyesUneven = Глаза (Моль Неровные)
+marking-KodeMothEyesUneven-moth1 = Праывй
+marking-KodeMothEyesUneven-moth2 = Левый
 
-marking-KodeSharkminnowEyes = Eyes (Sharkminnow)
-marking-KodeSharkminnowEyes-sharkminnow = Eyes
+marking-KodeSharkminnowEyes = Глаза (Карпоакула)
+marking-KodeSharkminnowEyes-sharkminnow = Глаза
 
-marking-SquareEyes = Eyes (Square)
-marking-SquareEyes-square = Eyes
+marking-SquareEyes = Глаза (Квадраты)
+marking-SquareEyes-square = Глаза
 
-marking-SquareEyesUnshaded = Eyes (Square Reflective)
-marking-SquareEyesUnshaded-square = Eyes
+marking-SquareEyesUnshaded = Глаза (Квадраты Отражающие)
+marking-SquareEyesUnshaded-square = Глаза
 
-marking-SquareEyesUneven = Eyes (Square Uneven)
-marking-SquareEyesUneven-squareuneven = Eyes
+marking-SquareEyesUneven = Глаза (Квадраты Неровные)
+marking-SquareEyesUneven-squareuneven = Глаза
 
-marking-SquareEyesUnevenUnshaded = Eyes (Square Uneven Reflective)
-marking-SquareEyesUnevenUnshaded-squareuneven = Eyes
+marking-SquareEyesUnevenUnshaded = Глаза (Квадраты Неровные Отражающие)
+marking-SquareEyesUnevenUnshaded-squareuneven = Глаза
 
 # RArm
 
@@ -144,25 +144,25 @@ marking-SquareEyesUnevenUnshaded-squareuneven = Eyes
 
 # RLeg
 
-marking-KodeBarLegR = Bar (R Leg)
-marking-KodeBarLegR-bar = Bar (R Leg)
+marking-KodeBarLegR = Прут (Правая нога)
+marking-KodeBarLegR-bar = Прут (Правая нога)
 
-marking-KodePinstripeLegR = Pinstripe (R Leg)
-marking-KodePinstripeLegR-pinstripe = Pinstripe (R Leg)
+marking-KodePinstripeLegR = Полоски (Правая нога)
+marking-KodePinstripeLegR-pinstripe = Полоски (Правая нога)
 
-marking-KodeSockRLeg = Socks (R Leg)
-marking-KodeSockRLeg-sock = Socks (R Leg)
+marking-KodeSockRLeg = Носки (Правая нога)
+marking-KodeSockRLeg-sock = Носки (Правая нога)
 
 # LLeg
 
-marking-KodeBarLegL = Bar (L Leg)
-marking-KodeBarLegL-bar = Bar (L Leg)
+marking-KodeBarLegL = Bar (Левая нога)
+marking-KodeBarLegL-bar = Bar (Левая нога)
 
-marking-KodePinstripeLegL = Pinstripe (L Leg)
-marking-KodePinstripeLegL-pinstripe = Pinstripe (L Leg)
+marking-KodePinstripeLegL = Полоски (Левая нога)
+marking-KodePinstripeLegL-pinstripe = Полоски (Левая нога)
 
-marking-KodeSockLLeg = Socks (L Leg)
-marking-KodeSockLLeg-sock = Socks (L Leg)
+marking-KodeSockLLeg = Носки (Левая нога)
+marking-KodeSockLLeg-sock = Носки (Левая нога)
 
 # UndergarmentBottom
 
@@ -170,19 +170,19 @@ marking-KodeSockLLeg-sock = Socks (L Leg)
 
 # LFoot
 
-marking-KodeClawFootL = Claw (L Foot)
-marking-KodeClawFootL-claw = Claw (L Foot)
+marking-KodeClawFootL = Когти (Левая стопа)
+marking-KodeClawFootL-claw = Когти (Левая стопа)
 
-marking-KodeSockLFoot = Socks (L Foot)
-marking-KodeSockLFoot-sock = Socks (L Foot)
+marking-KodeSockLFoot = Носки (Левая стопа)
+marking-KodeSockLFoot-sock = Носки (Левая стопа)
 
 # RFoot
 
-marking-KodeClawFootR = Claw (R Foot)
-marking-KodeClawFootR-claw = Claw (R Foot)
+marking-KodeClawFootR = Когти (Правая стопа)
+marking-KodeClawFootR-claw = Когти (Правая стопа)
 
-marking-KodeSockRFoot = Socks (R Foot)
-marking-KodeSockRFoot-sock = Socks (R Foot)
+marking-KodeSockRFoot = Носки (Правая стопа)
+marking-KodeSockRFoot-sock = Носки (Правая стопа)
 
 # LHand
 
@@ -192,271 +192,271 @@ marking-KodeSockRFoot-sock = Socks (R Foot)
 
 # Hair
 
-marking-KodaBob1 = Bob
-marking-KodaBob1-bob4 = Bob
+marking-KodaBob1 = Боб
+marking-KodaBob1-bob4 = Боб
 
-marking-KodaBob2 = Bob With Bangs
-marking-KodaBob2-bob5 = Bob With Bangs
+marking-KodaBob2 = Боб (челка)
+marking-KodaBob2-bob5 = Боб (челка)
 
-marking-KodaCIA = CIA
-marking-KodaCIA-cia = CIA
+marking-KodaCIA = ЦРУ
+marking-KodaCIA-cia = ЦРУ
 
-marking-KodaCornrows = Cornrows
-marking-KodaCornrows-cornrowbraid = Cornrows
+marking-KodaCornrows = Косички
+marking-KodaCornrows-cornrowbraid = Косички
 
-marking-KodaCurls = Curls
-marking-KodaCurls-curls = Curls
+marking-KodaCurls = Завитки
+marking-KodaCurls-curls = Завитки
 
-marking-KodaDandy = Pompadour
-marking-KodaDandy-dandypompadour = Pompadour
+marking-KodaDandy = Помпадур
+marking-KodaDandy-dandypompadour = Помпадур
 
-marking-KodaDoubleBun = Double Bun With Eyes
-marking-KodaDoubleBun-doublebun = Double Bun With Eyes
+marking-KodaDoubleBun = Двойной пучок с глазами
+marking-KodaDoubleBun-doublebun = Двойной пучок с глазами
 
-marking-KodaDoubleBunNormal = Double Bun
-marking-KodaDoubleBunNormal-doublebunnoeyes = Double Bun
+marking-KodaDoubleBunNormal = Двойной пучок
+marking-KodaDoubleBunNormal-doublebunnoeyes = Двойной пучок
 
-marking-KodaEmo = Emo
-marking-KodaEmo-emo2 = Emo
+marking-KodaEmo = Эмо
+marking-KodaEmo-emo2 = Эмо
 
-marking-KodaHalfShaved = Half Shaved
-marking-KodaHalfShaved-halfshaved = Half Shaved
+marking-KodaHalfShaved = Наполовину выбритый
+marking-KodaHalfShaved-halfshaved = Наполовину выбритый
 
-marking-KodaHime = Hime
-marking-KodaHime-himecut2 = Hime
+marking-KodaHime = Химэ
+marking-KodaHime-himecut2 = Химэ
 
-marking-KodaMessy = Messy
-marking-KodaMessy-messy = Messy
+marking-KodaMessy = Неопрятный
+marking-KodaMessy-messy = Неопрятный
 
-marking-KodaPonytail = Ponytail
-marking-KodaPonytail-ponytail3 = Ponytail
+marking-KodaPonytail = Хвостик
+marking-KodaPonytail-ponytail3 = Хвостик
 
-marking-KodaSpiky = Spiky
-marking-KodaSpiky-spiky = Spiky
+marking-KodaSpiky = Колючий
+marking-KodaSpiky-spiky = Колючий
 
-marking-KodaShort = Short
-marking-KodaShort-veryshortovereyealternate = Short
+marking-KodaShort = Короткий
+marking-KodaShort-veryshortovereyealternate = Короткий
 
-marking-KodaLong = Long
-marking-KodaLong-vlongfringe = Long
+marking-KodaLong = Длинный
+marking-KodaLong-vlongfringe = Длинный
 
 # HeadSide
 
-marking-KodeSideEye = Eyes (Young)
-marking-KodeSideEye-sideeye1 = Schlera
-marking-KodeSideEye-sideeye2 = Pupil
+marking-KodeSideEye = Глаза (Молодые)
+marking-KodeSideEye-sideeye1 = Склера
+marking-KodeSideEye-sideeye2 = Зрачок
 
-marking-KodeCheekFins = Cheek Fins
-marking-KodeCheekFins-cheekfins = Fins
+marking-KodeCheekFins = Щёчные плавники
+marking-KodeCheekFins-cheekfins = Щёчные плавники
 
-marking-KodeGillsDeca = Bloatgills
-marking-KodeGillsDeca-decagills = Gills
+marking-KodeGillsDeca = Вздувные жабры
+marking-KodeGillsDeca-decagills = Жабры
 
-marking-KodeFrillsHead = Thin Frills
-marking-KodeFrillsHead-headfrill = Frills
+marking-KodeFrillsHead = Тонкие оборки
+marking-KodeFrillsHead-headfrill = Оборки
 
-marking-KodeThavenEars = Ears (Thaven)
-marking-KodeThavenEars-thaven = Ears
+marking-KodeThavenEars = Уши (Тэйвен)
+marking-KodeThavenEars-thaven = Уши
 
 # HeadTop
 
-marking-Basilisk = Basilisk
-marking-Basilisk-basilisk1 = Hair
-marking-Basilisk-basilisk2 = Eye
-marking-Basilisk-basilisk3 = Pupil
+marking-Basilisk = Василиск
+marking-Basilisk-basilisk1 = Волосы
+marking-Basilisk-basilisk2 = Глаз
+marking-Basilisk-basilisk3 = Зрачок
 
-marking-KodeAntennaeBasic = Antennae (Basic)
-marking-KodeAntennaeBasic-antennae = Antennae
+marking-KodeAntennaeBasic = Антенна (Базовая)
+marking-KodeAntennaeBasic-antennae = Антенна
 
-marking-KodeAntennaeMaple = Antennae (Maple)
-marking-KodeAntennaeMaple-mapleantennae = Antennae
+marking-KodeAntennaeMaple = Антенна (Клён)
+marking-KodeAntennaeMaple-mapleantennae = Антенна
 
-marking-KodeBunnyEars = Ears (Bunny)
-marking-KodeBunnyEars-bunny1 = Inner
-marking-KodeBunnyEars-bunny2 = Outer
+marking-KodeBunnyEars = Уши (Кролик)
+marking-KodeBunnyEars-bunny1 = Внутренний
+marking-KodeBunnyEars-bunny2 = Внешний
 
-marking-KodeEyestalk = Eyes (Eyestalks)
-marking-KodeEyestalk-eyestalk1 = Stalk
-marking-KodeEyestalk-eyestalk2 = Eye
+marking-KodeEyestalk = Глаза (Глазные стебельки)
+marking-KodeEyestalk-eyestalk1 = Стебельки
+marking-KodeEyestalk-eyestalk2 = Глаз
 
-marking-KodeGrayHead = Head (Gray)
-marking-KodeGrayHead-grayhead = Head
+marking-KodeGrayHead = Голова (Грэй)
+marking-KodeGrayHead-grayhead = Голова
 
-marking-KodeHeadSlime = Head (Slime)
-marking-KodeHeadSlime-headslime = Head
+marking-KodeHeadSlime = Голова (Слайм)
+marking-KodeHeadSlime-headslime = Голова
 
-marking-KodeHornsCurly = Horns (Curly)
-marking-KodeHornsCurly-hornscurly = Horns
+marking-KodeHornsCurly = Рога (Завитые)
+marking-KodeHornsCurly-hornscurly = Рога
 
-marking-KodeHornsStraight = Horns (Straight)
-marking-KodeHornsStraight-hornsstraight = Horns
+marking-KodeHornsStraight = Рога (Прямые)
+marking-KodeHornsStraight-hornsstraight = Рога
 
-marking-KodeHornsSweptBack = Horns (Swept Back)
-marking-KodeHornsSweptBack-hornssweptback = Horns
+marking-KodeHornsSweptBack = Рога (Откинутые назад)
+marking-KodeHornsSweptBack-hornssweptback = Рога
 
-marking-KodeScorpion = Scorpion Tail
-marking-KodeScorpion-scorpion1 = Antenna
-marking-KodeScorpion-scorpion2 = Upper
-marking-KodeScorpion-scorpion3 = Upper mid
-marking-KodeScorpion-scorpion4 = Upper bot
-marking-KodeScorpion-scorpion5 = Bottom
+marking-KodeScorpion = Хвост скорпиона
+marking-KodeScorpion-scorpion1 = Антенна
+marking-KodeScorpion-scorpion2 = Верхний
+marking-KodeScorpion-scorpion3 = Верхний средний
+marking-KodeScorpion-scorpion4 = Верхний нижний
+marking-KodeScorpion-scorpion5 = Нижний
 
-marking-KodeWolfEars = Ears (Wolf)
-marking-KodeWolfEars-wolf1 = Outer
-marking-KodeWolfEars-wolf2 = Inner
+marking-KodeWolfEars = Уши (Волк)
+marking-KodeWolfEars-wolf1 = Внутренний
+marking-KodeWolfEars-wolf2 = Внешний
 
 # Tail
 
-marking-KodeAmalgamTail = Tail (Amalgamate)
-marking-KodeAmalgamTail-amalgam1 = Tail
-marking-KodeAmalgamTail-amalgam2 = Undertail
-marking-KodeAmalgamTail-amalgam3 = Fins
-marking-KodeAmalgamTail-amalgam4 = Spines
+marking-KodeAmalgamTail = Хвост (Амальгама)
+marking-KodeAmalgamTail-amalgam1 = Хвост
+marking-KodeAmalgamTail-amalgam2 = Под хвостом
+marking-KodeAmalgamTail-amalgam3 = Оперение
+marking-KodeAmalgamTail-amalgam4 = Шипы
 
-marking-KodeCrabLegs = Legs (Crab)
-marking-KodeCrabLegs-crablegs = Legs
+marking-KodeCrabLegs = Ноги (Краб)
+marking-KodeCrabLegs-crablegs = Ноги
 
-marking-KodeFlowers = Overlay (Floral)
-marking-KodeFlowers-flowers1 = Flowers
-marking-KodeFlowers-flowers2 = Flowers
+marking-KodeFlowers = Наложение (Цветочное)
+marking-KodeFlowers-flowers1 = Цветы
+marking-KodeFlowers-flowers2 = Цветы
 
-marking-KodeFluffyTail = Tail (Fluffy)
-marking-KodeFluffyTail-fluffy = Tail
+marking-KodeFluffyTail = Хвост (Пушистый)
+marking-KodeFluffyTail-fluffy = Хвост
 
-marking-KodeLizardTail = Tail (Lizard)
-marking-KodeLizardTail-lizard = Tail
+marking-KodeLizardTail = Хвост (Ящерица)
+marking-KodeLizardTail-lizard = Хвост
 
-marking-KodeMultiArms = Arms (Many)
-marking-KodeMultiArms-multiarms1 = Upper
-marking-KodeMultiArms-multiarms2 = Middle
-marking-KodeMultiArms-multiarms3 = Lower
+marking-KodeMultiArms = Руки (Множество)
+marking-KodeMultiArms-multiarms1 = Верхний
+marking-KodeMultiArms-multiarms2 = Средний
+marking-KodeMultiArms-multiarms3 = Нижний
 
-marking-KodePauldronRoundL = Pauldron (Round L)
-marking-KodePauldronRoundL-pauldroundl = Pauldron
+marking-KodePauldronRoundL = Наплечник (Круглый Левый)
+marking-KodePauldronRoundL-pauldroundl = Наплечник
 
-marking-KodePauldronRoundR = Pauldron (Round R)
-marking-KodePauldronRoundR-pauldroundr = Pauldron
+marking-KodePauldronRoundR = Наплечник (Круглый Правый)
+marking-KodePauldronRoundR-pauldroundr = Наплечник
 
-marking-KodePauldronSharpL = Pauldron (Sharp L)
-marking-KodePauldronSharpL-pauldsharpl = Pauldron
+marking-KodePauldronSharpL = Наплечник (Острый Левый)
+marking-KodePauldronSharpL-pauldsharpl = Наплечник
 
-marking-KodePauldronSharpR = Pauldron (Sharp R)
-marking-KodePauldronSharpR-pauldsharpr = Pauldron
+marking-KodePauldronSharpR = Наплечник (Острый Правый)
+marking-KodePauldronSharpR-pauldsharpr = Наплечник
 
-marking-KodePauldronSpikes = Pauldron (Spikes)
-marking-KodePauldronSpikes-pauldspines = Spikes
+marking-KodePauldronSpikes = Наплечник (Шипы)
+marking-KodePauldronSpikes-pauldspines = Шипы
 
-marking-KodeShell = Shell
-marking-KodeShell-shell = Shell
+marking-KodeShell = Оболочка
+marking-KodeShell-shell = Оболочка
 
-marking-KodeShellCone = Shell (Conical)
-marking-KodeShellCone-shellcone = Shell
+marking-KodeShellCone = Оболочка (Коническая)
+marking-KodeShellCone-shellcone = Оболочка
 
-marking-KodeSpiderLegs = Tendrils (Long)
-marking-KodeSpiderLegs-spider1 = Top
-marking-KodeSpiderLegs-spider2 = Bottom
+marking-KodeSpiderLegs = Усики (Длинные)
+marking-KodeSpiderLegs-spider1 = Верх
+marking-KodeSpiderLegs-spider2 = Низ
 
-marking-SeafoamMantle = Wings (Foamfly)
-marking-SeafoamMantle-seafoam1 = Foam
-marking-SeafoamMantle-seafoam2 = Wings
+marking-SeafoamMantle = Крылья (Поролоновая мушка)
+marking-SeafoamMantle-seafoam1 = Поролон
+marking-SeafoamMantle-seafoam2 = Крылья
 
-marking-KodeTailStubby = Tail (Stubby)
-marking-KodeTailStubby-stubby = Tail
+marking-KodeTailStubby = Хвост (Стабби)
+marking-KodeTailStubby-stubby = Хвост
 
-marking-KodeVoxTail = Tail (Vox)
-marking-KodeVoxTail-vox = Tail
+marking-KodeVoxTail = Хвост (Вокс)
+marking-KodeVoxTail-vox = Хвост
 
 # RArmExtension
 
-marking-JellyCapeStripes = Cape (Jelly Striped)
-marking-JellyCapeStripes-jellycapestripes1 = Bell
-marking-JellyCapeStripes-jellycapestripes2 = Stripes
+marking-JellyCapeStripes = Плащ (Желе с полосками)
+marking-JellyCapeStripes-jellycapestripes1 = Колокол
+marking-JellyCapeStripes-jellycapestripes2 = Полоски
 
-marking-KodeArmsCrab = Arms (Decapoid)
-marking-KodeArmsCrab-crabclaws = Arms
+marking-KodeArmsCrab = Руки (Декапоид)
+marking-KodeArmsCrab-crabclaws = Руки
 
-marking-KodeCapeJelly = Cape (Jelly)
-marking-KodeCapeJelly-jellycloak1 = Bell
-marking-KodeCapeJelly-jellycloak2 = Spots
+marking-KodeCapeJelly = Плащ (Желе)
+marking-KodeCapeJelly-jellycloak1 = Колокол
+marking-KodeCapeJelly-jellycloak2 = Пятна
 
-marking-KodeCapePuffy = Cape (Puffy)
-marking-KodeCapePuffy-puffycape = Cape
+marking-KodeCapePuffy = Плащ (Пухлый)
+marking-KodeCapePuffy-puffycape = Плащ
 
-marking-KodeCapeSpines = Cape (Spines)
-marking-KodeCapeSpines-spinecloak = Cape
+marking-KodeCapeSpines = Плащ (Колючки)
+marking-KodeCapeSpines-spinecloak = Плащ
 
-marking-KodeCapeSquid = Cape (Squid)
-marking-KodeCapeSquid-squidcape = Cape
+marking-KodeCapeSquid = Плащ (Кальмар)
+marking-KodeCapeSquid-squidcape = Плащ
 
-marking-KodeCloakArms = Arms (Human)
-marking-KodeCloakArms-cloakarms1 = Arms
-marking-KodeCloakArms-cloakarms2 = Top Band
-marking-KodeCloakArms-cloakarms3 = Middle Band
-marking-KodeCloakArms-cloakarms4 = Bottom Band
+marking-KodeCloakArms = Руки (Человек)
+marking-KodeCloakArms-cloakarms1 = Руки
+marking-KodeCloakArms-cloakarms2 = Верхняя полоса
+marking-KodeCloakArms-cloakarms3 = Средняя полоса
+marking-KodeCloakArms-cloakarms4 = Нижняя полоса
 
-marking-KodeDionaArms = Arms (Diona)
-marking-KodeDionaArms-dionaarms1 = Bush
-marking-KodeDionaArms-dionaarms2 = Vines
+marking-KodeDionaArms = Руки (Диона)
+marking-KodeDionaArms-dionaarms1 = Куст
+marking-KodeDionaArms-dionaarms2 = Лианы
 
-marking-KodeMothChecks = Wings (Moth Checks)
-marking-KodeMothChecks-mothwingschecks1 = Wings
-marking-KodeMothChecks-mothwingschecks2 = Checks
+marking-KodeMothChecks = Крылья (Узоры моли)
+marking-KodeMothChecks-mothwingschecks1 = Крылья
+marking-KodeMothChecks-mothwingschecks2 = Узоры
 
-marking-KodeMothInk = Wings (Moth Ink)
-marking-KodeMothInk-mothwingsoutline1 = Wings
-marking-KodeMothInk-mothwingsoutline2 = Outline
+marking-KodeMothInk = Крылья (Чернилы моли)
+marking-KodeMothInk-mothwingsoutline1 = Крылья
+marking-KodeMothInk-mothwingsoutline2 = Окантовка
 
-marking-KodeMyFirstWings = My First Wings
-marking-KodeMyFirstWings-myfirstwings1 = Main
-marking-KodeMyFirstWings-myfirstwings2 = Tips
+marking-KodeMyFirstWings = «Мои первые крылья»
+marking-KodeMyFirstWings-myfirstwings1 = Основа
+marking-KodeMyFirstWings-myfirstwings2 = Кончики
 
-marking-KodeSlimeArms = Arms (Slime)
-marking-KodeSlimeArms-slimearms1 = Hair
-marking-KodeSlimeArms-slimearms2 = Arms
+marking-KodeSlimeArms = Руки (Слайм)
+marking-KodeSlimeArms-slimearms1 = Волосы
+marking-KodeSlimeArms-slimearms2 = Руки
 
-marking-KodeSwanWings = Wings (Swan)
-marking-KodeSwanWings-swanwings1 = Main
-marking-KodeSwanWings-swanwings2 = Stripes
-marking-KodeSwanWings-swanwings3 = Spots
+marking-KodeSwanWings = Крылья (Лебедь)
+marking-KodeSwanWings-swanwings1 = Основа
+marking-KodeSwanWings-swanwings2 = Полоски
+marking-KodeSwanWings-swanwings3 = Пятна
 
-marking-KodeTattooArms = Arms (Human Tattooed)
-marking-KodeTattooArms-humanarmstattoo1 = Arms
-marking-KodeTattooArms-humanarmstattoo2 = Heart Tattoo
-marking-KodeTattooArms-humanarmstattoo3 = Bracelet
-marking-KodeTattooArms-humanarmstattoo4 = Collar
+marking-KodeTattooArms = Руки (Человеческие с тату)
+marking-KodeTattooArms-humanarmstattoo1 = Руки
+marking-KodeTattooArms-humanarmstattoo2 = Тату сердца
+marking-KodeTattooArms-humanarmstattoo3 = Браслет
+marking-KodeTattooArms-humanarmstattoo4 = Ошейник
 
-marking-KodeTentaWings = Cape (Tentacles)
-marking-KodeTentaWings-tentawings = Cape
+marking-KodeTentaWings = Плащ (Щупальца)
+marking-KodeTentaWings-tentawings = Плащ
 
-marking-KodeUnevenArmsSimple = Arms (Uneven Simple)
-marking-KodeUnevenArmsSimple-unevenarmssimple = Arms
+marking-KodeUnevenArmsSimple = Руки (Неровные Простые)
+marking-KodeUnevenArmsSimple-unevenarmssimple = Руки
 
-marking-KodeVariableWings = Variable Wings
-marking-KodeVariableWings-variablewings1 = Arms
-marking-KodeVariableWings-variablewings2 = Wing Base
-marking-KodeVariableWings-variablewings3 = Wing Stripes
-marking-KodeVariableWings-variablewings4 = Wing Palms
+marking-KodeVariableWings = Переменные крылья
+marking-KodeVariableWings-variablewings1 = Руки
+marking-KodeVariableWings-variablewings2 = Основа крыла
+marking-KodeVariableWings-variablewings3 = Полосы на крыльях
+marking-KodeVariableWings-variablewings4 = Ладони
 
-marking-KodeWingsBlade = Arms (Blade)
-marking-KodeWingsBlade-bladewings = Upper
-marking-KodeWingsBlade-bladewingtips = Tip
+marking-KodeWingsBlade = Руки (Лезвия)
+marking-KodeWingsBlade-bladewings = Верхний
+marking-KodeWingsBlade-bladewingtips = Кончик
 
-marking-KodeWingsMoth = Wings (Moth)
-marking-KodeWingsMoth-mothwings1 = Wings
-marking-KodeWingsMoth-mothwings2 = Spots
+marking-KodeWingsMoth = Крылья (Моль)
+marking-KodeWingsMoth-mothwings1 = Крылья
+marking-KodeWingsMoth-mothwings2 = Пятна
 
-marking-KodeWingsThing = Wings (Thing)
-marking-KodeWingsThing-thingwings1 = Wings
-marking-KodeWingsThing-thingwings2 = Spots
+marking-KodeWingsThing = Крылья (Штука)
+marking-KodeWingsThing-thingwings1 = Крылья
+marking-KodeWingsThing-thingwings2 = Пятна
 
-marking-KodeUrchinArms = Cape (Urchin)
-marking-KodeUrchinArms-urchinarms = Cape
+marking-KodeUrchinArms = Плащ (Ёж)
+marking-KodeUrchinArms-urchinarms = Плащ
 
-marking-PuffCapeCrackle = Cape (Puffy Crackle)
-marking-PuffCapeCrackle-puffcapecrackle1 = Cape
-marking-PuffCapeCrackle-puffcapecrackle2 = Crackle
+marking-PuffCapeCrackle = Плащ (Пушистый трещина)
+marking-PuffCapeCrackle-puffcapecrackle1 = Плащ
+marking-PuffCapeCrackle-puffcapecrackle2 = Трещина
 
-marking-PuffCapeFloral = Cape (Puffy Floral)
-marking-PuffCapeFloral-puffcapefloral1 = Cape
-marking-PuffCapeFloral-puffcapefloral2 = Flowers
-marking-PuffCapeFloral-puffcapefloral3 = Leaves
+marking-PuffCapeFloral = Плащ (Пушистый цветочный)
+marking-PuffCapeFloral-puffcapefloral1 = Плащ
+marking-PuffCapeFloral-puffcapefloral2 = Цветы
+marking-PuffCapeFloral-puffcapefloral3 = Листья

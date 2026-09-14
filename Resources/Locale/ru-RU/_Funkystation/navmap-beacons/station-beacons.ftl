@@ -7,7 +7,7 @@ station-beacon-dispatch = Диспетчерская
 station-beacon-evidence = Комната улик
 station-beacon-briefing = Брифрум
 station-beacon-firing = Стрельбище
-station-beacon-mining = Mining Bay
+station-beacon-mining = Горнодобывающий отсек
 
 station-beacon-ia = Внутренние дела
 station-beacon-xo = Офис исполнительного директора

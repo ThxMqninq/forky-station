@@ -30,14 +30,14 @@ fu-loadout-group-hd-gloves = Директор по гостеприимству,
 fu-loadout-group-hd-shoes = Директор по гостеприимству, обувь
 
 # Logistics
-fu-loadout-group-cargo-neck = Cargo neck
+fu-loadout-group-cargo-neck = Логистика, шея
 
-fu-loadout-group-cargo-technician-outer-clothing = Cargo Technician outer clothing
-fu-loadout-group-cargo-technician-uniform = Cargo Technician uniform
+fu-loadout-group-cargo-technician-outer-clothing = Грузчик, верхняя одежда
+fu-loadout-group-cargo-technician-uniform = Грузчик, комбинезон
 
-fu-loadout-group-courier-head = Courier head
-fu-loadout-group-courier-outer-clothing = Courier outer clothing
-fu-loadout-group-courier-uniform = Courier uniform
-fu-loadout-group-courier-shoes = Courier shoes
+fu-loadout-group-courier-head = Курьер, голова
+fu-loadout-group-courier-outer-clothing = Курьер, верхняя одежда
+fu-loadout-group-courier-uniform = Курьер, комбинезон
+fu-loadout-group-courier-shoes = Курьер, обувь
 
-fu-loadout-group-quartermaster-outer-clothing = Quartermaster's outer clothing
+fu-loadout-group-quartermaster-outer-clothing = Квартирмейстер, верхняя одежда

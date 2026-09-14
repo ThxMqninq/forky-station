@@ -7,7 +7,7 @@ holopad-security-dispatch = Служба Безопасности - Диспет
 holopad-security-evidence = Служба Безопасности - Комната улик
 holopad-security-briefing = Служба Безопасности - Брифрум
 holopad-security-firing = Служба Безопасности - Стрельбище
-holopad-security-mining = Служба Безопасности - Mining Bay
+holopad-security-mining = Служба Безопасности - Горнодобывающий отсек
 
 holopad-ia-magistrate = Внутренние дела - Офис магистрата
 holopad-ia-courtroom = Внутренние дела - Зал суда

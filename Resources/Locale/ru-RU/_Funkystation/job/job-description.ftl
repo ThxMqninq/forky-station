@@ -7,5 +7,5 @@ job-description-cl = Проинформируйте руководителей �
 job-description-commandant = Командуйте силами безопасности на борту станции.
 job-description-lieutenant = Руководите подчинёнными вам офицерами и кадетами.
 job-description-dispatcher = Обеспечивайте прикрытие для службы безопасности и координируйте действия по оказанию чрезвычайной помощи.
-job-description-courier = Deliver mail, either from the mail teleporter or between crew on station.
-job-description-prisoner = Угасай в камере, загинайся в шахтах на станции и стань первым, над кем будут проводить эксперименты.
+job-description-courier = Доставляйте почту — либо из почтового телепорта, либо между членами экипажа на станции.
+job-description-prisoner = Угасайте в камере, загинайтесь в шахтах на станции и станьте первым, над кем будут проводить эксперименты.
