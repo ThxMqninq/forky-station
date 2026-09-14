@@ -1,6 +1,6 @@
 # Utility
-uplink-syndicate-hacking-module-name = Модуль взломщика киборга
-uplink-syndicate-hacking-module-desc = Для тех случаев, когда вам нужен командир-борг для вашего отряда боргов.
+uplink-syndicate-hacking-module-name = Модуль взломщика аутомы
+uplink-syndicate-hacking-module-desc = Для тех случаев, когда вам нужен командир-аутома для вашего отряда аутом.
 
 # Weapons
 

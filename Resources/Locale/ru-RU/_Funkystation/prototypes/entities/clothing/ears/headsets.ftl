@@ -1,3 +1,7 @@
+ent-ClothingHeadsetParamedic = гарнитура парамедика
+    .desc = Гарнитура для парамедиков, которая принимает сигналы на экстренной частоте в дополнении к обычным медицинским частотам.
+ent-ClothingHeadsetWarden =
+    .desc = Гарнитура для смотрителей или сотрудников, работающих за столом, которая принимает сигналы на экстренной и тюремной частотах, в дополнение к обычным частотам службы безопасности.
 ent-ClothingHeadsetInternalAffairs = гарнитура внутренних дел
     .desc = { ent-ClothingHeadset.desc }
 ent-ClothingHeadsetMagistrate = гарнитура магистрата
@@ -8,3 +12,5 @@ ent-ClothingHeadsetCL = гарнитура связного Центком
     .desc = { ent-ClothingHeadsetCentCom.desc }
 ent-ClothingHeadsetDispatcher = гарнитура диспетчера
     .desc = Одна из многочисленных связей с бьющимся сердцем станции.
+ent-ClothingHeadsetPrisoner = гарнитура заключённого
+    .desc = { ent-ClothingHeadset.desc }

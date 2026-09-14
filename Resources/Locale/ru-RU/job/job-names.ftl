@@ -1,6 +1,6 @@
 job-name-atmostech = Атмосферный техник
 job-name-bartender = Бармен
-job-name-borg = Киборг
+job-name-borg = Аутома
 job-name-botanist = Ботаник
 job-name-brigmedic = Бригмедик
 job-name-cadet = Кадет СБ
@@ -81,7 +81,7 @@ job-title-visitor = Посетитель
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферный техник
 JobBartender = Бармен
-JobBorg = Киборг
+JobBorg = Аутома
 JobBotanist = Ботаник
 JobCaptain = Капитан
 JobCargoTechnician = Грузчик

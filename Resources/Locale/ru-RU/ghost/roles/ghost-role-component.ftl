@@ -243,27 +243,27 @@ ghost-role-information-syndicate-monkey-reinforcement-description = Кому-т�
 ghost-role-information-syndicate-kobold-reinforcement-name = Агент Синдиката-кобольд
 ghost-role-information-syndicate-kobold-reinforcement-description = Кому-то нужно подкрепление. Вы, специально обученный кобольд, поможете им.
 
-ghost-role-information-syndicate-cyborg-assault-name = Штурмовой киборг Синдиката
-ghost-role-information-syndicate-cyborg-saboteur-name = Саботажный киборг Синдиката
+ghost-role-information-syndicate-cyborg-assault-name = Штурмовая аутома Синдиката
+ghost-role-information-syndicate-cyborg-saboteur-name = Саботажная аутома Синдиката
 ghost-role-information-syndicate-cyborg-description = Синдикату нужно подкрепление. Вы, холодная кремниевая машина для убийства, поможете им.
 
-ghost-role-information-derelict-engineering-cyborg-name = Брошенный киборг-инженер
-ghost-role-information-derelict-engineering-cyborg-description = Вы — инженерный киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-engineering-cyborg-name = Брошенная аутома-инженер
+ghost-role-information-derelict-engineering-cyborg-description = Вы — инженерная аутома, которая заблудилась в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
 
-ghost-role-information-derelict-cyborg-name = Брошенный киборг
-ghost-role-information-derelict-cyborg-description = Вы — обычный киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-cyborg-name = Брошенная аутома
+ghost-role-information-derelict-cyborg-description = Вы — обычная аутома, которая заблудилась в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
 
-ghost-role-information-derelict-janitor-cyborg-name = Брошенный киборг-уборщик
-ghost-role-information-derelict-janitor-cyborg-description = Вы — киборг-уборщик, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-janitor-cyborg-name = Брошенная аутома-уборщик
+ghost-role-information-derelict-janitor-cyborg-description = Вы — аутома-уборщик, которая заблудилась в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
 
-ghost-role-information-derelict-medical-cyborg-name = Брошенный киборг-доктор
-ghost-role-information-derelict-medical-cyborg-description = Вы — медицинский киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-medical-cyborg-name = Брошенная аутома-доктор
+ghost-role-information-derelict-medical-cyborg-description = Вы — медицинская аутома, которая заблудилась в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
 
-ghost-role-information-derelict-mining-cyborg-name = Брошенный киборг-шахтёр
-ghost-role-information-derelict-mining-cyborg-description = Вы — киборг-шахтёр, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-mining-cyborg-name = Брошенная аутома-шахтёр
+ghost-role-information-derelict-mining-cyborg-description = Вы — аутома-шахтёр, который заблудилась в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
 
-ghost-role-information-derelict-syndicate-assault-cyborg-name = Брошенный штурмовой киборг Синдиката
-ghost-role-information-derelict-syndicate-assault-cyborg-description = Вы — раняя модель штурмового киборга Синдиката, которая заблудилась в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
+ghost-role-information-derelict-syndicate-assault-cyborg-name = Брошенная штурмовая аутома Синдиката
+ghost-role-information-derelict-syndicate-assault-cyborg-description = Вы — раняя модель штурмовой аутомы Синдиката, которая заблудилась в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.
 
 ghost-role-information-security-name = Служба безопасности
 ghost-role-information-security-description = Вы входите в состав оперативной группы службы безопасности, но, похоже, попали в странную ситуацию...
@@ -343,7 +343,7 @@ ghost-role-information-mothership-core-name = Ядро материнского 
 ghost-role-information-mothership-core-desc = Вы — ядро матринского корабля ксеноборгов, помогите им размножиться, боргируя мозги, которые они вам приносят.
 
 ghost-role-information-xenoborg-name = Ксеноборг
-ghost-role-information-xenoborg-desc = Странный киборг, сделанный, чтобы воспроизводить себя и захватывать станцию, превращая любое разумное существо в ксеноборга.
+ghost-role-information-xenoborg-desc = Странная аутома, сделанный, чтобы воспроизводить себя и захватывать станцию, превращая любое разумное существо в ксеноборга.
 
 ghost-role-information-wizard-name = Волшебник
 ghost-role-information-wizard-desc = ТЫ ВОЛШЕБНИК! Покажи станции, из чего сделана твоя магия.

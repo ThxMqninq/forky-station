@@ -10,7 +10,7 @@ uplink-reinforcement-radio-traitor-desc = Телепортирует в каче
 uplink-reinforcement-radio-nukeops-name = Телепорт Ядерного оперативника
 uplink-reinforcement-radio-nukeops-desc = Телепортирует в качестве подкрепления сомнительного качества ядерного оперативника. Не имеет кнопки отключения, покупайте его только если вы готовы к вечеринке. У них будет базовое снаряжение ядерного оперативника.
 
-uplink-reinforcement-radio-cyborg-assault-name = Телепорт штурмового киборга Синдиката
+uplink-reinforcement-radio-cyborg-assault-name = Телепорт штурмовой аутомы Синдиката
 uplink-reinforcement-radio-cyborg-assault-desc = Машина для убийств с доступом к энергомечу, пулемёту с самовосстанавливающимися боеприпасами, криптографическому секвенсору и пинпоинтеру.
 
 uplink-reinforcement-radio-ancestor-name = Телепорт подкрепления генетическим предком
