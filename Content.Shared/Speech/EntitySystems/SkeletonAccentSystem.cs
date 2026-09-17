@@ -12,7 +12,7 @@ public sealed partial class SkeletonAccentSystem : RelayAccentSystem<SkeletonAcc
     [Dependency] private IRobustRandom _random = default!;
     [Dependency] private ReplacementAccentSystem _replacement = default!;
 
-    private static readonly Regex BoneRegex = new(@"(?<!\w)[^aeiou]one", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    private static readonly Regex BoneRegex = new(@"(?<!\w)[^аеиоуы]ость", RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
     public override string Accentuate(string message, Entity<SkeletonAccentComponent>? ent = null)
     {
@@ -29,7 +29,7 @@ public sealed partial class SkeletonAccentSystem : RelayAccentSystem<SkeletonAcc
 
         // Character manipulations:
         // At the start of words, any non-vowel + "one" becomes "bone", e.g. tone -> bone ; lonely -> bonely; clone -> clone (remains unchanged).
-        msg = BoneRegex.Replace(msg, "bone");
+        msg = BoneRegex.Replace(msg, "кость");
 
         // apply word replacements
         msg = _replacement.ApplyReplacements(msg, "skeleton", ent?.Owner);

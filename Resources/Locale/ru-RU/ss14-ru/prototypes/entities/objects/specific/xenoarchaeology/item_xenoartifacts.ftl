@@ -1,5 +1,8 @@
 ent-BaseXenoArtifactItem = артефакт
     .desc = Странный артефакт неизвестных времён. Похоже, хороших времён. Идеально помещается в руку.
+ent-DummyArtifactItem = артефакт
+    .suffix = Дебаг
+    .desc = { ent-BaseXenoArtifactItem.desc }
 ent-ComplexXenoArtifactItem = { ent-BaseXenoArtifactItem }
     .desc = { ent-BaseXenoArtifactItem.desc }
     .suffix = Ручной-размер
