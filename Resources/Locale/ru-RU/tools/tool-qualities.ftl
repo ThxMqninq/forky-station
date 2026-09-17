@@ -39,3 +39,7 @@ tool-quality-digging-tool-name = Лопата
 
 tool-quality-brushing-name = Оттирание
 tool-quality-brushing-tool-name = Проволочная щётка
+
+# Funky - cherrypick of https://github.com/michaelchessall/SS14-Persistence/pull/182
+tool-quality-axing-name = Рубка
+tool-quality-axing-tool-name = Пожарный топор

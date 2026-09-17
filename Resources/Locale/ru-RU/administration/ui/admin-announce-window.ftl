@@ -9,3 +9,7 @@ admin-announce-keep-open = Держать открытым
 
 cmd-announceui-desc = Открывает интерфейс меню объявлений.
 cmd-announceui-help = Использование: announceui
+
+# Funky
+admin-announce-bypass-pa = Обход системы оповещений
+admin-announce-bypass-pa-tooltip = Обходит динамики системы оповещений и транслирует объявление непосредственно в окна чата игроков.
