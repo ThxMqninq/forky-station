@@ -420,7 +420,8 @@ internal sealed partial class ChatManager : IChatManager
         if (IsValidWarpDestination(source) && ShouldShowFollowButton(recipient))
         {
             var btnText = _localizationManager.GetString("chat-manager-follow-button");
-            return $"[cmdlink=\"{btnText}\" command=\"{GhostFollowEntityCommand.CommandName} {_entityManager.GetNetEntity(source)}\" /] " + wrappedMessage;
+            // funky - using a unique ghostfollow command link tag as part of a fix for chat stacking
+            return $"[ghostfollow=\"{btnText}\" command=\"{GhostFollowEntityCommand.CommandName} {_entityManager.GetNetEntity(source)}\" /] " + wrappedMessage;
         }
 
         return wrappedMessage;
@@ -458,8 +459,8 @@ internal sealed partial class ChatManager : IChatManager
         foreach (var client in clients)
         {
             var customWrapMessage = PrependFollowButtonIfAppropriate(wrappedMessage, source, client);
-            var msg = new ChatMessage(channel, message, wrappedMessage, netSource, user?.Key, hideChat, colorOverride, audioPath, audioVolume, repeatCheckSender: !_entityManager.HasComponent<ChatRepeatIgnoreSenderComponent>(source)); // Persistence: Chat stacking from RMC14 - pull/7587
-            _netManager.ServerSendToMany(new MsgChatMessage() { Message = msg }, clients); // Persistence: Chat stacking from RMC14 - pull/7587
+            var msg = new ChatMessage(channel, message, customWrapMessage, netSource, user?.Key, hideChat, colorOverride, audioPath, audioVolume, repeatCheckSender: !_entityManager.HasComponent<ChatRepeatIgnoreSenderComponent>(source)); // Persistence: Chat stacking from RMC14 - pull/7587
+            _netManager.ServerSendMessage(new MsgChatMessage() { Message = msg }, client);
         }
 
         if (!recordReplay)
