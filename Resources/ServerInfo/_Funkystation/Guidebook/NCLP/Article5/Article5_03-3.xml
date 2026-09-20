@@ -1,90 +1,90 @@
 <Document>
-    ## Trials
+    ## Судебные разбирательства
 
-    Trials are an extremely in-depth, formal procedure, only for the most severe crimes.
+    Судебные разбирательства представляют собой чрезвычайно тщательную официальную процедуру, применяемую только в отношении самых тяжких преступлений.
 
-    A Trial is held only when the defense requests to escalate a Capital Offense Charge’s Formal Hearing to a Trial. The case must be deemed worthy of Trial by the Magistrate, and approved by the Executive Officer or Captain.
+    Судебное разбирательство проводится только в том случае, если сторона защиты подает ходатайство о переходе от официального слушания по обвинению в преступлении, караемом смертной казнью, к судебному разбирательству. Дело должно быть признано магистратом достойным судебного разбирательства и одобрено исполнительным офицером или капитаном.
 
-    May only be presided by a NanoTrasen-approved Magistrate, not an acting Judge.
+    Председательствовать может только магистрат, утверждённый NanoTrasen, а не исполняющий обязанности судьи.
 
-    No target time. May be as long or as short as necessary for the Magistrate to come to a verdict.
+    Ограничений по срокам нет. Судебное разбирательство может длиться столько, сколько необходимо магистрату для вынесения вердикта.
 
-    ## Prosecution
-        
-        Arresting Officers must have an Internal Affairs Agent represent them as prosecution, so that they may return to their duties.
+    ## Обвинение
 
-    ## Defense
-        
-        A Lawyer must be offered to act as the accused’s defense.
-        
-        The accused can still choose to self-represent, but it is not recommended.
+        Офицеров, произведших арест, должен представлять в качестве обвинения агент внутренних дел, чтобы они могли вернуться к своим обязанностям.
 
-    ## Witnesses
-        
-        Witnesses are allowed and encouraged.
-        
-        Witnesses can be anyone, including Security and Command.
+    ## Защита
 
-    ##Procedure
+        Обвиняемому должно быть предложено воспользоваться услугами адвоката для защиты.
 
-        ### Pre-Trial Consultation:
+        Обвиняемый по-прежнему может выбрать самостоятельную защиту, но это не рекомендуется.
 
-            Both sides may briefly consult with their representation, before the Trial officially begins.
+    ## Свидетели
 
-            Consultations are confidential. Statements said in consultation never have to be disclosed.
-            
-            There is no strict time limit on consultation, but time spent consulting does not reduce any eventual sentence.
-            
-            Both sides are recommended to plan for and consider:
+        Присутствие свидетелей разрешено и приветствуется.
 
-                - The evidence that will be presented.
+        Свидетелями могут быть любые лица, включая сотрудников службы безопасности и командование.
 
-                - Whether the defendant will plead guilty or not guilty.
-                
-                - What witnesses, if any, they intend to call.
-                
-                - Whether any aggravating or extenuating circumstances apply.
-                
-                - Whether a plea deal for an alternative punishment is worth pursuing.
+    ##Порядок действий
+
+        ### Консультации перед началом судебного разбирательства:
+
+            Обе стороны могут кратко проконсультироваться со своими представителями до официального начала судебного разбирательства.
+
+            Консультации носят конфиденциальный характер. Сведения, озвученные в ходе консультаций, не подлежат раскрытию.
+
+            Строгих временных ограничений на проведение консультаций нет, однако время, затраченное на них, не уменьшает размер возможного приговора.
+
+            Обеим сторонам рекомендуется заранее спланировать и учесть следующее:
+
+                - Доказательства, которые будут представлены.
+
+                - Будет ли подсудимый признавать себя виновным или невиновным.
+
+                - Каких свидетелей, если таковые имеются, они намерены вызвать.
+
+                - Имеются ли отягчающие или смягчающие обстоятельства.
+
+                - Стоит ли стремиться к заключению соглашения о признании вины в обмен на альтернативное наказание.
 
         ### Hearing procedure:
 
-            1. Opening
-                - The Magistrate identifies all participating parties, and reads the formal charges aloud.
+            1. Открытие заседания
+                - Мировой судья называет всех участников процесса и зачитывает вслух официальное обвинение.
 
-            2. Plea
-                - The Magistrate formally asks: “How does the Defendant plea?”
-                - If the Defense pleads guilty, skip to step 7 (Allocution).
-                - If the Defense pleads not guilty, proceed.
+            2. Заявление о признании вины
+                - Мировой судья официально спрашивает: «Какое заявление о признании вины делает подсудимый?»
+                - Если защита признает вину, перейдите к этапу 7 (заключительное слово).
+                - Если защита не признает вину, продолжайте.
 
-            3. Opening Statements
-                - The Prosecution gives a brief summary of what they intend to prove, and how.
-                - The Defense gives a brief summary of their argument or facts they intend to dispute.
+            3. Вступительные заявления
+                - Сторона обвинения кратко излагает, что она намерена доказать и каким образом.
+                - Сторона защиты кратко излагает свои аргументы или факты, которые она намерена оспорить.
 
-            4. Presenting Cases
-                - The Prosecution presents their case in its entirety, followed by the Defense in its entirety.
-                - Any physical evidence must be formally presented before the Magistrate, and entered into the record before it can be referenced in argument.
-                - Each side may bring their witnesses to the stand and question them directly.
-                - After each witness, the opposing side may cross-examine.
-                - The Defendant may choose to testify. If they do, they are subject to cross-examination.
+            4. Изложение версий дела
+                - Сторона обвинения излагает свою версию дела в полном объеме, после чего свою версию в полном объеме излагает сторона защиты.
+                - Любые вещественные доказательства должны быть официально представлены магистрату и занесены в протокол, прежде чем на них можно будет ссылаться в ходе прений.
+                - Каждая сторона может вызывать своих свидетелей на трибуну и задавать им вопросы напрямую.
+                - После дачи показаний каждым свидетелем противоположная сторона может провести перекрестный допрос.
+                - Подсудимый может принять решение дать показания. В этом случае он подлежит перекрестному допросу.
 
-            5. Closing Arguments
-                - The Prosecution presents their closing argument, then the Defense.
+            5. Заключительные речи
+                - Обвинение представляет свою заключительную речь, затем — защита.
 
-            6. Verdict
-                - The Magistrate determines Guilty or Not Guilty for each charge.
-                - If the Defendant is found Not Guilty on all charges, the Trial closes immediately.
+            6. Приговор
+                - Мировой судья выносит решение о виновности или невиновности по каждому пункту обвинения.
+                - Если подсудимый признан невиновным по всем пунктам обвинения, судебное разбирательство немедленно завершается.
 
-            7. Allocution
-                - The Defendant is given the floor to address the court directly and personally.
-                - They are not to be interrupted, cross-examined, or objected to in any way.
-                - This is the Defendant’s opportunity to explain themselves, apologize, or appeal to the court’s mercy.
+            7. Заключительное слово
+                - Подсудимому предоставляется слово для непосредственного и личного обращения к суду.
+                - Его нельзя прерывать, подвергать перекрестному допросу или выдвигать против него какие-либо возражения.
+                - Это возможность для подсудимого объяснить свои действия, извиниться или обратиться к суду с просьбой о снисхождении.
 
-            8. Sentencing
-                - Both sides may now argue for aggravating or extenuating circumstances that should influence the sentence.
-                - Either side may also propose a plea deal, for an alternative punishment in lieu of standard brig sentencing.
-                - The Magistrate considers these arguments and issues their final sentence.
+            8. Вынесение приговора
+                - Обе стороны могут теперь приводить аргументы в пользу отягчающих или смягчающих обстоятельств, которые должны повлиять на приговор.
+                - Любая из сторон может также предложить сделку о признании вины, предусматривающую альтернативное наказание вместо стандартного заключения в тюрьме.
+                - Магистрат рассматривает эти аргументы и выносит окончательный приговор.
 
-            9. Closing
-                - The arresting officer either releases the defendant or escorts them to serve their sentence, as appropriate.
+            9. Завершение
+                - Офицер, произведший арест, либо освобождает подсудимого, либо сопровождает его для отбывания наказания, в зависимости от обстоятельств.
 </Document>

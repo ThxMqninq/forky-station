@@ -1,35 +1,35 @@
 <Document>
-    ## Legal Exemptions
+    ## Законные исключения
 
-    Indicates the legal exemptions certain roles have from crimes or crime categories, so long as the proper protocol is being followed
+    Указывает на законные исключения, действующие в отношении определённых должностей в отношении преступлений или категорий преступлений, при условии соблюдения надлежащего протокола
 
-    ### Security Exemptions
+    ### Исключения, касающиеся безопасности
 
-        Security personnel are explicitly exempt from the following crime categories, so long as the action is following standard protocol and taken to perform enforcement duties:  
-            - Access: For the case of legal, necessary searches of a department.  
-            - Contraband: For their standard-issue service weapons and security equipment.  
-            - Theft: For legal confiscations of contraband.  
-            - Violence: For necessary force to carry out arrests.  
-            - Free Will: For restraining detainees and holding prisoners in custody.  
+        Сотрудники службы безопасности явно освобождаются от ответственности по следующим категориям преступлений, при условии что их действия соответствуют стандартному протоколу и предпринимаются в целях исполнения служебных обязанностей:
+            - Доступ: в случае законных и необходимых обысков в подразделении.
+            - Контрабанда: в отношении служебного оружия и оборудования безопасности, входящих в стандартную комплектацию.
+            - Кража: в случае законной конфискации контрабанды.
+            - Насилие: в случае применения необходимой силы для проведения арестов.
+            - Свобода воли: в случае сдерживания задержанных и содержания заключённых под стражей.
 
-    ### Medical Exemptions
+    ### Исключения для медицинского персонала
 
-        The Paramedic is explicitly exempt from the following crime categories, so long as the action is done following standard protocol and taken to perform life saving operations:  
-            - Access: For the case of medical emergency  
+        Парамедик явно освобождается от ответственности за следующие категории преступлений, при условии что его действия соответствуют стандартному протоколу и предпринимаются с целью проведения спасательных операций:
+            - Незаконное проникновение: в случае неотложной медицинской помощи
 
-    ### Engineering Exemptions
-    
-        Engineering personnel are explicitly exempt from the following crime categories, so long as the action is following standard protocol and taken to perform emergency repairs:  
-            - Access: For the case of effecting emergency repairs  
+    ### Исключения для инженерного персонала
 
-    ### Clown Exception
+        Инженерный персонал явно освобождается от ответственности за следующие категории преступлений, при условии, что действия осуществляются в соответствии со стандартным протоколом и предпринимаются с целью проведения аварийного ремонта:
+            - Доступ: в случае проведения аварийного ремонта
 
-        The clown gets a privilege to be able to commit Infraction level crimes for pranks, as long that:
-            - The pranks do not cause bodily harm.
-            - Damages caused are reversed at the end of the bit.
-            - In case the clown gets taken to court, the presiding judge determines if the bit was funny and if the clown exception holds.
+    ### Исключение для клоунов
 
-    ### Loss of Free Will
-    
-        In the event that a sapient being is under the influence of effects that completely suppress or control the being’s free will, any charges should be dropped upon the removal of said influence.
+        Клоун получает привилегию совершать правонарушения уровня «Проступок» в целях розыгрышей, при условии, что:
+            - Розыгрыши не причиняют телесных повреждений.
+            - Нанесённый ущерб устраняется по окончании номера.
+            - В случае, если клоун предстанет перед судом, председательствующий судья определяет, был ли номер смешным и действует ли исключение для клоунов.
+
+    ### Потеря свободы воли
+
+        В случае, если разумное существо находится под воздействием факторов, полностью подавляющих или контролирующих его свободу воли, все обвинения должны быть сняты после устранения указанного воздействия.
 </Document>

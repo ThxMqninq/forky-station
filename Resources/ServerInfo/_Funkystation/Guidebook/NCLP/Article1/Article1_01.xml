@@ -1,49 +1,49 @@
 <Document>
-    # Alert Levels
+    # Уровни угроз
 
-    The station uses a tiered alert level system to indicate the level and nature of potential threats to personnel.
+    Станция использует многоуровневую систему уровней тревоги для обозначения степени и характера потенциальных угроз для персонала.
 
-    ## Green
+    ## Зелёный
 
-        There is no threat present on the station.  Personnel are encouraged to conduct themselves as they usually would.
+        На станции отсутствует какая-либо угроза. Персоналу рекомендуется вести себя так, как обычно.
 
-    ## Yellow
+    ## Жёлтый
 
-        There is a considerable threat to the station's structural integrity and/or atmosphere, such as spacing across multiple parts of the station. Personnel are encouraged to:
-            - Avoid damaged, spaced, superheated, supercooled, or otherwise hazardous areas.
-            - Follow the guidance of any Engineering personnel present regarding the threat.
-            - Maximize their suit sensors.
+        Существует значительная угроза целостности конструкции станции и/или её атмосферы, например, вследствие разрывов в нескольких частях станции. Персоналу рекомендуется:
+            - Избегать повреждённых, разорванных, перегретых, переохлаждённых или иных опасных зон.
+            - Следовать указаниям присутствующих инженеров в отношении данной угрозы.
+            - Максимально использовать датчики на костюмах.
 
-    ## Blue
+    ## Синий
 
-        Evidence of felony-level and/or widespread criminal activity has been uncovered and is actively being pursued by the Security department. Personnel are to comply with any search orders given by Security and understand that events may be delayed or canceled while a Blue alert is active.
+        Выявлены факты преступной деятельности, относящейся к категории тяжких преступлений и/или носящей массовый характер, и отдел безопасности ведет по ним активное расследование. Персоналу необходимо выполнять все распоряжения об обыске, выдаваемые отделом безопасности, и понимать, что мероприятия могут быть отложены или отменены на время действия уровня.
 
-        The Security department is encouraged to carry equipment proportional to the size and nature of the threat, such as long arms while pursuing a violent felon.
+        Службе безопасности рекомендуется иметь при себе снаряжение, соразмерное масштабу и характеру угрозы, например, длинноствольное оружие при преследовании опасного преступника.
 
-        The Internal Affairs department is encouraged to use their discretion when enforcing Standard Operating Procedure, and may overlook potential violations if enforcing them would prolong the threat.
+        Отделу внутренних дел рекомендуется проявлять усмотрение при обеспечении соблюдения стандартных рабочих процедур и допускать потенциальные нарушения, если их соблюдение может привести к затягиванию угрозы.
 
-    ## Violet
+    ## Фиолетовый
 
-        There is a lethal biohazard present on the station. Personnel are to:
-            - Cover their faces, if possible.
-            - Obey any quarantine issued by the Chief Medical Officer.
-            - Maximize their suit sensors.
-            - Suspend all events and other activities.
+        На станции присутствует смертельно опасная биологическая угроза. Персоналу необходимо:
+            - Прикрыть лицо, если это возможно.
+            - Соблюдать все карантинные меры, введенные главным врачом.
+            - Максимально активировать датчики скафандра.
+            - Приостановить все мероприятия и прочую деятельность.
 
-        The Security department is encouraged to work with the Captain and the Chief Medical Officer to enforce any quarantines.
+        Отделу безопасности рекомендуется сотрудничать с капитаном и главным врачом в целях обеспечения соблюдения карантинных мер.
 
-        The Internal Affairs department is encouraged to use their discretion when enforcing Standard Operating Procedure, and may overlook potential violations if enforcing them would prolong the threat.
+        Отделу внутренних дел рекомендуется проявлять усмотрение при обеспечении соблюдения стандартных рабочих процедур и допускать потенциальные нарушения, если их соблюдение может привести к затягиванию угрозы.
 
-    ## Red
+    ## Красный
 
-        There is an active, violent, and lethal threat on the station. Unless explicitly ordered to do so otherwise by the Captain and/or Security personnel, personnel are to:
-            - Follow the guidance of their heads of staff regarding the threat.
-            - Stay within their departments if possible. Civilians are to remain in their office or the Service area.
-            - Stay out of maintenance areas. Entering maintenance areas during a Red alert is an act of trespassing and can be charged as such.
-            - Maximize their suit sensors.
-            - Suspend all events and other activities.
+        На станции существует активная, агрессивная и смертельно опасная угроза. Если капитан и/или сотрудники службы безопасности не отдали явных противоположных распоряжений, персонал должен:
+            - Следовать указаниям своих руководителей в отношении данной угрозы.
+            - По возможности оставаться в пределах своих подразделений. Гражданские лица должны оставаться в своих офисах или в зоне обслуживания.
+            - Не входить в зоны технического обслуживания. Вход в зоны технического обслуживания во время данного уровня угрозы считается незаконным проникновением и может быть квалифицирован как таковое.
+            - Максимально активировать датчики скафандра.
+            - Приостановить все мероприятия и прочие виды деятельности.
 
-        The Security department is encouraged to carry any equipment necessary to neutralize the threat.
+        Службе безопасности рекомендуется иметь при себе всё необходимое оборудование для нейтрализации угрозы.
 
-        The Internal Affairs department is to disregard any Standard Operating Procedure if enforcing it would prolong the threat.
+        Отдел внутренних дел должен игнорировать любые стандартные рабочие процедуры, если их соблюдение приведет к затягиванию угрозы.
 </Document>

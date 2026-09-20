@@ -1,43 +1,43 @@
 <Document>
-    # List of Crimes
+    # Список преступлений
 
-    ## Crime Tiers
+    ## Уровни преступлений
 
-        NanoTrasen defines the following Crime Tiers:
+        NanoTrasen выделяет следующие уровни преступлений:
 
-        ### Infraction
+        ### Проступок
 
-            Minor, non-criminal offenses.
+            Незначительные, неуголовные правонарушения.
 
-            An offense is especially considered only an Infraction if it causes minimal damage, and is easily reversible.
+            Правонарушение считается «нарушением» только в том случае, если оно наносит минимальный ущерб и легко устраняется.
 
-            Possible Punishments:
+            Возможные наказания:
 
-                - A financial penalty ticket and/or a formal warning.
-                - Explicitly do not result in brig time.
+                - Штрафной талон и/или официальное предупреждение.
+                - Явно не влекут за собой заключение в карцер.
 
-            Punishments for Infractions aren’t supposed to majorly interrupt the offender’s workplace productivity.
+            Наказания за нарушения не должны существенно снижать производительность труда правонарушителя.
 
-        ### Misdemeanor
+        ### Мелкое преступление
 
-            Crimes that cause harm to others or some level of asset loss, and aren’t as easily reversible.
+            Преступления, причиняющие вред другим лицам или приводящие к определенной потере активов, которые не так легко устранить.
 
-        ### Felony
+        ### Тяжкое преступление
 
-            Crimes that cause major harm, major asset loss, and/or are a major threat to the station’s operational safety.
+            Преступления, которые причиняют значительный вред, ведут к значительной потере имущества и/или представляют серьезную угрозу для эксплуатационной безопасности станции.
 
-        ### Capital Offense
+        ### Преступление, караемое смертной казнью
 
-            Crimes that cause irreversible harm or asset loss, and/or majorly disrupt the station’s operational safety.
+            Преступления, которые причиняют необратимый вред или приводят к необратимой потере имущества, и/или серьезно нарушают эксплуатационную безопасность станции.
 
-    ## Criminal Offenses
-    
-        NanoTrasen defines the following Infractions and Criminal Offenses:
+    ## Уголовные преступления
+
+        Компания NanoTrasen определяет следующие правонарушения и уголовные преступления:
 
         <Table Columns="10">
             <ColorBox>
                 <Box>
-                    Infractions
+                    Проступки
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -45,18 +45,7 @@
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Misdemeanors
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box></Box>
-            </ColorBox>
-            <ColorBox>
-                <Box></Box>
-            </ColorBox>
-            <ColorBox>
-                <Box>
-                    Felonies
+                    Мелкие правонарушения
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -67,13 +56,24 @@
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Capital Offenses
+                    Тяжкие преступления
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box></Box>
             </ColorBox>
-            
+            <ColorBox>
+                <Box></Box>
+            </ColorBox>
+            <ColorBox>
+                <Box>
+                    Преступления, караемые смертной казнью
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box></Box>
+            </ColorBox>
+
 
             <ColorBox>
                 <Box>
@@ -82,122 +82,122 @@
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class C
+                    Класс C
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class B
+                    Класс B
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class A
+                    Класс A
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class C
+                    Класс C
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class B
+                    Класс B
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class A
+                    Класс A
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class C
+                    Класс C
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class B
+                    Класс B
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Class A
+                    Класс A
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Ticket \+ Warning
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box>
-                    8 Minutes
+                    Штраф \+ Предупреждение
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    10 Minutes
+                    8 минут
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    12 Minutes
+                    10 минут
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    16 Minutes
+                    12 минут
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    20 Minutes
+                    16 минут
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    24 Minutes
+                    20 минут
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Perma
+                    24 минут
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Perma w/o Parole
+                    Перма
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box>
-                    Execution
+                    Перма без УДО
                 </Box>
             </ColorBox>
-            
-            
+            <ColorBox>
+                <Box>
+                    Казнь
+                </Box>
+            </ColorBox>
+
+
             <ColorBox Color="#59563a">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Loitering (A)
+                    Бродяжничество
                 </Box>
-            </ColorBox>
-            <ColorBox Color="#59563a">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Trespass (A)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
             <ColorBox Color="#59563a">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Secure Trespass (A)
+                    Незаконное проникновение
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox Color="#59563a">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Незаконное проникновение на защищенную территорию
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -215,16 +215,16 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox Color="#7d1616">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Possession of Minor Contraband (C)
+                    Хранение малой контрабанды (C)
                 </Box>
             </ColorBox>
             <ColorBox Color="#7d1616">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Possession of Moderate Contraband (C)
+                    Хранение средней контрабанды (C)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -235,7 +235,7 @@
             </ColorBox>
             <ColorBox Color="#7d1616">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Possession of Major Contraband (C)
+                    Хранение крупной контрабанды (C)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -253,11 +253,11 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox Color="#453a59">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Vandalism (D)
+                    Вандализм (D)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -265,18 +265,7 @@
             </ColorBox>
             <ColorBox Color="#453a59">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Destruction of Property (D)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#453a59">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Mass Destruction (D)
+                    Уничтожение имущества(D)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -287,48 +276,7 @@
             </ColorBox>
             <ColorBox Color="#453a59">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Station Sabotage (D)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            
-            
-            <ColorBox Color="#32615f">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Refusal to Identify (F)
-                </Box>
-            </ColorBox>
-            <ColorBox Color="#32615f">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Slander (F)
-                </Box>
-            </ColorBox>
-            <ColorBox Color="#32615f">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Impersonation (F)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#32615f">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Libel (F)
-                </Box>
-            </ColorBox>
-            <ColorBox Color="#32615f">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Fraud (F)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#32615f">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Impersonation of Central Command (F)
+                    Массовое уничтожение имущества (D)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -337,8 +285,60 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+            <ColorBox Color="#453a59">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Саботаж станции (D)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+
+
+            <ColorBox Color="#32615f">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Отказ от указания личности (F)
+                </Box>
+            </ColorBox>
+            <ColorBox Color="#32615f">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Оболжение (F)
+                </Box>
+            </ColorBox>
+            <ColorBox Color="#32615f">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Выдача себя за другого человека (F)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox Color="#32615f">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Клевета (F)
+                </Box>
+            </ColorBox>
+            <ColorBox Color="#32615f">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Мошенничество (F)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox Color="#32615f">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Выдача себя за Центральное командование (F)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+
+
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
@@ -347,7 +347,7 @@
             </ColorBox>
             <ColorBox Color="#3f5a39">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Contempt of Court (J)
+                    Неуважение к суду (J)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -355,7 +355,7 @@
             </ColorBox>
             <ColorBox Color="#3f5a39">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Perjury (J)
+                    Лжесвидетельство (J)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -363,7 +363,7 @@
             </ColorBox>
             <ColorBox Color="#3f5a39">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Subversion of Court (J)
+                    Посягательство на авторитет суда (J)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -375,11 +375,11 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
+
 
             <ColorBox Color="#392e65">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Harassment (M)
+                    Харассмент (M)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -393,7 +393,7 @@
             </ColorBox>
             <ColorBox Color="#392e65">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Extortion (M)
+                    Вымогательство (M)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -401,7 +401,7 @@
             </ColorBox>
             <ColorBox Color="#392e65">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Sedition (M)
+                    Подстрекательство к мятежу (M)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -412,33 +412,14 @@
             </ColorBox>
             <ColorBox Color="#392e65">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Terrorism (M)
+                    Терроризм (M)
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox Color="#6d6d26">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Negligence (N)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#6d6d26">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Endangerment (N)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#6d6d26">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Manslaughter (N)
+                    Халатность (N)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -446,7 +427,7 @@
             </ColorBox>
             <ColorBox Color="#6d6d26">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Capital Negligence (N)
+                    Оставление в опасности (N)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -455,19 +436,30 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+            <ColorBox Color="#6d6d26">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Непреднамеренное убийство (N)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox Color="#6d6d26">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Грубая халатность (N)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+
+
             <ColorBox Color="#2b5e68">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Operation without Permit (O)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#2b5e68">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Smuggling (O)
+                    Деятельность без разрешения (O)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -475,7 +467,15 @@
             </ColorBox>
             <ColorBox Color="#2b5e68">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Black Marketeering (O)
+                    Контрабандизм (O)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox Color="#2b5e68">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Создание чёрного рынка (O)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -493,30 +493,30 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox Color="#7b3f18">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Disturbance (R)
+                    Помеха (R)
                 </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#7b3f18">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Unlawful Assembly (R)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
             <ColorBox Color="#7b3f18">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Rioting (R)
+                    Незаконное собрание (R)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox Color="#7b3f18">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Массовые беспорядки (R)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -531,11 +531,11 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox Color="#593a4e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Failure to Comply (S)
+                    Невыполнение требований (S)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -543,7 +543,7 @@
             </ColorBox>
             <ColorBox Color="#593a4e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Breach of Arrest (S)
+                    Нарушение условий ареста (S)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -551,7 +551,7 @@
             </ColorBox>
             <ColorBox Color="#593a4e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Breach of Custody (S)
+                    Нарушение условий содержания под стражей (S)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -569,27 +569,27 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox Color="#395a39">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Petty Theft (T)
+                    Мелкая кража (T)
                 </Box>
-            </ColorBox>
-            <ColorBox Color="#395a39">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Theft (T)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
             <ColorBox Color="#395a39">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Grand Theft (T)
+                    Кража (T)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
+            <ColorBox Color="#395a39">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Крупная кража (T)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -607,8 +607,8 @@
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
@@ -617,12 +617,12 @@
             </ColorBox>
             <ColorBox Color="#4d2e2e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Assault (V)
+                    Нападение (V)
                 </Box>
             </ColorBox>
             <ColorBox Color="#4d2e2e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Battery (V)
+                    Избиение (V)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -630,7 +630,7 @@
             </ColorBox>
             <ColorBox Color="#4d2e2e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Mutilation (V)
+                    Калечение (V)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -638,19 +638,19 @@
             </ColorBox>
             <ColorBox Color="#4d2e2e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Murder (V)
+                    Убийство (V)
                 </Box>
             </ColorBox>
             <ColorBox Color="#4d2e2e">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Prevention of Revival (V)
+                    Предотвращение возрождения (V)
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
@@ -668,7 +668,7 @@
             </ColorBox>
             <ColorBox Color="#67276c">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Kidnapping (W)
+                    Похищение (W)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -679,30 +679,17 @@
             </ColorBox>
             <ColorBox Color="#67276c">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Suppression of Free Will (W)
+                    Подавление свободы воли (W)
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox Color="#3b4354">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Cannibalism
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
-            </ColorBox>
-            <ColorBox Color="#3b4354">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Failure to Pay
-                </Box>
-            </ColorBox>
-            <ColorBox Color="#3b4354">
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Animal Cruelty
+                    Каннибализм
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -710,12 +697,12 @@
             </ColorBox>
             <ColorBox Color="#3b4354">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Bribery
+                    Неуплата
                 </Box>
             </ColorBox>
             <ColorBox Color="#3b4354">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Tax Evasion
+                    Жестокое обращение с животными
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -723,19 +710,32 @@
             </ColorBox>
             <ColorBox Color="#3b4354">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Refusal of Lawful Implantation
+                    Взяточничество
                 </Box>
             </ColorBox>
             <ColorBox Color="#3b4354">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Breach of NT Contract
+                    Уклонение от уплаты налогов
                 </Box>
             </ColorBox>
-            
-            
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2"></Box>
+            </ColorBox>
             <ColorBox Color="#3b4354">
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Substance Abuse
+                    Отказ от законной имплантации
+                </Box>
+            </ColorBox>
+            <ColorBox Color="#3b4354">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Нарушение договора NT
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox Color="#3b4354">
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Злоупотребление психоактивными веществами
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -779,36 +779,36 @@
             </ColorBox>
             <ColorBox Color="#6d6d26">
                 <Box>
-                    Access
+                    Проникновение
                 </Box>
             </ColorBox>
             <ColorBox Color="#6d6d26">
                 <Box>
-                    Existing where you are not allowed.
+                    Находиться там, где это запрещено.
                 </Box>
             </ColorBox>
-            
+
 
             <ColorBox>
                 <Box>
-                    Infraction
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Loitering
+                    Бродяжничество
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Existing near a restricted area for an extended time, with no reasonable purpose.
+                    Нахождение вблизи зоны ограниченного доступа в течение длительного времени без уважительной причины.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (C)
+                    Мелкое преступление (C)
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -821,11 +821,11 @@
                     Entering a restricted area without express permission.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -850,7 +850,7 @@
             </ColorBox>
             <ColorBox Color="#7d1616">
                 <Box>
-                    Contraband
+                    Владение контрабандной
                 </Box>
             </ColorBox>
             <ColorBox Color="#7d1616">
@@ -858,55 +858,55 @@
                     Possession or use of controlled, restricted, or illegal contraband.
                 </Box>
             </ColorBox>
-            
+
 
             <ColorBox>
                 <Box>
-                    Infraction
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Possession of Minor Contraband
+                    Хранение малой контрабанды
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    See Contraband Classifications.
+                    См. «Классификация контрабанды».
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (C)
+                    Мелкое преступление (C)
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Possession of Moderate Contraband
+                    Хранение средней контрабанды
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    See Contraband Classifications.
+                    См. «Классификация контрабанды».
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Possession of Major Contraband
+                    Хранение опасной контрабанды
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    See Contraband Classifications.
+                    См. «Классификация контрабанды».
                 </Box>
             </ColorBox>
         </Table>
@@ -921,24 +921,24 @@
             </ColorBox>
             <ColorBox Color="#453a59">
                 <Box>
-                    Destruction
+                    Уничтожение
                 </Box>
             </ColorBox>
             <ColorBox Color="#453a59">
                 <Box>
-                    Causing intentional damage to station functions.
+                    Умышленное нарушение работы станции.
                 </Box>
             </ColorBox>
-            
+
 
             <ColorBox>
                 <Box>
-                    Infraction
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Vandalism
+                    Вандализм
                 </Box>
             </ColorBox>
             <ColorBox>
@@ -947,54 +947,54 @@
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (B)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Destruction of Property
+                    Уничтожение имущества
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Causing substantial structural damage, requiring repairs.
+                    Массовое разрушение: нанесение значительного ущерба конструкции, требующего ремонта.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (B)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Mass Destruction
+                    Массовое уничтожение
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Causing substantial structural damage to a large area of the station.
+                    Действие, приведшее к значительным структурным повреждениям на обширной территории станции.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (B)
+                    Преступление, караемое смертной казнью
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Station Sabotage
+                    Саботаж станции
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Intentionally rendering critical station infrastructure inoperable.
+                    Умышленное выведение из строя критически важных объектов инфраструктуры станции.
                 </Box>
             </ColorBox>
         </Table>
@@ -1009,114 +1009,114 @@
             </ColorBox>
             <ColorBox Color="#32615f">
                 <Box>
-                    Fraud
+                    Мошенничество
                 </Box>
             </ColorBox>
             <ColorBox Color="#32615f">
                 <Box>
-                    Lying about yourself or your actions for personal gain.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Refusal to Identify
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Not wearing your shift-assigned ID, and/or hiding your identity with facial coverings and refusing to present your identity when asked by an authority.
+                    Ложь о себе или своих поступках ради личной выгоды.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (C)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Slander
+                    Отказ от указания личности
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Speaking false and harmful statements about NanoTrasen, its subsidiaries, or contractees.
+                    Не ношение ID-карты, выданного на время смены, и/или сокрытие своей личности с помощью средств, закрывающих лицо, а также отказ предъявить документ, удостоверяющий личность, по требованию представителя власти.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (B)
+                    Мелкое преступление (C)
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Impersonation
+                    Оболгание
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Hiding your true identity and posing as someone you are not for personal gain.
+                    Распространение ложных и оскорбительных заявлений в отношении компании NanoTrasen, её дочерних компаний или контрагентов.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Libel
+                    Выдача себя за другого человека
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Publishing false and harmful written statements about NanoTrasen, its subsidiaries, or contractees.
+                    Скрытие своей истинной личности и выдача себя за другого человека с целью извлечения личной выгоды.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (B)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Fraud
+                    Клевета
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Intentionally lying about promised actions for personal gain, or not following through with non-NT contracts.
+                    Публикация ложных и наносящих ущерб письменных заявлений о компании NanoTrasen, её дочерних компаниях или контрагентах.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (C)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Impersonation of Central Command
+                    Мошенничество
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Hiding your true identity and posing as Central Command.
+                    Намеренная ложь об обещанных действиях с целью извлечения личной выгоды или невыполнение обязательств по договорам, не относящимся к NT.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Преступление, караемое смертной казнью (C)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Выдача себя за Центральное командование
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Скрытие своей истинной личности и выдача себя за Центральное командование.
                 </Box>
             </ColorBox>
         </Table>
@@ -1131,63 +1131,63 @@
             </ColorBox>
             <ColorBox Color="#3f5a39">
                 <Box>
-                    Obstruction of Legal Justice
+                    Воспрепятствование правосудия
                 </Box>
             </ColorBox>
             <ColorBox Color="#3f5a39">
                 <Box>
-                    Impeding or abusing the legal justice system.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Misdemeanor (B)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Contempt of Court
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Needlessly interrupting or delaying official court proceedings.
+                    Препятствование работе системы правосудия или злоупотребление ею.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Perjury
+                    Неуважение к суду
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Lying under oath of court, or delivering false reports to Security.
+                    Необоснованное прерывание или затягивание официальных судебных разбирательств.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (A)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Subversion of Court
+                    Лжесвидетельство
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Obstructing court to the point where official court proceedings have to pause or stop altogether.
+                    Дача ложных показаний под присягой в суде или представление ложных отчетов в службу безопасности.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Тяжкое преступление
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Посягательство на авторитет суда
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Создание препятствий для работы суда в такой степени, что официальные судебные разбирательства вынуждены приостанавливаться или полностью прекращаться.
                 </Box>
             </ColorBox>
         </Table>
@@ -1202,80 +1202,80 @@
             </ColorBox>
             <ColorBox Color="#392e65">
                 <Box>
-                    Manipulation
+                    Манипуляция
                 </Box>
             </ColorBox>
             <ColorBox Color="#392e65">
                 <Box>
-                    Manipulating a sapient being through tactics of fear and/or aggression.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Harassment
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Unwelcome, knowing, and repeated negative conduct toward a sapient being, causing them to feel seriously uncomfortable, annoyed, or afraid.
+                    Манипулирование разумным существом с помощью тактик, основанных на страхе и/или агрессии.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Extortion
+                    Харассмент
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Unlawfully forcing another sapient being to do something unwillingly, by means of threats, force or aggression.
+                    Нежелательное, сознательное и повторяющееся негативное поведение по отношению к разумному существу, вызывающее у него чувство сильного дискомфорта, раздражения или страха.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Felony (A)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Sedition
+                    Вымогательство
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Conspiring to overthrow or otherwise dismantle NanoTrasen public trust and authority.
+                    Незаконное принуждение другого разумного существа к действию против его воли с помощью угроз, силы или агрессии.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (A)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Terrorism
+                    Подстрекательство к мятежу
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Causing mass station panic, or completely disrupting station operations by means of fear and/or lethal force.
+                    Сговор с целью свержения или иного подрыва общественного доверия и авторитета компании NanoTrasen.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Преступление, караемое смертной казнью
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Терроризм
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Вызов массовой паники на станции или полная парализация работы станции путем запугивания и/или применения смертоносного оружия.
                 </Box>
             </ColorBox>
         </Table>
@@ -1290,80 +1290,80 @@
             </ColorBox>
             <ColorBox Color="#59563a">
                 <Box>
-                    Negligence
+                    Бездействие
                 </Box>
             </ColorBox>
             <ColorBox Color="#59563a">
                 <Box>
-                    Causing harm to the station or its crew through vocational incompetence.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Negligence
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Unintentionally performing an action in a way that creates unnecessary harm.
+                    Причинение ущерба станции или её экипажу вследствие профессиональной некомпетентности.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (B)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Endangerment
+                    Халатность
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Willfully performing an action in a way that creates unnecessary harm.
+                    Непреднамеренное совершение действия, приводящего к причинению ненужного вреда.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Felony (B)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Manslaughter
+                    Оставление в опасности
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Killing another sapient being without intent.
+                    Умышленное совершение действия, приводящего к причинению ненужного вреда.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (C)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Capital Negligence
+                    Непреднамеренное убийство
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Performing an action in a way that causes unnecessary harm, to the point of causing mass station destruction, or rendering a department mostly inoperable, even temporarily.
+                    Убийство другого разумного существа без умысла.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Преступление, караемое смертной казнью (C)
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Грубая халатность
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Совершение действия таким образом, что оно причиняет ненужный ущерб, вплоть до массового разрушения станции или приведения отдела в состояние практически полной неработоспособности, пусть даже временно.
                 </Box>
             </ColorBox>
         </Table>
@@ -1378,63 +1378,63 @@
             </ColorBox>
             <ColorBox Color="#2b5e68">
                 <Box>
-                    Operation
+                    Эксплуатация
                 </Box>
             </ColorBox>
             <ColorBox Color="#2b5e68">
                 <Box>
-                    Performing works or transactions not sanctioned by NanoTrasen.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Operation without Permit
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Performing another department’s duties, or some other business venture without a legal permit of operation.
+                    Осуществление работ или сделок, не санкционированных компанией NanoTrasen.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (B)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Smuggling
+                    Эксплуатация без разрешения
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Illegaly distributing or selling items outside of the NT ecosystem.
+                    Выполнение обязанностей другого подразделения или ведение какой-либо другой коммерческой деятельности без законного разрешения на ведение деятельности.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Black Marketeering
+                    Контрабандизм
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Engaging in the buying and/or selling of contraband.
+                    Незаконное распространение или продажа товаров за пределами экосистемы NT.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Тяжкое преступление
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Создание чёрного рынка
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Участие в покупке и/или продаже контрабанды.
                 </Box>
             </ColorBox>
         </Table>
@@ -1449,63 +1449,63 @@
             </ColorBox>
             <ColorBox Color="#7b3f18">
                 <Box>
-                    Rowdiness
+                    Хулиганство
                 </Box>
             </ColorBox>
             <ColorBox Color="#7b3f18">
                 <Box>
-                    Causing public disturbances and general unrest.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Disturbance
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Catch-all for public disruptive or obnoxious behavior.
+                    Создание общественных беспорядков и массовых волнений.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (B)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Unlawful Assembly
+                    Беспокойство
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Refusing to disperse a protest or gathering after an official and legal declaration to do so has been issued.
+                    Общее понятие, охватывающее любое публичное поведение, нарушающее общественный порядок или вызывающее раздражение.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (B)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Rioting
+                    Незаконное собрание
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Participating in unlawful protests, in the case where violence or station damages occur.
+                    Отказ разогнать протест или собрание после того, как было вынесено официальное и законное распоряжение об этом.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Тяжкое преступление
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Массовые беспорядки
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Участие в незаконных протестах, если в ходе них имеют место акты насилия или наносится ущерб станции.
                 </Box>
             </ColorBox>
         </Table>
@@ -1520,63 +1520,63 @@
             </ColorBox>
             <ColorBox Color="#593a4e">
                 <Box>
-                    Obstruction of Security
+                    Препятствование обеспечению безопасности
                 </Box>
             </ColorBox>
             <ColorBox Color="#593a4e">
                 <Box>
-                    Going against or obstructing lawful Security actions.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Failure to Comply
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Refusing to comply with lawful demands of Security personnel.
+                    Противодействие законным действиям служб безопасности или создание препятствий для их осуществления.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (B)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Breach of Arrest
+                    Невыполнение требований
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Escaping from or evading a lawful and justified arrest or detainment.
+                    Отказ выполнить законные требования сотрудников службы безопасности.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Breach of Custody
+                    Нарушение условий ареста
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Escaping from custody during or after receiving a legal sentence.
+                    Побег или уклонение от законного и обоснованного ареста или задержания.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Тяжкое преступление
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Нарушение условий содержания под стражей
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Побег из-под стражи во время или после вынесения судебного приговора.
                 </Box>
             </ColorBox>
         </Table>
@@ -1591,63 +1591,63 @@
             </ColorBox>
             <ColorBox Color="#395a39">
                 <Box>
-                    Theft
+                    Кража
                 </Box>
             </ColorBox>
             <ColorBox Color="#395a39">
                 <Box>
-                    Taking that which belongs to others.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Petty Theft
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Taking something that is mostly worthless or easily replaceable.
+                    Забирать то, что принадлежит другим.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (C)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Theft
+                    Мелкая кража
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Taking something of meaningful value.
+                    Забирать что-то, что в основном не представляет ценности или легко заменяемо.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (C)
+                    Мелкое преступление (C)
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Grand Theft
+                    Кража
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Taking something that is critical to the person’s job or role.
+                    Забрать что-то, имеющее значимую ценность.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Тяжкое преступление
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Крупная кража
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Изъятие чего-либо, что имеет решающее значение для работы или должности данного человека.
                 </Box>
             </ColorBox>
         </Table>
@@ -1662,97 +1662,97 @@
             </ColorBox>
             <ColorBox Color="#4d2e2e">
                 <Box>
-                    Intentional Violence
+                    Умышленное насилие
                 </Box>
             </ColorBox>
             <ColorBox Color="#4d2e2e">
                 <Box>
-                    Causing intentional bodily harm to another sapient being.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Misdemeanor (B)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Assault
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Threatening or attempting to cause bodily harm to another sapient being.
+                    Умышленное причинение телесных повреждений другому разумному существу.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (A)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Battery
+                    Нападение
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Causing superficial bodily harm to another sapient being.
+                    Угроза нанесения телесных повреждений другому разумному существу или попытка нанести такие повреждения.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (B)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Mutilation
+                    Побои
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Causing permanent or otherwise long-lasting damage to another sapient being’s body parts, organs, or appendages.
+                    Нанесение поверхностных телесных повреждений другому разумному существу.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (C)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Murder
+                    Калечение
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Intentionally killing another sapient being.
+                    Нанесение необратимого или иного длительного ущерба частям тела, органам или конечностям другого разумного существа.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (B)
+                    Преступление, караемое смертной казнью (C)
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Prevention of Revival
+                    Убийство
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Rendering a dead body unrevivable by common medical practice.
+                    Умышленное убийство другого разумного существа.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Преступление, караемое смертной казнью
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Предотвращение возрождения
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Приведение тела умершего в состояние, при котором его невозможно реанимировать с помощью обычных медицинских методов.
                 </Box>
             </ColorBox>
         </Table>
@@ -1767,46 +1767,46 @@
             </ColorBox>
             <ColorBox Color="#67276c">
                 <Box>
-                    Free Will
+                    Свобода воли
                 </Box>
             </ColorBox>
             <ColorBox Color="#67276c">
                 <Box>
-                    Depriving another sapient being of their free will and autonomy.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Felony (B)
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Kidnapping
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    To unlawfully restrain or transport another sapient being against their will.
+                    Лишение другого разумного существа свободы воли и самостоятельности.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Capital Offense (B)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Suppression of Free Will
+                    Похищение
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Permanently depriving another sapient being of their free will and autonomy.
+                    Незаконное удержание или перевозка другого разумного существа против его воли.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Преступление, караемое смертной казнью
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Подавление свободы воли
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Постоянное лишение другого разумного существа свободы воли и самостоятельности.
                 </Box>
             </ColorBox>
         </Table>
@@ -1821,148 +1821,148 @@
             </ColorBox>
             <ColorBox Color="#3b4354">
                 <Box>
-                    Other
+                    Прочее
                 </Box>
             </ColorBox>
             <ColorBox Color="#3b4354">
                 <Box>
-                    Independent crimes with no classification.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Cannibalism
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    To consume a portion of another sapient being, without express consent.
-                </Box>
-            </ColorBox>
-            
-
-            <ColorBox>
-                <Box>
-                    Infraction
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Substance Abuse
-                </Box>
-            </ColorBox>
-            <ColorBox>
-                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Consumption or usage of contraband substances.
+                    Отдельные преступления, не подпадающие под какую-либо классификацию.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (B)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Failure to Pay
+                    Каннибализм
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Failure to pay a legally imposed fine within the required timeframe.
+                    Употребить в пищу часть другого разумного существа без его явного согласия.
                 </Box>
             </ColorBox>
 
-            
+
             <ColorBox>
                 <Box>
-                    Misdemeanor (A)
+                    Проступок
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Animal Cruelty
+                    Злоупотребление психоактивными веществами
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Inflicting excessive harm on a living being, except when required for medical treatment, scientific research, or the preparation of food.
+                    Употребление или использование контрабандных веществ.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (B)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Bribery
+                    Неуплата
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Offering, giving or accepting gifts, money, or favors to influence someone to act outside of their allowed duties.
+                    Неуплата штрафа, наложенного в установленном законом порядке, в установленный срок.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Felony (A)
+                    Мелкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Tax Evasion
+                    Жестокое обращение с животными
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Not paying NanoTrasen-mandated scrip taxes, or using non-scrip currencies to avoid paying taxes.
+                    Причинение чрезмерного вреда живому существу, за исключением случаев, когда это необходимо для лечения, научных исследований или приготовления пищи.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (B)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Refusal of Lawful Implantation
+                    Взяточничество
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Refusing to accept a lawful implant from Security personnel while in custody.
+                    Предложение, предоставление или принятие подарков, денег или услуг с целью оказать влияние на кого-либо, чтобы тот действовал вне рамок своих служебных полномочий.
                 </Box>
             </ColorBox>
-            
-            
+
+
             <ColorBox>
                 <Box>
-                    Capital Offense (A)
+                    Тяжкое преступление
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Breach of NT Contract
+                    Уклонение от уплаты налогов
                 </Box>
             </ColorBox>
             <ColorBox>
                 <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-                    Violating the terms of an NT-issued, signed contract. 
+                    Неуплата налогов на скрипы, установленных компанией NanoTrasen, или использование валют, не относящихся к скрипам, с целью уклонения от уплаты налогов.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Преступление, караемое смертной казнью
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Отказ от законной имплантации
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Отказ принять законный имплантат, установленный сотрудниками службы безопасности, во время содержания под стражей.
+                </Box>
+            </ColorBox>
+
+
+            <ColorBox>
+                <Box>
+                    Преступление, караемое смертной казнью
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Нарушение договора NT
+                </Box>
+            </ColorBox>
+            <ColorBox>
+                <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
+                    Нарушение условий подписанного контракта, заключённого компанией NT.
                 </Box>
             </ColorBox>
         </Table>

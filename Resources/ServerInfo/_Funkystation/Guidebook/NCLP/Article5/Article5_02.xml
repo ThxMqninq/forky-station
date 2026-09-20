@@ -1,189 +1,189 @@
 <Document>
-    # Sentencing guidelines
+    # Руководство по вынесению приговоров
 
-    Sentencing is the act of determining a suitable punishment for convicted criminals.
+    Вынесение приговора — это процесс определения надлежащего наказания для осужденных преступников.
 
-    The presiding Judge determines the sentence after they have made an official verdict.
+    Председательствующий судья выносит приговор после того, как огласит официальный вердикт.
 
-    ## Processing Priority
+    ## Порядок рассмотрения
 
-        At any given time, at least one legal authority must be in charge of sentencing aboard the station, known as the Judge.
+        В любой момент времени на станции должен находиться по крайней мере один представитель судебной власти, ответственный за вынесение приговоров, именуемый «судьей».
 
-        Typically, this is the Magistrate, but in their absence, the responsibility falls upon the following order of succession:
-            - Magistrate.
-            - Acting Magistrate (Promoting an IAA).
-            - Executive Officer.
-            - Captain.
+        Как правило, этим занимается магистрат, но в случае его отсутствия ответственность переходит к следующим лицам в порядке преемственности:
+            - Магистрат.
+            - Исполняющий обязанности магистрата (повышение в звании агента внутренних дел).
+            - Исполнительный директор.
+            - Капитан.
 
-        The Judge is responsible for:
-            - Categorizing hearings: Determining which level of hearing is suitable for the charges.
-            - Delivering a verdict: Whether or not the defendant is guilty.
-            - Determining a sentence: The amount of brig time and/or alternative punishments to assign.
+        Судья отвечает за:
+            - Классификацию слушаний: определение уровня слушания, соответствующего предъявленным обвинениям.
+            - Вынесение вердикта: признание обвиняемого виновным или невиновным.
+            - Определение наказания: продолжительность пребывания в карцере и/или назначение альтернативных наказаний.
 
-        The Judge's Legal Authority is bestowed by the Captain, who still holds the most legal authority aboard the station. At any time, the Captain may temporarily or permanently revoke this authority and overrule any verdict and/or sentence if truly necessary.
+        Юридические полномочия Судьи наделяются капитаном, который по-прежнему обладает наибольшими юридическими полномочиями на борту станции. В любой момент капитан может временно или навсегда отозвать эти полномочия и отменить любой вердикт и/или приговор, если это действительно необходимо.
 
-    ## Standard Punishment Lengths
+    ## Стандартные сроки наказания
 
-        When determining brig times, standard times based on the crime severity and punishment classification should be used as the starting point. Additional modifiers based on circumstances can be placed to increase or decrease the final time and/or tier.
+        При определении сроков содержания в карцере в качестве отправной точки следует использовать стандартные сроки, основанные на тяжести правонарушения и классификации наказания. В зависимости от обстоятельств могут применяться дополнительные поправки, увеличивающие или уменьшающие окончательный срок и/или уровень наказания.
 
-        Infractions:
-            - Ticket + Warning recommended.
-        
-        Misdemeanors:
-            - Class C: 8 Minutes
-            - Class B: 10 Minutes
-            - Class A: 12 Minutes
-        
-        Felonies:
-            - Class C: 16 Minutes
-            - Class B: 20 Minutes
-            - Class A: 24 Minutes
-        
-        Capital Offenses:
-            - Class C: Permanent Confinement
-            - Class B: Permanent Confinement without Parole
-            - Class A: Execution
+        Проступки:
+            - Рекомендуется выписать штраф + вынести предупреждение.
 
-        ### Aggravating Circumstances
+        Мелкие преступления:
+            - Класс C: 8 минут
+            - Класс B: 10 минут
+            - Класс A: 12 минут
 
-            Aggravating circumstances increase the severity of a punishment.
+        Тяжкие преступления:
+            - Класс C: 16 минут
+            - Класс B: 20 минут
+            - Класс A: 24 минуты
 
-            Minor cases of aggravating circumstances would increase the Punishment Class by one level.
+        Преступления, караемые смертной казнью:
+            - Класс C: пожизненное заключение
+            - Класс B: пожизненное заключение без права на УДО
+            - Класс A: смертная казнь
 
-            Ex. Class C \-\> Class B
+        ### Отягчающие обстоятельства
 
-            Major cases of aggravating circumstances could increase the severity by an entire tier.
+            Отягчающие обстоятельства повышают строгость наказания.
 
-            Ex. Misdemeanor \-\> Felony
+            Незначительные отягчающие обстоятельства повышают класс наказания на один уровень.
 
-            [bold]Attempted/Planned Crime[/bold]:\n
-            Attempted or planned crimes are to be charged as the full crime committed, so long as there is clear evidence. A crime should not be charged as attempted if there is a more fitting lesser crime.
+            Пример: класс C \-\> класс B
 
-            [bold]Alert Level[/bold]:\n
-            Committing a crime that directly goes against restrictions placed during a heightened alert level, or directly goes against a public announcement made by Command.
+            Серьёзные отягчающие обстоятельства могут повысить строгость наказания на целый уровень.
 
-            [bold]Brutality[/bold]:\n
-            The crime was committed recklessly, with no regard for collateral damage, and/or with a complete lack of remorse.
+            Пример: Мелкое правонарушение \-\> Тяжкое преступление
 
-            [bold]Evasion of Enforcement[/bold]:\n
-            The defendant greatly resisted arrest, or otherwise evaded and obstructed security from charging them.
+            [bold]Покушение/замысел на совершение преступления[/bold]:\n
+            Покушение или замысел на совершение преступления должны квалифицироваться как полноценное совершенное преступление, при условии наличия явных доказательств. Преступление не должно квалифицироваться как покушение, если существует более подходящее преступление меньшей тяжести.
 
-            [bold]Parole Violation[/bold]:\n
-            The crime was committed while the defendant was on parole, or serving an alternative sentence.
+            [bold]Уровень тревоги[/bold]:\n
+            Совершение преступления, которое прямо противоречит ограничениям, введенным во время повышенного уровня тревоги, или прямо противоречит публичному объявлению, сделанному Командованием.
 
-            [bold]Privileged Victim[/bold]:\n
-            The crime was committed, and concerns a member of high ranking or authority under NanoTrasen.
+            [bold]Жестокость[/bold]:\n
+            Преступление было совершено безрассудно, без учета побочного ущерба и/или с полным отсутствием раскаяния.
 
-            [bold]Repeat Offense[/bold]:\n
-            The Defendant has already been sentenced for the same crime this shift.
+            [bold]Уклонение от правоприменения[/bold]:\n
+            Обвиняемый оказывал значительное сопротивление при аресте или иным образом уклонялся от правоохранительных органов и препятствовал предъявлению ему обвинения.
 
-        ### Extenuating Circumstances
+            [bold]Нарушение условий условно-досрочного освобождения[/bold]:\n
+            Преступление было совершено в период, когда обвиняемый находился на условно-досрочном освобождении или отбывал альтернативное наказание.
 
-            Extenuating circumstances decrease the severity of a punishment.
+            [bold]Жертва, пользующаяся привилегиями[/bold]:\n
+            Преступление было совершено в отношении высокопоставленного лица или лица, обладающего полномочиями в компании NanoTrasen.
 
-            Minor cases of extenuating circumstances could decrease the Punishment Class by one level.
+            [bold]Повторное правонарушение[/bold]:\n
+            Обвиняемый уже был осуждён за то же преступление в течение этой смены.
 
-            Ex. Class B \-\> Class C
+        ### Смягчающие обстоятельства
 
-            Major cases of extenuating circumstances could decrease the severity by an entire tier.
+            Смягчающие обстоятельства снижают строгость наказания.
 
-            Ex. Felony \-\> Misdemeanor
+            Незначительные смягчающие обстоятельства могут снизить класс наказания на один уровень.
 
-            The Judge may also determine that an extenuating circumstance is so significant that it waives the charge entirely, but it is recommended that this power is used sparingly.
+            Пример: Класс B \-\> Класс C
 
-            [bold]Cooperation[/bold]:\n
-            The defendant cooperated with Security personnel and did not resist.
+            Существенные смягчающие обстоятельства могут снизить строгость наказания на целый уровень.
 
-            [bold]First Offense[/bold]:\n
-            The defendant has no criminal record this shift, and only committed the single charged crime.
+            Пример: Тяжкое преступление \-\> Мелкое правонарушение
 
-            [bold]Enforcement Incompetence[/bold]:\n
-            Security used excessive force to perform the arrest, took excessive time to process the defendant, or otherwise greatly inconvenienced the justice process.
+            Судья также может постановить, что смягчающее обстоятельство настолько значимо, что позволяет полностью снять обвинение, однако рекомендуется использовать эту полномочию с осторожностью.
 
-            [bold]Self-Defense[/bold]:\n
-            The crime was committed in self-defense.
+            [bold]Сотрудничество[/bold]:\n
+            Обвиняемый сотрудничал с сотрудниками службы безопасности и не оказывал сопротивления.
 
-            [bold]Self-Reported[/bold]:\n
-            The defendant turned themselves into Security, and/or willingly returned any stolen property.
+            [bold]Первое правонарушение[/bold]:\n
+            У обвиняемого нет судимостей за данную смену, и он совершил только одно преступление, вменяемое ему в вину.
 
-            [bold]Necessity[/bold]:\n
-            The defendant has shown that the crime they committed was necessary to prevent some greater harm.
+            [bold]Некомпетентность сотрудников службы безопасности[/bold]:\n
+            Сотрудники службы безопасности применили чрезмерную силу при аресте, затратили чрезмерно много времени на оформление обвиняемого или иным образом значительно затруднили ход судебного разбирательства.
 
-            [bold]Victim Involvement[/bold]:\n
-            The victim personally requested that the charges should be dropped or reduced.
+            [bold]Самооборона[/bold]:\n
+            Преступление было совершено в целях самообороны.
 
-    ## Crime Categories and Stacking Crimes
+            [bold]Самостоятельное обращение[/bold]:\n
+            Обвиняемый сам явился к сотрудникам службы безопасности и/или добровольно вернул похищенное имущество.
 
-        Charges from the same Crime Category cannot be stacked for the same sentence. Only the highest offense in that category will be counted.
+            [bold]Необходимость[/bold]:\n
+            Обвиняемый доказал, что совершенное им преступление было необходимо для предотвращения более серьезного вреда.
 
-        Multiple crimes from different categories can stack freely, up to a maximum of 40 minutes.
+            [bold]Участие потерпевшего[/bold]:\n
+            Потерпевший лично обратился с просьбой снять или смягчить обвинения.
 
-        However, if the calculated brig time would greatly exceed 40 minutes, the Judge is recommended, but not required, to instead elevate the punishment to Permanent Confinement.
+    ## Категории преступлений и суммирование наказаний
 
-    ## Executions
+        Обвинения из одной и той же категории преступлений не могут суммироваться при вынесении одного приговора. Учитывается только самое тяжкое преступление из данной категории.
 
-        After applying modifiers and circumstances, the Judge may determine that a sentence should result in execution.
+        Несколько преступлений из разных категорий могут свободно суммироваться, но максимальный срок не должен превышать 40 минут.
 
-        Any executions need express permission from the presiding Captain, and cannot be authorized in the absence of one.
+        Однако, если рассчитанное время пребывания в карцере значительно превысит 40 минут, судье рекомендуется (но не обязательно) вместо этого повысить меру наказания до пожизненного заключения.
 
-        Should the execution order not be ready, the defendant should be sentenced with permanent confinement pending execution order.
+    ## Казни
 
-        Executions are recommended only when multiple Capital Offense charges have stacked, or if a single Capital Offense has been aggravated multiple times.
+        После применения модификаторов и учета обстоятельств судья может определить, что приговор должен повлечь за собой казнь.
 
-    ## Adjacent Parties
+        Любые казни требуют явного разрешения председательствующего капитана и не могут быть санкционированы в его отсутствие.
 
-        Adjacent parties are other entities that participate in the crime, but are not necessarily the primary perpetrator. Special cases are listed to handle these circumstances below.
+        Если приказ о казни не готов, подсудимый должен быть приговорен к пожизненному заключению до получения приказа о казни.
 
-        [bold]Accessory[/bold]:\n
-        If a secondary party knowingly and intentionally assists in a crime, they should be fully charged for the crimes they assisted in, even if they did not directly commit them.
+        Казни рекомендуются только в случае накопления нескольких обвинений в преступлениях, караемых смертной казнью, или если одно преступление, караемое смертной казнью, было отягчено несколько раз.
 
-        [bold]Silicon Abuse[/bold]:\n
-        Silicons cannot be charged for committing crimes. The individual who ordered the silicon to perform the crime should be fully charged for the crime committed.
+    ## Соучастники
 
-        [bold]Mind Control[/bold]:\n
-        Individuals under the influence of an effect that suppresses their free will should not be held accountable for their actions while controlled. The individual who gave the orders should be fully charged for the crime committed.
+        Соучастники — это другие лица, участвующие в совершении преступления, но не обязательно являющиеся его основными исполнителями. Ниже приведены особые случаи, касающиеся таких обстоятельств.
 
-    ## Alternative Punishments
+        [bold]Соучастник[/bold]:\n
+        Если второстепенная сторона сознательно и умышленно содействует совершению преступления, она должна нести полную ответственность за преступления, в совершении которых она содействовала, даже если она не совершала их непосредственно.
 
-        Alternative punishments may be offered as a replacement or reduction to brig time.
-        
-        The Defense can argue for alternative punishments, but the final sentence is ultimately up to the Judge.
-        
-        Possible alternative punishments are listed below:
+        [bold]Злоупотребление силиконами[/bold]:\n
+        Силиконы не могут быть привлечены к ответственности за совершение преступлений. Лицо, которое приказало силикону совершить преступление, должно нести полную ответственность за совершенное преступление.
 
-        [bold]Community Service/Station Labor[/bold]:\n
-        The detainee agrees to serve some time performing hard labor for the station while under watch by Security, or while in confinement.
+        [bold]Контроль над разумом[/bold]:\n
+        Лица, находящиеся под воздействием эффекта, подавляющего их свободу воли, не должны нести ответственность за свои действия в период, когда они находились под контролем. Лицо, отдававшее приказы, должно нести полную ответственность за совершенное преступление.
 
-        [bold]Demotion[/bold]:\n
-        The defendant loses their current job and is demoted below their current status.
+    ## Альтернативные меры наказания
 
-        [bold]Disclosure[/bold]:\n
-        The defendant agrees to reveal incriminating information about their accomplices, or any other critical information relevant to station security.
+        Альтернативные меры наказания могут предлагаться в качестве замены или сокращения срока пребывания в карцере.
 
-        [bold]Financial Compensation[/bold]:\n
-        The defendant agrees to pay scrip or otherwise compensate the victims, according to the damages caused by the charged crimes.
+        Защита может ходатайствовать об альтернативных наказаниях, но окончательное решение о наказании принимает судья.
 
-        [bold]Reverse Damages[/bold]:\n
-        The defendant promises to reverse damages, such as revealing the location of stashed stolen goods.
+        Возможные альтернативные наказания перечислены ниже:
 
-    ## Parole
+        [bold]Общественные работы/труд на станции[/bold]:\n
+        Задержанный соглашается отработать определённое время, выполняя тяжёлую работу на станции под наблюдением службы безопасности или в условиях заключения.
 
-        Parole is when a prisoner is freed from their brig sentence, under special conditions.
+        [bold]Понижение в должности[/bold]:\n
+        Обвиняемый лишается своей нынешней должности и понижается в должности ниже своего текущего статуса.
 
-        The Judge may offer parole if they deem the defendant capable of genuine reform. The Judge is highly recommended to consider offers for parole that result in increased productivity and profits to NanoTrasen.
+        [bold]Раскрытие информации[/bold]:\n
+        Обвиняемый соглашается раскрыть компрометирующую информацию о своих сообщниках или любую другую важную информацию, имеющую отношение к безопасности станции.
 
-        Parole can be discussed with a representative lawyer, after the prisoner has served at least half of their sentence. Parole discussions can be held after 20 minutes in the case of permanent sentences.
+        [bold]Финансовая компенсация[/bold]:\n
+        Обвиняемый соглашается выплатить скрипы или иным образом компенсировать ущерб потерпевшим в соответствии с размером ущерба, причиненного в результате инкриминируемых преступлений.
 
-        The Judge is recommended to discuss with the Warden to have a Security Officer assigned as the defendant’s Parole Officer. The Parole Officer is responsible for escorting the paroled prisoner, to ensure they are properly integrating back into their station responsibilities.
+        [bold]Восстановление ущерба[/bold]:\n
+        Обвиняемый обязуется возместить ущерб, например, раскрыв местонахождение спрятанных похищенных ценностей.
 
-        Parole may have additional conditions, as listed below:
+    ## Условно-досрочное освобождение
 
-        [bold]Community Service/Station Labor[/bold]:\n
-        The detainee agrees to serve some time performing hard labor for the station while under watch by Security, or while in confinement.
+        Условно-досрочное освобождение — это освобождение заключённого от отбывания наказания в тюремной камере на особых условиях.
 
-        [bold]Character Reform[/bold]:\n
-        The detainee agrees to an appointment with a station Psychologist or Chaplain, who evaluates their level of remorse and likelihood to reform.
+        Судья может предложить условно-досрочное освобождение, если сочтёт, что подсудимый способен к подлинному исправлению. Судье настоятельно рекомендуется рассматривать предложения об условно-досрочном освобождении, которые приведут к повышению производительности и прибыли компании NanoTrasen.
 
-        [bold]Free Parole[/bold]:\n
-        Detainees expressed good behavior while in custody, and may be tentatively freed from their sentence, so long as they check up with security regularly. Security may choose to require them to use a Bodycam, Electropack, and/or Tracking Implanter.
+        Вопрос об условно-досрочном освобождении можно обсудить с адвокатом-представителем после того, как заключённый отбудет не менее половины срока наказания. Обсуждение условно-досрочного освобождения может проводиться по истечении 20 минут в случае пожизненного заключения.
+
+        Судье рекомендуется обсудить с начальником тюрьмы вопрос о назначении сотрудника службы безопасности в качестве инспектора по условно-досрочному освобождению подсудимого. Инспектор по условно-досрочному освобождению отвечает за сопровождение освобожденного заключённого, чтобы обеспечить его надлежащую реинтеграцию в выполнение своих обязанностей на станции.
+
+        Условно-досрочное освобождение может сопровождаться дополнительными условиями, перечисленными ниже:
+
+        [bold]Общественные работы/труд в учреждении[/bold]:\n
+        Заключённый соглашается в течение определённого времени выполнять тяжёлый труд в учреждении под наблюдением сотрудников службы безопасности или в условиях содержания под стражей.
+
+        [bold]Исправление характера[/bold]:\n
+        Заключённый соглашается на встречу с психологом или капелланом учреждения, который оценивает степень его раскаяния и вероятность исправления.
+
+        [bold]Условно-досрочное освобождение[/bold]:\n
+        Задержанные продемонстрировали хорошее поведение во время содержания под стражей и могут быть условно освобождены от отбывания наказания при условии регулярной явки в органы безопасности. Органы безопасности могут потребовать от них ношения нательной камеры, электропакета и/или имплантируемого устройства слежения.
 </Document>

@@ -1,43 +1,43 @@
 <Document>
-    # Chain of Custody
+    # Цепочка ответственности
 
-    All Security personnel are held to a high standard when interacting with the public.
+    Ко всем сотрудникам службы безопасности предъявляются высокие требования при взаимодействии с персоналом.
 
-    Proper protocol is to be followed in order to ensure that subjects of legal enforcement are given due process and retain any and all rights they may hold.
+    Необходимо соблюдать надлежащий протокол, чтобы обеспечить лицам, в отношении которых применяются меры правоприменения, надлежащую правовую процедуру и сохранить все их права.
     \n
 
-    Security personnel are to follow the following procedure with any arrest.
+    Сотрудники службы безопасности обязаны соблюдать следующую процедуру при любом задержании.
 
-    Failure to follow this procedure may result in formal Disciplinary Actions by the onboard IA staff, or in extreme cases, charges of negligence and/or endangerment.
+    Несоблюдение данной процедуры может повлечь за собой официальные дисциплинарные меры со стороны персонала внутренних дел или, в крайних случаях, обвинения в халатности и/или создании угрозы безопасности.
 
-    1. Given Probable Cause, the officer must state their intent to arrest, and for what crimes, before taking any forceful action.
-        - Proper intent includes using a security voice mask, calling their name or job, and/or pointing at them and telling them to stop.
-        - This step may be waived if the target is the subject of a Red Alert, or if they are declared “Arrest on Sight” by the Commandant.
+    1. При наличии вероятной причины сотрудник должен заявить о своём намерении произвести арест и указать, за какие преступления, прежде чем применять какие-либо меры принуждения.
+        - Надлежащее заявление о намерении включает использование защитной маски для голоса, обращение к лицу по имени или должности и/или указание на него с требованием остановиться.
+        - От этого шага можно отказаться, если объект является целью уровня угрозы «Красный» или если командующий объявил о его «аресте при обнаружении».
 
-    2. If the subject fails to stop when asked or attempts to evade lawful arrest, forceful action and restraints may be used to take them in.
-        - Nightsticks, flashes, and handcuffs should be prioritized first, but if all less-lethal options are disabled, stolen, or otherwise ineffective, lethal force is authorized and encouraged.
-        - Heavy weaponry is only permitted to perform an arrest if the subject is the target of a Red Alert, or is a clear militarized danger to the station.
+    2. Если подозреваемый не останавливается по требованию или пытается уклониться от законного ареста, для его задержания могут быть применены силовые меры и средства сдерживания.
+        - В первую очередь следует использовать дубинки, световые сигналы и наручники, но если все средства с меньшей степенью летальности выведены из строя, похищены или по иным причинам неэффективны, разрешается и поощряется применение летальной силы.
+        - Использование тяжёлого оружия для проведения ареста разрешается только в том случае, если объект является целью уровня угрозы «Красный» или представляет явную военную угрозу для станции.
 
-    3. After successful detainment, the officer is to alert the Commandant and Magistrate as soon as possible, so that all involved parties may prepare for a hearing or trial.
+    3. После успешного задержания сотрудник должен как можно скорее уведомить коменданта и судью, чтобы все заинтересованные стороны могли подготовиться к слушанию или судебному разбирательству.
 
-    4. The arrestee must be brought to security to remove and confiscate any contraband.        
-        - All contraband should be properly stored on the evidence storage.
+    4. Задержанного необходимо доставить в отдел безопасности для изъятия и конфискации любой контрабанды.
+        - Вся контрабанда должна быть надлежащим образом помещена в хранилище вещественных доказательств.
 
-    5. Recovery of the arrestee’s bodily health is to be ensured before moving on to the hearing or trial.
+    5. Перед началом слушания или судебного разбирательства необходимо обеспечить восстановление физического здоровья задержанного.
 
-    6. In the case of a formal hearing or trial, the arrestee must be informed of their right to a lawyer, and be provided one upon request.    
-        - For summary hearings, the arrestee does not have to be offered a lawyer, but still must be provided one upon request.
+    6. В случае официального слушания или судебного разбирательства задержанный должен быть проинформирован о своём праве на адвоката, и по его просьбе ему должен быть предоставлен адвокат.
+        - В случае упрощённого слушания задержанному не обязательно предлагать адвоката, но по его просьбе он всё равно должен быть предоставлен.
 
-    7. The arrestee is to be brought to court, before the Magistrate, where they receive their official sentence via hearing or trial.
+    7. Задержанный должен быть доставлен в суд к магистрату, где ему будет вынесен официальный приговор в ходе слушания или судебного разбирательства.
 
-    8. Should their sentence result in brig time, the officer is to transport and hand the prisoner off to the Warden.
+    8. Если приговор предусматривает заключение в карцере, сотрудник должен доставить заключённого и передать его начальнику тюрьмы.
 
-    9. The Warden removes all of the prisoner’s belongings, and ensures they are properly stored in their locker before handing them their prisoner ID and transporting them to the brig.
+    9. Начальник тюрьмы изымает все личные вещи заключённого и обеспечивает их надлежащее хранение в его шкафчике, после чего вручает ему ID-карту заключённого и доставляет его в карцер.
     \n
 
-    Any time evidence is removed from the evidence storage, form ASC-11 needs to be filed for proper chain of custody validation.
+    Каждый раз, когда вещественные доказательства изымаются из хранилища, необходимо заполнить форму ASC-11 для надлежащего подтверждения цепочки хранения доказательств.
 
-    At any point during a prisoner’s arrest or confinement, the Detective is permitted to bring them into interrogation and question them.
-        - The prisoner’s sentence timer may be paused during interrogation.
-        - The prisoner may ask for consultation with a lawyer, during which their sentence is to be paused.
+    На любом этапе задержания или содержания под стражей подозреваемого детектив имеет право доставить его в допросную комнату и допросить.
+        - Во время допроса отсчёт срока наказания подозреваемого может быть приостановлен.
+        - Подозреваемый может обратиться с просьбой о консультации с адвокатом, на время которой отсчёт срока его наказания должен быть приостановлен.
 </Document>

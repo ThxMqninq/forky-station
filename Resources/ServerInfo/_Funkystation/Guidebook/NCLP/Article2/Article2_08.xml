@@ -1,73 +1,73 @@
 <Document>
-    # Contraband Classifications
+    # Классификация контрабанды
 
-    ## Contraband Confiscation Procedures
-    
-        Contraband Classifications follow broad categorizations based on object purpose, rather than a strict, specific list. Higher ranking personnel can override or specify contraband with the following chain of authority:
-            - Central Command.
-            - Captain.
-            - Executive Officer.
-            - Magistrate.
+    ## Процедуры конфискации контрабанды
 
-        Security personnel are to avoid unreasonable confiscation of items in order to maintain positive public relations between Security, privileged individuals, and the rest of the station's crew.
+        Классификация контрабанды основана на общих категориях, определяемых по назначению предмета, а не на строгом, конкретном перечнее. Лицо, занимающее более высокую должность, может отменить или уточнить определение контрабанды в соответствии со следующей иерархией полномочий:
+            - Центральное командование.
+            - Капитан.
+            - Исполнительный директор.
+            - Магистрат.
 
-    ## Contraband Classifications
+        Сотрудники службы безопасности должны избегать необоснованной конфискации предметов, чтобы поддерживать позитивные отношения между службой безопасности, лицами, обладающими привилегиями, и остальным экипажем станции.
 
-        A single item may have more than one contraband classification, but only the highest charge is applied per item.
+    ## Классификация контрабанды
 
-        ### Weapon
+        Один предмет может относиться к нескольким категориям контрабанды, однако в отношении каждого предмета применяется только наиболее тяжкое обвинение.
 
-            Objects with a heightened effectiveness for violence or killing.
+        ### Оружие
 
-            Minor: Improvised item used as a weapon.
+            Предметы, обладающие повышенной эффективностью для совершения насилия или убийства.
 
-            Moderate: Items that are purpose-made to be a weapon.
+            Незначительная степень: самодельный предмет, используемый в качестве оружия.
 
-            Major: Highly lethal weapon.
+            Средняя степень: предметы, специально изготовленные для использования в качестве оружия.
 
-        ### Unsanctioned Equipment
+            Тяжкая степень: оружие с высокой степенью летальности.
 
-            Equipment that is restricted to a certain department or job.
+        ### Несанкционированное снаряжение
 
-            Minor: Common, departmental equipment.
+            Снаряжение, использование которого ограничено определённым подразделением или должностью.
 
-            Moderate: Equipment that is critical to the department’s function.
+            Незначительное: обычное снаряжение подразделения.
 
-            Major: Command-exclusive, unique equipment.
-        
-        ### Operational Hazards
+            Средней степени: снаряжение, критически важное для функционирования подразделения.
 
-            Objects that pose a heightened threat to the operational safety of the station, that are not explicitly issued by a department to do one’s job.
+            Серьёзное: уникальное снаряжение, предназначенное исключительно для командования.
 
-            Minor: Common, mostly harmless equipment.
+        ### Эксплуатационные риски
 
-            Moderate: Local scale threat to operational safety.
+            Объекты, представляющие повышенную угрозу для эксплуатационной безопасности станции, которые не были явно выделены каким-либо подразделением для выполнения служебных обязанностей.
 
-            Major: Large scale threat to operational safety.
+            Незначительный: Обычное, в основном безвредное оборудование.
 
-        ### Chemical
+            Умеренный: Угроза эксплуатационной безопасности локального масштаба.
 
-            Substances capable of influencing the mind or harming the body when metabolized or used in a reaction.
+            Серьёзный: Угроза эксплуатационной безопасности крупного масштаба.
 
-            Minor: Restricted recreational drugs & medicines with low-risk ODs.
+        ### Химические вещества
 
-            Moderate: Exploitable stimulants, medicines with high-risk ODs, & minorly dangerous reactive substances.
+            Вещества, способные оказывать влияние на психику или наносить вред организму при метаболизме или использовании в химической реакции.
 
-            Major: Lethal poisons, highly inhibiting chemicals, & highly dangerous reactive substances.
+            Низкая степень опасности: запрещённые рекреационные наркотики и лекарственные препараты с низким риском передозировки.
 
-        ### Propaganda
+            Средняя степень опасности: стимуляторы, которые можно использовать в злонамеренных целях, лекарственные препараты с высоким риском передозировки и вещества, представляющие незначительную опасность при химической реакции.
 
-            Objects that support non-NT-approved entities, or paints NT, its subsidiaries, or it's partners in a false light.
+            Высокая степень опасности: смертельные яды, химические вещества с сильным угнетающим действием и вещества, представляющие высокую опасность при химической реакции.
 
-            Minor: Items that carry branding from Non-NT organizations, with low-risk of exposure to other crew.
+        ### Пропаганда
 
-            Moderate: Items that carry branding from enemies of NT, paint NT as an organization in a false light, or lesser items with wide exposure to other crew.
+            Предметы, поддерживающие организации, не одобренные NT, или представляющие NT, её дочерние компании или партнёров в ложном свете.
 
-            Major: Items that carry branding from terrorist organizations, paint NT Command in a false light, or lesser items with station-wide exposure to other crew.
+            Незначительные: предметы с символикой организаций, не связанных с NT, с низким риском попадания в поле зрения других членов экипажа.
 
-        ### Classified Media
+            Умеренные: предметы с символикой врагов NT, представляющие NT как организацию в ложном свете, или менее значимые предметы, широко доступные для просмотра другими членами экипажа.
 
-            Media containing information from above the carrier’s clearance level.
+            Серьёзный уровень: предметы с символикой террористических организаций, представляющие командование NT в ложном свете, или предметы меньшей важности, доступные для просмотра всем членам экипажа на станции.
 
-            Any classified media is Major Contraband.
+        ### Секретные носители информации
+
+            Носители информации, содержащие сведения, уровень доступа к которым превышает уровень доступа владельца.
+
+            Любые секретные носители информации относятся к категории «Контрабанда серьёзного уровня».
 </Document>

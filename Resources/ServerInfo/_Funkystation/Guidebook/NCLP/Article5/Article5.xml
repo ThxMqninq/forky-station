@@ -1,35 +1,35 @@
 <Document>
-    # Sentencing, Trials, and Hearings
+    # Вынесение приговоров, судебные процессы и слушания
 
-    ## Definitions
+    ## Определения
 
-        Contains the definitions of the legal terms used in the document.
+        Содержит определения юридических терминов, используемых в документе.
 
-    ## Sentencing guidelines
-    
-        Contains the standard crime times, their modifiers, alternative punishments, execution conditions and other
+    ## Рекомендации по вынесению приговоров
 
-    ## Court Proceedings
+        Содержит стандартные сроки наказания за преступления, факторы, влияющие на их длительность, альтернативные меры наказания, условия отбывания наказания и прочее
 
-        Contains the guidelines for hlding the different types of hearings
+    ## Судебные разбирательства
 
-        ### Summary Hearings
-        
-            A quick, informal judgment for minor offenses.
+        Содержит рекомендации по проведению различных видов слушаний
 
-        ### Formal Hearings
+        ### Упрощённые слушания
 
-            A lengthier, formal hearing for more severe crimes.
+            Быстрое, неформальное вынесение решения по мелким правонарушениям.
 
-        ### Trials
+        ### Официальные слушания
 
-            Trials are an extremely in-depth, formal procedure, only for the most severe crimes.
-    
-    ## Classified Content
+            Более длительное официальное слушание по делам о более тяжких преступлениях.
 
-        Contains the guidelines around managing classified evidence and redactions
+        ### Судебные процессы
 
-    ## Civil Lawsuits
+            Судебные процессы представляют собой чрезвычайно тщательную официальную процедуру, применяемую только в отношении самых тяжких преступлений.
 
-        Contains the guidelines for filing a civil lawsuit
+    ## Секретные материалы
+
+        Содержит рекомендации по обращению с секретными доказательствами и их редактированию.
+
+    ## Гражданские иски
+
+        Содержит рекомендации по подаче гражданского иска.
 </Document>

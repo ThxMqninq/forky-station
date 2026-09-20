@@ -1,37 +1,37 @@
 <Document>
-    # Summary Hearings
+    # Судебные слушания в упрощенном порядке
 
-    A quick, informal judgment for minor offenses.
+    Быстрое, неформальное вынесение приговора за мелкие правонарушения.
 
-    Held for Misdemeanors.
+    Проводятся по делам о мелких правонарушениях.
 
-    Also held when protesting an Infraction.
+    Также проводятся при обжаловании административного правонарушения.
 
-    Target time is 1-2 minutes.
+    Предполагаемая продолжительность — 1–2 минуты.
 
-    ## Prosecution
+    ## Обвинение
 
-        Arresting Officer
+        Сотрудник полиции, произведший задержание
 
-    ## Defense
+    ## Защита
 
-        Defendant self-representation.
+        Подсудимый представляет себя самостоятельно.
 
-        The defendant may request a lawyer, but their sentence will be paused until the lawyer arrives, and during any consultation.
+        Обвиняемый может запросить адвоката, но вынесение приговора будет приостановлено до прибытия адвоката и на время любой консультации.
 
-    ## Witnesses
+    ## Свидетели
 
-        Witnesses are not allowed. NT will not waste valuable productive time on a Summary Hearing.
+        Свидетели не допускаются. NT не будет тратить драгоценное рабочее время на упрощённое судебное заседание.
 
-    ## Procedure
+    ## Порядок проведения
 
-        1. Prosecution reads their charges.
+        1. Обвинение зачитывает предъявленные обвинения.
 
-        2. The Judge proposes a sentence for these charges, and asks if the defense pleads guilty.
+        2. Судья предлагает наказание по данным обвинениям и спрашивает, признаёт ли защита вину.
 
-        3. If the defense pleads not guilty, they state their case and present any relevant evidence.
+        3. Если защита не признает вину, она излагает свою позицию и представляет соответствующие доказательства.
 
-        4. The Judge reviews the defendant’s case, and adjusts their sentence if necessary.
+        4. Судья рассматривает дело подсудимого и, при необходимости, корректирует наказание.
 
-        5. The Judge closes the case with their verdict, and the officer either lets them go free or escorts them to the brig to serve, as necessary.
+        5. Судья завершает рассмотрение дела вынесением приговора, после чего сотрудник либо отпускает подсудимого на свободу, либо, в случае необходимости, сопровождает его в карцер для отбывания наказания.
 </Document>

@@ -1,71 +1,71 @@
 <Document>
-    ## Formal Hearings
+    ## Официальные слушания
 
-    A lengthier, formal hearing for more severe crimes.
+    Более длительное официальное слушание по делам о тяжких преступлениях.
 
-    Held for Felonies or for Capital Offenses that do not wish to escalate into a Trial.
+    Проводится по делам о тяжких преступлениях или преступлениях, караемых смертной казнью, в случае, если стороны не желают, чтобы дело перешло в стадию судебного разбирательства.
 
-    Target time is around 15 minutes.
+    Ориентировочная продолжительность — около 15 минут.
 
-    ## Prosecution
-        
-        Arresting Officers must have an Internal Affairs Agent represent them as prosecution, so that they may return to their duties should it be needed.
+    ## Обвинение
 
-    ## Defense
-        
-        A lawyer must be offered to represent the defendant.
-        
-        The defendant can still choose to self-represent, but it is not recommended.
+        Сотрудники, произведшие арест, должны быть представлены агентом отдела внутренних расследований в качестве обвинения, чтобы в случае необходимости они могли вернуться к выполнению своих служебных обязанностей.
 
-    ## Witnesses
-        
-        Witnesses are only allowed if it is absolutely essential to the determination, and to a maximum of one per side.
-        
-        Witnesses may not be allowed to be Command, Security, or other essential jobs that cannot afford to be away from their post.
+    ## Защита
 
-    ## Procedure
+        Обвиняемому должен быть предоставлен адвокат для представления его интересов.
 
-        ### Pre-Hearing Consultation:
+        Обвиняемый по-прежнему может выбрать самостоятельную защиту, однако это не рекомендуется.
 
-            Both sides may briefly consult with their representation, before the Trial officially begins.
-            
-            Consultations are confidential. Statements said in consultation never have to be disclosed.
-            
-            There is no strict time limit on consultation, but time spent consulting does not reduce any eventual sentence.
-            
-            Both sides are recommended to plan for and consider:
-                - The evidence that will be presented.
-                - Whether the defendant will plead guilty or not guilty.
-                - What witnesses, if any, they intend to call.
-                - Whether any aggravating or extenuating circumstances apply.
-                - Whether a plea deal for an alternative punishment is worth pursuing.
+    ## Свидетели
 
-        ### Hearing procedure:
+        Свидетели допускаются только в том случае, если это абсолютно необходимо для вынесения решения, и не более одного с каждой стороны.
 
-            1. Opening
-                - The Judge identifies all participating parties, and reads the formal charges aloud.
+        Свидетелями не могут быть лица, занимающие командные должности, сотрудники службы безопасности или лица, выполняющие другие важные функции, которые не могут позволить себе отлучаться со своего поста.
 
-            2. Plea
-                - The Judge formally asks: “How does the Defendant plea?”                
-                - If the Defense pleads guilty, skip to step 5 (Sentencing).
-                - If the Defense pleads not guilty, proceed.
+    ## Порядок проведения
 
-            3. Presenting Cases
-                - The Prosecution presents their case in its entirety, followed by the Defense in its entirety.
-                - Any physical evidence must be formally presented before the Judge, and entered into the record before it can be referenced in argument.
-                - Each side may bring their witnesses to the stand and question them directly.
-                - After each witness, the opposing side may briefly cross-examine.
-                - The Defendant may choose to testify. If they do, they are subject to cross-examination.
+        ### Консультации перед началом судебного заседания:
 
-            4. Verdict
-                - The Judge delivers a verdict on each charge.
-                - If the Defense is found Not Guilty on all charges, the hearing closes immediately.
+            Обе стороны могут кратко проконсультироваться со своими представителями до официального начала судебного разбирательства.
 
-            5. Sentencing
-                - Both sides may now argue for aggravating or extenuating circumstances that should influence the sentence.
-                - Either side may also propose a plea deal, for an alternative punishment in lieu of standard brig sentencing.
-                - The Judge considers these arguments and issues their final sentence.
+            Консультации носят конфиденциальный характер. Сведения, озвученные в ходе консультаций, не подлежат раскрытию.
 
-            6. Closing
-                - The arresting officer either releases the defendant or escorts them to serve their sentence, as appropriate.
+            Строгих временных ограничений на проведение консультаций нет, однако время, затраченное на них, не влияет на размер возможного приговора.
+
+            Обеим сторонам рекомендуется заранее спланировать и учесть следующее:
+                - Доказательства, которые будут представлены.
+                - Будет ли подсудимый признавать себя виновным или невиновным.
+                - Каких свидетелей, если таковые имеются, они намерены вызвать.
+                - Имеются ли отягчающие или смягчающие обстоятельства.
+                - Стоит ли стремиться к заключению соглашения о признании вины в обмен на альтернативное наказание.
+
+        ### Порядок проведения судебного заседания:
+
+            1. Открытие заседания
+                - Судья устанавливает личности всех участвующих сторон и зачитывает вслух официальное обвинение.
+
+            2. Заявление о признании вины
+                - Судья официально спрашивает: «Какое заявление о признании вины делает подсудимый?»
+                - Если защита признает вину, переходите к этапу 5 (Вынесение приговора).
+                - Если защита не признает вину, продолжайте.
+
+            3. Изложение версий дела
+                - Обвинение излагает свою версию дела в полном объеме, после чего свою версию излагает защита.
+                - Любые вещественные доказательства должны быть официально представлены судье и занесены в протокол, прежде чем на них можно будет ссылаться в ходе прений.
+                - Каждая сторона может вызывать своих свидетелей на трибуну и задавать им вопросы напрямую.
+                - После дачи показаний каждым свидетелем противоположная сторона может провести краткий перекрестный допрос.
+                - Подсудимый может принять решение дать показания. В этом случае он подвергается перекрестному допросу.
+
+            4. Приговор
+                - Судья выносит приговор по каждому пункту обвинения.
+                - Если защита признана невиновной по всем пунктам обвинения, слушание немедленно закрывается.
+
+            5. Вынесение приговора
+                - Теперь обе стороны могут приводить аргументы в пользу отягчающих или смягчающих обстоятельств, которые должны повлиять на приговор.
+                - Любая из сторон также может предложить сделку о признании вины, предусматривающую альтернативное наказание вместо стандартного заключения в тюрьме.
+                - Судья рассматривает эти аргументы и выносит окончательный приговор.
+
+            6. Завершение
+                - Проводивший арест сотрудник либо освобождает подсудимого, либо сопровождает его для отбывания наказания, в зависимости от обстоятельств.
 </Document>

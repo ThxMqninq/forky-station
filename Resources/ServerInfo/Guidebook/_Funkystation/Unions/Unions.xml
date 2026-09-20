@@ -1,62 +1,62 @@
 <Document>
-    # Department Unions 
-    
-    Workers of certain departments organize themselves into a [color=#a4885c]Union[/color], electing a [color=#a4885c]Leader[/color] to represent their interests and, if push comes to shove, call a [color=#cb0000]strike[/color].
-    
-    ## Joining 
-    To join a union, you select the Union Member trait. When you join the round, you'll be assigned to a union. However, some unions are special or some don't exist. 
-    
-    There is, for example, a special Security Union. This union is specific to Security, and is not part of the general structure of other unions. All unions excluding security are part of the NanoTrasen Workers Union, the NTWU. Security has the Security Union, which, again, is ENTIRELY unrelated to the NTWU. 
-    
-    ## Purpose of Unions
-    A union defends the rights of its workers, such as being treated with respect, looking into why people are fired, and maintaining order in the workplace. SOP is expected to be followed and employees can be fired for not following SOP, so as a union member, steward, or leader, make sure you have SOP handy. 
-    
-    This extends into the Security Union. If an officer is fired for "brutalizing" the clown, this should be met with appropriate criticism, and a proper investigation. As the leader or a steward of the Security Union, you do not leave officers behind!
-    
-    These groups first and foremost look out for their own. Pressures from the public in whatever direction generally shouldn't influence your decisions as a leader or steward.
-    
-    ## Leadership 
-    You can also opt to be a leader of your union. If you opt in, you'll be randomly selected. Otherwise, if your union has no leader but is big enough, your union will merge with another union. The union with a leader takes precident over who gets to claim ownership. 
-    
-    Leaders are expected to talk to each other about organizing. Leaders are also expected to be the ones making sure SOP is followed.
-    
-    ## Clipboard
+    # Профсоюзы отделов
+
+    Работники определённых отделов объединяются в [color=#a4885c]профсоюз[/color], избирают [color=#a4885c]лидера[/color], который представляет их интересы, и, если дело доходит до крайности, объявляют [color=#cb0000]забастовку[/color].
+
+    ## Вступление в профсоюз
+    Чтобы вступить в профсоюз, выберите черту «Член профсоюза». При вступлении в раунд вы будете зачислены в один из профсоюзов. Однако некоторые профсоюзы являются особыми, а некоторые вообще не существуют.
+
+    Существует, например, особый Профсоюз охраны. Этот профсоюз относится исключительно к службе охраны и не входит в общую структуру других профсоюзов. Все профсоюзы, за исключением службы охраны, входят в Профсоюз работников NanoTrasen (NTWU). У службы охраны есть свой Профсоюз охраны, который, повторим, ПОЛНОСТЬЮ не связан с NTWU.
+
+    ## Цели профсоюзов
+    Профсоюз защищает права своих работников, в том числе право на уважительное отношение, расследует причины увольнений и следит за соблюдением порядка на рабочем месте. Ожидается, что стандартные операционные процедуры (SOP) будут соблюдаться, и сотрудники могут быть уволены за их несоблюдение, поэтому, будучи членом профсоюза, представителем или лидером, убедитесь, что у вас под рукой есть SOP.
+
+    Это касается и Профсоюза сотрудников службы безопасности. Если сотрудник уволен за «жестокое обращение» с клоуном, это должно вызвать соответствующую критику и надлежащее расследование. Как лидер или представитель Профсоюза сотрудников службы безопасности, вы не должны бросать своих коллег!
+
+    Эти организации в первую очередь заботятся о своих членах. Давление со стороны общественности, каким бы оно ни было, как правило, не должно влиять на ваши решения как лидера или представителя профсоюза.
+
+    ## Руководство
+    Вы также можете выдвинуть свою кандидатуру на роль лидера своего союза. Если вы решите участвовать в выборах, вы будете выбраны случайным образом. В противном случае, если у вашего союза нет лидера, но он достаточно велик, ваш союз объединится с другим союзом. При определении права владения приоритет отдается союзу, у которого есть лидер.
+
+    От лидеров ожидается, что они будут обсуждать между собой вопросы организации. Также от лидеров ожидается, что именно они будут следить за соблюдением стандартных операционных процедур (SOP).
+
+    ## Планшет
     <Box>
-        <GuideEntityEmbed Entity="UnionClipboard" Caption="Clipboard"/>
+        <GuideEntityEmbed Entity="UnionClipboard" Caption="Планшет"/>
     </Box>
-    
-    The clipboard is the union leader's roster. Present someone's ID to it to register them as a member.
-    
-    You can assign stewards to members and make members stewards. Assigning a steward to a member essentially gives them a place in a 3 layer "hierarchy", if you want to organize that way.
-    This can be done at your clipboard. Promoting a new steward though requires them to be physically there. After you click on "Make Steward", you then ask the Steward-to-be for their ID. You use their ID on the clipboard, then your clipboard will tell you the promotion is complete.
-    
-    Signing up a new member is the same. Ask the Member-to-be for their ID, and after you use it, your clipboard will tell you the result. A union member can't join another union.
-    
-    ## Megaphone
+
+    Планшет — это список членов профсоюза. Предъявите в него удостоверение личности человека, чтобы зарегистрировать его в качестве члена профсоюза.
+
+    Вы можете назначать стюардов для членов профсоюза и назначать членов профсоюза стюардами. Назначение стюарда члену профсоюза, по сути, предоставляет ему место в трёхуровневой «иерархии», если вы хотите организовать работу именно таким образом.
+    Это можно сделать в буфере обмена. Однако для повышения нового стюарда требуется его физическое присутствие. После нажатия кнопки «Назначить стюардом» вы запрашиваете у будущего стюарда его идентификатор. Введите этот идентификатор в клипборд, после чего клипборд сообщит вам, что назначение завершено.
+
+    Регистрация нового члена происходит аналогичным образом. Запросите у будущего члена его ID-карту, и после его ввода планшет сообщит вам о результате. Член профсоюза не может вступить в другой профсоюз.
+
+    ## Мегафон
     <Box>
-        <GuideEntityEmbed Entity="UnionMegaphone" Caption="Megaphone"/>
+        <GuideEntityEmbed Entity="UnionMegaphone" Caption="Мегафон"/>
     </Box>
-    The megaphone lets a union leader call, or end, a [color=#cb0000]strike[/color]. That's it pretty much.
-    
-    ## Union Card
-    
+    С помощью мегафона лидер профсоюза может объявить или прекратить [color=#cb0000]забастовку[/color]. В общем-то, это и всё.
+
+    ## Карта профсоюза
+
     <Box>
         <GuideEntityEmbed Entity="UnionCard" Caption="Union Card"/>
     </Box>
-    Every union member is issued a card certifying their membership and position within the union.
-    
-    When you late-join or join a round at the beginning, if you've signed up to be a part of the union, you will automatically be given a union card. This union card is essential.
-    You can resign from a union (or someone else can make you resign) if you burn it. You can burn it with a lighter or a flare. To sign up again, see your local union leader.
-    
-    ## Stewards 
-    A steward acts as a middle-man between the union leader and its members, managing a group of workers on the leader's behalf.
-    
-    A steward is responsible for managing a group of workers assigned to them. They make sure these workers are following SOP, excercising workplace safety and other rules agreed to by command and the union.
-    
-    ### Why follow these rules at all?
-    
-    They are the balance between making sure a contract is honored on both sides and not. If you get hurt while following all workplace rules, there is compensation, proper recourse, and changing rules.
-    If you were not following the rules, you can face a lawsuit or losing your job. SOP and other workplace rules are first and foremost compromises that both groups agree to follow.
-    
-    If either side breaks SOP or workplace rules, that is a great reason to either fire someone, or to declare a strike.
+    Каждому члену профсоюза выдается удостоверение, подтверждающее его членство и должность в профсоюзе.
+
+    Если вы присоединяетесь к профсоюзу позже или вступаете в него в самом начале раунда, то, если вы зарегистрировались в качестве члена профсоюза, вам автоматически выдается профсоюзный билет. Этот профсоюзный билет имеет важное значение.
+    Вы можете выйти из профсоюза (или кто-то другой может заставить вас выйти), если сожжёте его. Его можно сжечь с помощью зажигалки или сигнальной ракеты. Чтобы вступить в профсоюз заново, обратитесь к лидеру вашего местного отделения профсоюза.
+
+    ## Представители профсоюза
+    Представитель профсоюза выступает в качестве посредника между лидером профсоюза и его членами, управляя группой работников от имени лидера.
+
+    Представитель профсоюза отвечает за управление вверенной ему группой работников. Он следит за тем, чтобы эти работники соблюдали стандартные операционные процедуры (SOP), правила техники безопасности на рабочем месте и другие нормы, согласованные руководством и профсоюзом.
+
+    ### Зачем вообще соблюдать эти правила?
+
+    Они обеспечивают баланс между соблюдением и несоблюдением условий договора обеими сторонами. Если вы получили травму, соблюдая все правила на рабочем месте, вам полагается компенсация, надлежащие меры правовой защиты и возможность изменения правил.
+    Если вы не соблюдали правила, вам грозит судебный иск или увольнение. Стандартные операционные процедуры (SOP) и другие правила на рабочем месте — это, прежде всего, компромиссы, которые обе стороны согласились соблюдать.
+
+    Если какая-либо из сторон нарушает стандартные операционные процедуры (SOP) или правила на рабочем месте, это является веским поводом либо для увольнения сотрудника, либо для объявления забастовки.
 </Document>
