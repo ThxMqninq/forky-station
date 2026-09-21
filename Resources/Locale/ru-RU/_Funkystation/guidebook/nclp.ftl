@@ -5,6 +5,9 @@ guide-entry-nclp-article-1-section-01 = Уровни угроз
 guide-entry-nclp-article-1-section-02 = Порядки проведения процедур
 guide-entry-nclp-article-1-section-03 = Порядок преемственности
 
+guide-entry-nclp-protestregs = Правила проведения собраний
+guide-entry-nclp-revoltregs = Протокол подавления восстаний
+
 guide-entry-nclp-article-2 = Пункт 2: Колониальное право
 guide-entry-nclp-article-2-section-01 = Определения
 guide-entry-nclp-article-2-section-02 = Обыски

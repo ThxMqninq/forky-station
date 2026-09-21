@@ -22,3 +22,13 @@ uplink-rifle-magazine-50-desc = Магазин под патрон .50 AE, со�
 
 uplink-rifle-magazine-50-incendiary-name = Винтовочный магазин (.50 AE зажигательные)
 uplink-rifle-magazine-50-incendiary-desc = Магазин под патрон .50 AE, совместимый с Эстоком. Сожгите их всех дотла.
+
+# Listening bugs
+uplink-contraband-listening-bug-name = Скрытый прослушивающий жучок
+uplink-contraband-listening-bug-desc = Узнавайте о намерениях своих врагов с помощью этого удобного и легко скрываемого жучка.
+
+uplink-contraband-hidden-camera-kit-name = Набор для создания сети скрытых камер
+uplink-contraband-hidden-camera-kit-desc = Все необходимое для создания собственной сети скрытых камер. Никто больше не сможет подкрасться к вам незаметно.
+
+uplink-contraband-espionage-kit-name = Набор для шпионажа
+uplink-contraband-espionage-kit-desc = Коробка, полная полезных вещей, чтобы следить за вашими врагами. Включает в себя универсальный локатор, 3 подслушивающих жучка, 3 скрытые камеры и все инструменты для их использования.
