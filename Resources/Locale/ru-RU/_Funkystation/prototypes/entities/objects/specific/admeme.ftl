@@ -1,0 +1,15 @@
+ent-InfinityCrayon = бесконечный мелок
+    .suffix = Адмем
+    .desc = { ent-Crayon.desc }
+ent-AdmemeFlash = мастер вспышка 5000
+    .suffix = Адмем
+    .desc = { ent-Flash.desc }
+ent-AdmemeSprayBottle = распылитель администратора
+    .suffix = Адмем
+    .desc = Огромный распылитель, наполненный водой. Ни один фелинид не останется неопрысканным.
+ent-LauncherCreamPieAdmeme = пирогомёт администратора
+    .suffix = Адмем
+    .desc = Саморегенирирующий пирогомёт администратора.
+ent-NuclearGrenadeAdmeme = ещё более РАДИКАЛЬНЫЙ вариант
+    .suffix = Адмем
+    .desc = Когда нужно избавиться от ВСЕГО.
