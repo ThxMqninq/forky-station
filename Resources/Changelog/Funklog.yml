@@ -939,4 +939,13 @@
   id: 110
   time: '2026-09-27T06:18:40Z'
   url: https://github.com/funky-station/forky-station/pull/486
+- author: AraiMaia
+  changes:
+  - message: Dying now cuts to black. Dramatic.
+    type: Add
+  - message: Hardcrit slowly darkens your screen and lowers your audio.
+    type: Add
+  id: 111
+  time: '2026-09-29T03:32:07Z'
+  url: https://github.com/funky-station/forky-station/pull/561
 Order: -1
