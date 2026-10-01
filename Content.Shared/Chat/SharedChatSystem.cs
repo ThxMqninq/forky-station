@@ -1,6 +1,7 @@
 using System.Collections.Frozen;
 using System.Text.RegularExpressions;
 using Content.Shared._MACRO.Announcements;
+using Content.Shared._Qippe.QVars;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Chat.Prototypes;
 using Content.Shared.Popups;
@@ -9,6 +10,7 @@ using Content.Shared.Speech;
 using Content.Shared.Whitelist;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.Configuration;
 using Robust.Shared.Console;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
@@ -33,7 +35,7 @@ public abstract partial class SharedChatSystem : EntitySystem
     public const char AdminPrefix = ']';
     public const char WhisperPrefix = ',';
     public const char MentorPrefix = '}'; // RMC Mentor Chat Funky Port
-    public const char DefaultChannelKey = 'h';
+    public const char DefaultChannelKey = 'п'; // Edited
 
     public const int VoiceRange = 10; // how far voice goes in world units
     public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
@@ -44,6 +46,7 @@ public abstract partial class SharedChatSystem : EntitySystem
 
     public static readonly string DefaultChannelPrefix = $"{RadioChannelPrefix}{DefaultChannelKey}";
     public static readonly ProtoId<SpeechVerbPrototype> DefaultSpeechVerb = "Default";
+    public bool ForceCapitalize;
 
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private EntityWhitelistSystem _whitelist = default!;
@@ -51,6 +54,7 @@ public abstract partial class SharedChatSystem : EntitySystem
     [Dependency] private SharedAudioSystem _audio = default!;
     [Dependency] private IRobustRandom _random = default!;
     [Dependency] private INetManager _net = default!;
+    [Dependency] private IConfigurationManager _cfg = default!;
 
     /// <summary>
     /// Cache of the keycodes for faster lookup.
@@ -66,6 +70,8 @@ public abstract partial class SharedChatSystem : EntitySystem
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnPrototypeReload);
         CacheRadios();
         CacheEmotes();
+
+        Subs.CVar(_cfg, QVars.ForceCapitalize, value => ForceCapitalize = value, true);
     }
 
     protected virtual void OnPrototypeReload(PrototypesReloadedEventArgs obj)
@@ -204,6 +210,10 @@ public abstract partial class SharedChatSystem : EntitySystem
     {
         if (string.IsNullOrEmpty(message))
             return message;
+
+        if (!ForceCapitalize)
+            return message;
+
         // Capitalize first letter
         message = OopsConcat(char.ToUpper(message[0]).ToString(), message.Remove(0, 1));
         return message;
