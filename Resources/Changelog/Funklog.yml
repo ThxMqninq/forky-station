@@ -955,4 +955,44 @@
   id: 112
   time: '2026-09-30T14:31:10Z'
   url: https://github.com/funky-station/forky-station/pull/519
+- author: mkanke
+  changes:
+  - message: Added several offset variations of common wallmount items
+    type: Add
+  id: 113
+  time: '2026-10-02T09:13:54Z'
+  url: https://github.com/funky-station/forky-station/pull/517
+- author: AraiMaia, mkanke
+  changes:
+  - message: Added Generic, Medical, and Research pouches that fit into your pocket
+      slots.
+    type: Add
+  - message: All jumpsuits now have a native 2x2 storage grid.
+    type: Tweak
+  - message: Wearing a backpack, satchel, or duffel now slightly reduces your stamina
+      regeneration speed.
+    type: Tweak
+  - message: Rebalanced roundstart loadouts. Medical, Science, and Service roles now
+      rely on pouches instead of backpacks. Command roles now use stylish Leather
+      Satchels.
+    type: Tweak
+  - message: Backpacks have been heavily phased out of most department vending machines
+      to encourage using pockets, pouches, and belts.
+    type: Remove
+  id: 114
+  time: '2026-10-02T14:23:07Z'
+  url: https://github.com/funky-station/forky-station/pull/542
+- author: AraiMaia
+  changes:
+  - message: Added SIS/TR v3.20, a station infrastructure machine that manages all
+      automated station event announcements.
+    type: Add
+  - message: Rewrote station event and alert level announcements to fit SIS/TR.
+    type: Tweak
+  - message: Station events will no longer announce themselves if SIS/TR is unpowered
+      or destroyed.
+    type: Tweak
+  id: 115
+  time: '2026-10-02T14:31:45Z'
+  url: https://github.com/funky-station/forky-station/pull/550
 Order: -1
