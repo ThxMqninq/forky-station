@@ -33,3 +33,15 @@ structures-mail-y-junction = Y-развязка почтовой трубы
 structures-mail-bend = изгиб почтовой трубы
 structures-mail-signal-router = сигнальный почтовый маршрутизатор
 structures-mail-signal-signal-router-flipped = сигнальный почтовый маршрутизатор
+
+construction-recipe-small-light-offset-name = смещённый маленький светильник
+construction-recipe-small-light-left-desc = Маленький светильник смещённый немного влево.
+construction-recipe-small-light-right-desc = Маленький светильник смещённый немного вправо.
+
+construction-recipe-emergency-light-offset-name = смещённая аварийная лампа
+construction-recipe-emergency-light-left-desc = Аварийная лампа смещённая немного влево.
+construction-recipe-emergency-light-right-desc = Аварийная лампа смещённая немного вправо.
+
+construction-recipe-defib-cabinet-offset-name = смещённый шкафчик для дефибриллятора
+construction-recipe-defib-cabinet-left-desc = Шкафчик для дефибриллятора смещённый немного влево.
+construction-recipe-defib-cabinet-right-desc = Шкафчик для дефибриллятора смещённый немного вправо.

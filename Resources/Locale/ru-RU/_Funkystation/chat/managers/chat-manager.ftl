@@ -1,3 +1,5 @@
+chat-manager-sender-sistr = СПИС/РТ v3.20
+
 chat-speech-verb-name-glorpish = Глорпиш
 chat-speech-verb-glorpish-1 = зипити слорпо глорб
 chat-speech-verb-glorpish-2 = гларп гнару гломпурт

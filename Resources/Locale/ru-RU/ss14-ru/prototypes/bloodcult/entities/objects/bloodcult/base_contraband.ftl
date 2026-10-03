@@ -1,2 +1,0 @@
-ent-BaseBloodCultContraband = { "" }
-    .desc = { "" }

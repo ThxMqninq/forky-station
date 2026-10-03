@@ -1,1 +1,4 @@
-station-event-communication-interception = Внимание! Перехвачена вражеская передача. Уровень угрозы повышен.
+# rewritten for funky
+station-event-communication-interception = Уведомление телеметрии.
+                                           В местном секторе перехвачена незарегистрированная передача.
+                                           Уровень угрозы повышен.

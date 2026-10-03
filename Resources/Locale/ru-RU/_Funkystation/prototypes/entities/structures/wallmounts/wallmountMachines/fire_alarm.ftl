@@ -1,0 +1,12 @@
+ent-FireAlarmLeft = { ent-FireAlarm }
+    .suffix = Правая
+    .desc = { ent-FireAlarm.desc }
+ent-FireAlarmAssemblyLeft = { ent-FireAlarmAssembly }
+    .suffix = Правая
+    .desc = { ent-FireAlarmAssembly.desc }
+ent-FireAlarmRight = { ent-FireAlarm }
+    .suffix = Правая
+    .desc = { ent-FireAlarm.desc }
+ent-FireAlarmAssemblyRight = { ent-FireAlarmAssembly }
+    .suffix = Правая
+    .desc = { ent-FireAlarmAssembly.desc }

@@ -14,12 +14,22 @@ cmd-launchemergencyshuttle-desc = Досрочно запускает эваку
 cmd-launchemergencyshuttle-help = Использование: launchemergencyshuttle
 
 # Emergency shuttle
-emergency-shuttle-left = Эвакуационный шаттл покинул станцию. Расчётное время прибытия шаттла на станцию Центкома — { $transitTime } секунд.
-emergency-shuttle-launch-time = Эвакуационный шаттл будет запущен через { $consoleAccumulator } секунд.
-emergency-shuttle-docked = Эвакуационный шаттл пристыковался к станции { $location }, направление: { $direction }. Он улетит через { $time } секунд.{ $extended }
-emergency-shuttle-good-luck = Эвакуационный шаттл не может найти станцию. Удачи.
-emergency-shuttle-nearby = Эвакуационный шаттл не может найти подходящий стыковочный шлюз. Он дрейфует около станции, { $location }, направление: { $direction }. Он улетит через { $time } секунд.{ $extended }
-emergency-shuttle-extended = { " " }Время до запуска было продлено в связи с непредвиденными обстоятельствами.
+emergency-shuttle-left = Обновление телеметрии эвакуации.
+                         Эвакуационный шаттл покинул станцию.
+                         Время в пути:
+                         { $transitTime } секунд.
+emergency-shuttle-launch-time = Уведомление эвакуации.
+                                Эвакуационный шаттл запустится через { $consoleAccumulator } секунд.
+emergency-shuttle-docked = Уведомление телеметрии эвакуации.
+                           Эвакуационный шаттл пристыковался, направление: { $direction }, около станции, { $location }.
+                           Отправка через { $time } секунд.{ $extended }
+emergency-shuttle-good-luck = Неисправность навигационного трекера.
+                              Эвакуационный шаттл не заполучил координаты станции.
+                              Эвакуация отменена.
+emergency-shuttle-nearby = Навигационное предупреждение.
+                           Не удалось найти доступный стык. Эвакуационный шаттл переместился в открытый космос: { $direction }, { $location }.
+                           Отправка через { $time } секунд.{ $extended }
+emergency-shuttle-extended = { " " }Время до запуска было продлено; включено вспомогательное окно удержания.
 
 # Emergency shuttle console popup / announcement
 emergency-shuttle-console-no-early-launches = Досрочный запуск отключён
