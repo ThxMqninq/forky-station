@@ -34,6 +34,7 @@ using Content.Shared.FeedbackSystem;
 using Content.Shared.IoC;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+using Content.Server._Qippe.ServerStatus;
 
 namespace Content.Server.IoC;
 
@@ -89,5 +90,6 @@ internal static class ServerContentIoC
         deps.Register<MentorManager>(); // Funky Mentor Help
         deps.Register<AnnouncerManager>(); // Macrocosm edit
         deps.Register<WhitelistManager>();
+        deps.Register<ServerStatusManager>();
     }
 }

@@ -1,3 +1,4 @@
+using Content.Server._Qippe.ServerStatus;
 using Content.Server.Acz;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
@@ -79,6 +80,7 @@ namespace Content.Server.Entry
         [Dependency] private ServerUpdateManager _updateManager = default!;
         [Dependency] private ServerFeedbackManager _feedbackManager = null!;
         [Dependency] private PreWrittenDocumentManager _documentManager = default!; // Starlight
+        [Dependency] private ServerStatusManager _serverStatusManager = default!;
 
         public override void PreInit()
         {
@@ -171,6 +173,7 @@ namespace Content.Server.Entry
             _multiServerKick.Initialize();
             _cvarCtrl.Initialize();
             _feedbackManager.Initialize();
+            _serverStatusManager.Initialize();
         }
 
         public override void Update(ModUpdateLevel level, FrameEventArgs frameEventArgs)
