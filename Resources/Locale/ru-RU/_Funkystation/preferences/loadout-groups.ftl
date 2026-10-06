@@ -1,3 +1,6 @@
+# Internal affairs
+loadout-group-xo-backpack = Исполнительный директор, рюкзак
+
 # Engineering
 fu-loadout-group-station-engineer-head = Старший инженер, голова
 fu-loadout-group-station-engineer-uniform = Старший инженер, комбинезон

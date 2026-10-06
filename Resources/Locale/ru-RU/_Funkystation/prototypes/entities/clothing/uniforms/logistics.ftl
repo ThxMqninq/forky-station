@@ -1,0 +1,12 @@
+ent-FuClothingUniformJumpsuitLogiCt = комбинезон грузчика
+    .desc = Стандартный комбинезон грузчиков NanoTrasen. Медно-коричневого цвета с бежевыми вставками. Имеет больше карманов, чем стандартная униформа.
+ent-FuClothingUniformJumpsuitLogiCourier = комбинезон курьера
+    .desc = Стандартный комбинезон курьеров NanoTrasen. Синего цвета с полосками кремового и красного цветов для облегчения идентификации.
+ent-FuClothingUniformTwopiecePantsLogiCt = униформа грузчика
+    .desc = Стандартная униформа грузчиков NanoTrasen. Медно-коричневый жилет, бежевая рубашка и брюки, а также коричневые носки.
+ent-FuClothingUniformTwopiecePantsLogiCourier = униформа курьера
+    .desc = Стандартная униформа курьеров NanoTrasen. Синий жилет и брюки в сочетании с кремовой рубашкой с красным вышитым значком.
+ent-FuClothingUniformTwopieceSkirtLogiCt = униформа грузчика
+    .desc = Стандартная униформа грузчиков NanoTrasen. Медно-коричневый жилет, бежевая рубашка и юбка с горизонтальной коричневой полосой.
+ent-FuClothingUniformTwopieceSkirtLogiCourier = униформа курьера
+    .desc = Стандартная униформа курьеров NanoTrasen. Синий жилет, бежевая рубашка и юбка с горизонтальной коричневой полосой.

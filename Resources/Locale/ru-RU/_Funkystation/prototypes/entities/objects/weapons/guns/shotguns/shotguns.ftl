@@ -1,6 +1,6 @@
 ent-FuWeaponShotgunDoubleBarreled = двуствольное ружьё
     .desc = Бессмертная классика. Использует патроны 12 калибра.
-ent-FuWeaponShotgunDoubleBarreledRubber =
+ent-FuWeaponShotgunDoubleBarreledRubber = двуствольное ружьё
     .desc = Бессмертная классика. Использует патроны 12 калибра.
     .suffix = Дробовик, Травматический
 ent-FuWeaponShotgunKammerer = Каммерер
