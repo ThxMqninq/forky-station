@@ -46,12 +46,6 @@ public sealed partial class PopupSystem : SharedPopupSystem
     public const float MaximumPopupLifetime = 5f;
     public const float PopupLifetimePerCharacter = 0.04f;
 
-    private WorldPopupData _lastPopupData;
-    private CursorPopupData _lastCursorPopupData;
-    private string _lastPopup = string.Empty;
-    private string _lastCursorPopup = string.Empty;
-    private int _repeats;
-
     public override void Initialize()
     {
         base.Initialize();
@@ -87,79 +81,6 @@ public sealed partial class PopupSystem : SharedPopupSystem
             ("count", existingLabel.Repeats));
     }
 
-    private void WrapAndRepeatPopup(WorldPopupData popupData, string message)
-    {
-        var color = "#D3D3D3";
-        var font = "";
-
-        switch (popupData.Type)
-        {
-            case PopupType.Small:
-                font = "10";
-                break;
-            case PopupType.SmallCaution:
-                font = "10";
-                color = "#FF0000";
-                break;
-            case PopupType.Medium:
-                color = "#D3D3D3";
-                font = "12";
-                break;
-            case PopupType.MediumCaution:
-                color = "#FF0000";
-                font = "12";
-                break;
-            case PopupType.Large:
-                color = "#D3D3D3";
-                font = "14";
-                break;
-            case PopupType.LargeCaution:
-                color = "#FF0000";
-                font = "14";
-                break;
-        }
-
-        var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color] x{_repeats}";
-        var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
-        _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
-    }
-
-    private void WrapAndRepeatPopup(CursorPopupData popupData, string message)
-    {
-        var color = "#D3D3D3";
-        var font = "";
-
-        switch (popupData.Type)
-        {
-            case PopupType.Small:
-                font = "10";
-                break;
-            case PopupType.SmallCaution:
-                font = "10";
-                color = "#FF0000";
-                break;
-            case PopupType.Medium:
-                color = "#D3D3D3";
-                font = "12";
-                break;
-            case PopupType.MediumCaution:
-                color = "#FF0000";
-                font = "12";
-                break;
-            case PopupType.Large:
-                color = "#D3D3D3";
-                font = "14";
-                break;
-            case PopupType.LargeCaution:
-                color = "#FF0000";
-                font = "14";
-                break;
-        }
-
-        var formattedMessage = $"[font size={font}][color={color}]{message}[/font][/color] x{_repeats}";
-        var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
-        _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
-    }
     /// <summary>
     /// Interal implementation for both coordinates and entity popups.
     /// </summary>
@@ -189,15 +110,7 @@ public sealed partial class PopupSystem : SharedPopupSystem
         //     Type = type,
         // };
 
-        if (message != _lastPopup)
-            _repeats = 1;
-
-        if (message == _lastPopup && popupData == _lastPopupData)
-        {
-            _repeats += 1;
-            WrapAndRepeatPopup(popupData, message);
-        }
-        else if (_playerManager.LocalEntity != null)
+        if (_playerManager.LocalEntity != null)
         {
             var color = "#D3D3D3";
             var font = "";
@@ -232,8 +145,6 @@ public sealed partial class PopupSystem : SharedPopupSystem
             var chatMessage = new ChatMessage(ChatChannel.Local, message, formattedMessage, GetNetEntity(EntityUid.Invalid), null);
             _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMessage, false);
         }
-        _lastPopup = message;
-        _lastPopupData = popupData;
         // _aliveWorldLabels.Add(popupData, label);
     }
 
@@ -248,22 +159,7 @@ public sealed partial class PopupSystem : SharedPopupSystem
         if (recordReplay && _replayRecording.IsRecording)
             _replayRecording.RecordClientMessage(new PopupCursorEvent(message, type, Timing.CurTick));
 
-        var popupData = new CursorPopupData(message, type);
-        if (_aliveCursorLabels.TryGetValue(popupData, out var existingLabel))
-        {
-            WrapAndRepeatPopup(existingLabel, popupData.Message);
-            return;
-        }
-
-        if (message != _lastPopup)
-            _repeats = 1;
-
-        if (message.Equals(_lastPopup) && popupData.Equals(_lastPopupData))
-        {
-            _repeats += 1;
-            WrapAndRepeatPopup(popupData, message);
-        }
-        else if (_playerManager.LocalEntity != null)
+        if (_playerManager.LocalEntity != null)
         {
             var color = "#D3D3D3";
             var font = "";
@@ -304,9 +200,6 @@ public sealed partial class PopupSystem : SharedPopupSystem
         //     Text = message,
         //     Type = type,
         // };
-
-        _lastCursorPopupData = popupData;
-        _lastCursorPopup = message;
 
         // _aliveCursorLabels.Add(popupData, label);
     }
