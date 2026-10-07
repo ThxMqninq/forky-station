@@ -24,14 +24,13 @@ public sealed partial class ServerStatusManager : IPostInjectInit
     {
         _statusHost.AddHandler(HandlePlayerList);
         _statusHost.AddHandler(HandlePlayerRecord);
+        _statusHost.AddHandler(HandleBanNote);
     }
 
     private async Task<bool> HandlePlayerList(IStatusHandlerContext statusHandlerContext)
     {
         if (!statusHandlerContext.IsGetLike || statusHandlerContext.Url.AbsolutePath != "/playerlist")
-        {
             return false;
-        }
 
         var enabled = _cfg.GetCVar(QVars.StatusPlayerList);
         if (!enabled)
@@ -61,6 +60,13 @@ public sealed partial class ServerStatusManager : IPostInjectInit
         if (!statusHandlerContext.IsGetLike || statusHandlerContext.Url.AbsolutePath != "/player")
             return false;
 
+        var enabled = _cfg.GetCVar(QVars.StatusPlayerRecord);
+        if (!enabled)
+        {
+            await statusHandlerContext.RespondErrorAsync(HttpStatusCode.Forbidden);
+            return false;
+        }
+
         var nameString = statusHandlerContext.Url.Query.TrimStart("?").ToString();
         var playerRecord = _db.GetPlayerRecordByUserName(nameString)
             .GetAwaiter()
@@ -75,6 +81,70 @@ public sealed partial class ServerStatusManager : IPostInjectInit
         jObject["lastSeenTime"] = playerRecord.LastSeenTime.ToString();
 
         await statusHandlerContext.RespondJsonAsync(jObject);
+        return true;
+    }
+
+    private async Task<bool> HandleBanNote(IStatusHandlerContext statusHandlerContext)
+    {
+        if (!statusHandlerContext.IsGetLike || statusHandlerContext.Url.AbsolutePath is not "/bannote")
+            return false;
+
+        var enabled = _cfg.GetCVar(QVars.StatusBanNote);
+        if (!enabled)
+        {
+            await statusHandlerContext.RespondErrorAsync(HttpStatusCode.Forbidden);
+            return false;
+        }
+
+        var banNameString = statusHandlerContext.Url.Query.TrimStart("?");
+
+        if (int.TryParse(banNameString, null, out var result))
+        {
+            var banDef = _db.GetBanAsNoteAsync(result)
+                .GetAwaiter()
+                .GetResult();
+
+            if (banDef is null)
+                return false;
+
+            var jObject = new JsonObject();
+            var rounds = new JsonArray();
+            var players = new JsonArray();
+            var roles = new JsonArray();
+
+            foreach (var round in banDef.Rounds)
+            {
+                rounds.Add(round);
+            }
+
+            foreach (var player in banDef.Players)
+            {
+                players.Add(new PlayerRecord(player.UserId,
+                    player.FirstSeenTime,
+                    player.LastSeenUserName,
+                    player.LastSeenTime,
+                    null,
+                    null));
+            }
+
+            foreach (var role in banDef.Roles)
+            {
+                roles.Add(role.RoleId);
+            }
+
+            jObject["id"] = banDef.Id;
+            jObject["type"] = banDef.Type.ToString();
+            jObject["severity"] = banDef.Severity.ToString();
+            jObject["message"] = banDef.Message;
+            jObject["rounds"] = rounds;
+            jObject["players"] = players;
+            jObject["roles"] = roles;
+            jObject["playtimeAtNote"] = banDef.PlaytimeAtNote.ToString();
+            jObject["createdAt"] = banDef.CreatedAt;
+
+            await statusHandlerContext.RespondJsonAsync(jObject);
+        }
+
         return true;
     }
 }
