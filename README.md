@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="256" height="256" src="https://github.com/ThxMqninq/forky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
+<p align="center"> <img alt="Space Station 14" width="256" height="256" src="https://github.com/qippe-org/forky-station/blob/master/Resources/Textures/Logo/logo.png" /></p>
 
 Qippe - форк [Forky](https://github.com/funky-station/forky-station). Чтобы предотвратить создание форков RobustToolbox, клиент и сервер загружают специальный пакет контента. Этот пакет содержит всё необходимое для игры на конкретном сервере.
 
@@ -19,7 +19,7 @@ Qippe - форк [Forky](https://github.com/funky-station/forky-station). Что
 
 1. Клонируйте данный репозиторий:
 ```shell
-git clone https://github.com/ThxMqninq/forky-station.git
+git clone https://github.com/qippe-org/forky-station.git
 ```
 2. Перейдите в папку проекта и запустите `RUN_THIS.py` чтобы инициализировать подмодули и загружить движок:
 ```shell
@@ -36,7 +36,7 @@ python RUN_THIS.py
 
 Этот репозиторий распространяется на условиях лицензии MIT. Копия лицензии MIT находится в папке `LICENSES`.
 
-Большинство медиаассетов лицензированы в соответствии с условиями [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) если не указано иное. Ассеты имеют лицензию и авторские права, указанные в файле метаданных. [Пример](https://github.com/ThxMqninq/forky-station/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Большинство медиаассетов лицензированы в соответствии с условиями [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) если не указано иное. Ассеты имеют лицензию и авторские права, указанные в файле метаданных. [Пример](https://github.com/qippe-org/forky-station/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
 Обратите внимание, что некоторые ресурсы распространяются на условиях некоммерческой лицензии [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичными некоммерческими лицензиями; их потребуется удалить, если вы захотите использовать этот проект в коммерческих целях.
 
