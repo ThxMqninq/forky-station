@@ -115,6 +115,11 @@ ui-options-vp-width = Ширина окна игры:
 ui-options-hud-layout = Тип HUD:
 ui-options-sharpness = Резкость:
 
+# funky - radio color preset options
+ui-options-radio-colors-title = Тема радиоканала:
+ui-options-radio-colors-default = Обычная (Wizard's Den)
+ui-options-radio-colors-funky = Funky
+
 ## Controls menu
 
 ui-options-hold-to-attack-melee = Удерживать чтобы атаковать (ближний бой)

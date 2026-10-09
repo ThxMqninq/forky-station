@@ -1,8 +1,8 @@
 # Chat window radio wrap (prefix and postfix)
-chat-radio-message-wrap = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}]{ chat-manager-speech-double-quote-begin }{$message}{ chat-manager-speech-double-quote-end }[/font][/color]
-chat-radio-message-wrap-bold = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}][bold]{ chat-manager-speech-double-quote-begin }{$message}{ chat-manager-speech-double-quote-end }[/bold][/font][/color]
+chat-radio-message-wrap = [radiochannel="{$protoID}"]{$channel}[bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}]{ chat-manager-speech-double-quote-begin }{$message}{ chat-manager-speech-double-quote-end }[/font][/radiochannel]
+chat-radio-message-wrap-bold = [radiochannel="{$protoID}"] [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}][bold]{ chat-manager-speech-double-quote-begin }{$message}{ chat-manager-speech-double-quote-end }[/bold][/font][/radiochannel]
 
-examine-headset-default-channel = Канал по умолчанию этой гарнитуры [color={ $color }]{ $channel }[/color].
+examine-headset-default-channel = Используйте {$prefix} для канала по умолчанию этой гарнитуры ([radiochannel="{$protoID}"]{$channel}[/radiochannel]).
 
 chat-radio-common = Общий
 chat-radio-centcom = Центком
